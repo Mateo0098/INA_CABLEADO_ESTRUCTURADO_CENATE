@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Entornos virtuales y variables locales
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE y herramientas auxiliares
+.idea/
+.vscode/
+*.code-workspace
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Temporales y bloqueos de Microsoft Office / Excel
+~$*.xls
+~$*.xlsx
+~$*.xlsm
+~$*.doc
+~$*.docx
+~$*.ppt
+~$*.pptx
+*.xlk
+
+# Copias y temporales comunes
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+
+# Registros locales
+*.log
+
+# Archivo de ejemplo local de PyCharm preexistente al proyecto
+/main.py
