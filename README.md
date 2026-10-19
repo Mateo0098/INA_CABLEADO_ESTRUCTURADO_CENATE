@@ -17,7 +17,7 @@ Esta inicialización no contiene dimensionamiento definitivo, cantidades, selecc
 - El cableado horizontal seguirá una topología en estrella y el enlace permanente de cobre no excederá 90 m.
 - El backbone vertical conectará cada ER con sus TR.
 - Se requieren tres interconexiones: ER principal–ER A, ER principal–ER B y ER A–ER B.
-- El recorrido exterior preliminar documentado hasta uno de los ER nuevos es de 195 m: 145 m de canalización subterránea existente más 50 m de canalización subterránea nueva propuesta. Falta determinar qué edificio recibe ese tramo y definir los demás recorridos.
+- Como información proporcionada por el estudiante, el recorrido exterior preliminar hasta uno de los ER nuevos es de 195 m: 145 m de canalización subterránea existente más 50 m de canalización subterránea nueva propuesta. Estos valores no aparecen en el enunciado oficial; falta validarlos, determinar qué edificio recibe el tramo y definir los demás recorridos.
 - La contratación o prestación del servicio ISP está fuera del alcance.
 
 ## Clasificación obligatoria de la información
@@ -52,15 +52,20 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** inicialización documental y control de versiones.
+**Etapa:** Fase 1 cerrada — requisitos oficiales auditados; diseño aún no iniciado.
 
 - Estructura base creada.
-- Datos proporcionados para la sesión registrados sin elevar supuestos a hechos.
-- Decisiones técnicas definitivas, levantamiento de campo, cálculos, materiales, Excel e imágenes: pendientes.
-- Plantilla Excel original: pendiente de incorporación; deberá conservarse sin alterar su estructura y formato. La primera actividad no debe incluir precios ni costos.
+- Enunciado oficial y actualización docente preservados y auditados.
+- Matriz con 76 requisitos oficiales `INA-*` y trazabilidad de los 38 registros contextuales `CTX-*`.
+- No existe una rúbrica independiente; se controlan los criterios de evaluación incluidos en el enunciado.
+- Plantilla Excel oficial operativa preservada sin modificación, auditada y compatible con las instrucciones.
+- Entregables gráficos mínimos: cinco imágenes base del enunciado más cuatro imágenes ER/TR de la actualización; total mínimo de nueve, ampliable si existen variaciones.
+- Decisiones técnicas definitivas, levantamiento de campo, cálculos, selección de materiales e imágenes: pendientes.
+- La primera actividad no debe incluir precios ni costos.
+- La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 
 ## Trazabilidad y uso de IA
 
-La estructura y los documentos iniciales fueron preparados el 18 de octubre de 2026 con asistencia de OpenAI Codex a partir de las instrucciones suministradas por el usuario. Los cálculos, textos e imágenes futuros que utilicen asistencia de IA deberán declararlo y someterse a revisión humana. Ningún contenido asistido debe atribuirse como elaborado íntegramente sin esa asistencia.
+La estructura y la organización documental inicial fueron preparadas el 18 de octubre de 2026 con asistencia de OpenAI Codex. El enunciado permite IA solo como apoyo conceptual, organizativo, lingüístico, de fórmulas comprendidas y visual. Prohíbe usarla como fuente técnica, para resolver directamente cálculos, generar automáticamente el Excel, sustituir el criterio del estudiante o aportar especificaciones sin verificación. El estudiante debe elaborar, comprender y defender personalmente todo contenido técnico.
 
 Antes de trabajar, leer `README.md`, `DECISIONES.md`, `PENDIENTES.md` y `AGENTS.md`.

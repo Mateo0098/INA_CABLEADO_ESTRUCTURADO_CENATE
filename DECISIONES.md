@@ -1,7 +1,7 @@
 # Registro de decisiones, supuestos y cuestiones pendientes
 
 **Última actualización:** 2026-10-18
-**Etapa:** inicialización del proyecto
+**Etapa:** Fase 1 cerrada — base de requisitos auditada
 
 ## D-001 — Identidad y alcance académico
 
@@ -10,7 +10,7 @@
 - **Entrega:** 2026-10-29.
 - **Alcance:** infraestructura física de telecomunicaciones de dos edificios nuevos del complejo CENATE del INA.
 - **Exclusión:** contratación y prestación del servicio ISP.
-- **Fuente:** instrucciones proporcionadas por el usuario para la inicialización, 2026-10-18.
+- **Fuente:** F-005 §§1, 8 y 13; confirmado contra el enunciado oficial.
 
 ## D-002 — Programa funcional de los edificios
 
@@ -46,7 +46,7 @@ Estos valores no son mediciones de campo ni soluciones normativamente validadas.
 ## D-004 — Criterios iniciales del cableado interno
 
 - **Dato establecido por el docente:** enlace permanente de cobre con máximo de 90 m.
-- **Dato establecido por el docente:** topología horizontal en estrella.
+- **Criterio contextual pendiente de validación:** topología horizontal en estrella; no aparece textualmente en F-005/F-006 y deberá sustentarse con los criterios técnicos aplicables.
 - **Dato establecido por el docente:** backbone vertical desde cada ER hasta los TR.
 - **Supuesto de diseño:** bandejas y derivaciones protegidas como canalización interior preliminar.
 - **Decisión pendiente:** validar recorridos, ocupación, capacidad, protección, segregación y criterios aplicables antes del diseño definitivo.
@@ -54,34 +54,34 @@ Estos valores no son mediciones de campo ni soluciones normativamente validadas.
 ## D-005 — Backbone exterior
 
 - **Dato establecido por el docente:** existe un ER principal en un edificio del INA.
-- **Dato establecido por el docente:** hay 145 m de canalización subterránea existente desde esa zona.
-- **Dato establecido por el docente:** durante la clase se indicó una separación de referencia de 25 m entre cajas de telecomunicaciones. No se interpreta todavía como requisito normativo ni se calcula una cantidad.
-- **Supuesto de diseño:** se propone un tramo adicional de 50 m de canalización subterránea nueva para alcanzar el ER de uno de los edificios nuevos.
-- **Resultado aritmético preliminar:** 145 m existentes + 50 m nuevos = 195 m de recorrido físico preliminar hasta ese ER. Este resultado no sustituye un levantamiento de campo.
+- **Información proporcionada por el estudiante (F-007):** 145 m de canalización subterránea existente; no aparece en F-005/F-006 y requiere evidencia o validación de campo.
+- **Información proporcionada por el estudiante (F-007):** separación de referencia de 25 m entre cajas; no se interpreta como requisito normativo.
+- **Propuesta proporcionada por el estudiante (F-007):** 50 m de canalización subterránea nueva para alcanzar uno de los ER.
+- **Resultado aritmético preliminar sobre F-007:** 145 m + 50 m = 195 m hasta ese ER; no sustituye recorrido de cable ni medición verificada.
 - **Dato establecido por el docente:** se requieren los enlaces ER principal–ER A, ER principal–ER B y ER A–ER B.
 - **Decisiones pendientes:** identificar cuál edificio recibe los 50 m nuevos; levantar y aprobar los otros recorridos; verificar trazados, longitudes, cajas, ductos y condiciones de la infraestructura existente.
 
 ## D-006 — Imágenes técnicas requeridas
 
-Se registran como **dato establecido por el docente** nueve imágenes mínimas futuras:
+Se registran nueve imágenes mínimas futuras, con procedencia diferenciada:
 
 1. Infraestructura exterior de los tres edificios.
 2. Planta típica del edificio A.
 3. Planta típica del edificio B.
 4. Laboratorio representativo del edificio A.
 5. Laboratorio representativo del edificio B.
-6. ER del edificio A.
-7. TR del edificio A.
-8. ER del edificio B.
-9. TR del edificio B.
+6. ER del edificio A — actualización F-006.
+7. TR del edificio A — actualización F-006.
+8. ER del edificio B — actualización F-006.
+9. TR del edificio B — actualización F-006.
 
-Las imágenes de ER y TR deberán representar, según corresponda, racks, equipos y accesorios, terminaciones ópticas, patch cords, pigtails y canalizaciones. Su contenido deberá corresponder con cálculos y materiales aprobados; por ello no se generan en esta etapa.
+Las primeras cinco se derivan de F-005 §4: exterior, dos plantas típicas y dos laboratorios típicos, siempre que no existan variaciones que exijan más imágenes. Las imágenes ER/TR deberán representar los elementos indicados en F-006 y todas deberán corresponder con cálculos, materiales y Excel; por ello no se generan en esta etapa.
 
 ## D-007 — Control documental
 
 - **Decisión de gestión:** conservar originales, fuentes y evidencia; realizar cambios mediante ramas y commits acotados.
 - **Dato establecido por el docente:** la plantilla Excel original del INA debe conservar estructura y formato; la primera actividad no debe incluir precios ni costos.
-- **Decisión de gestión:** registrar la asistencia de IA y requerir revisión humana del contenido técnico.
+- **Decisión de gestión:** registrar la asistencia de IA como política interna. Aplicar estrictamente F-005 §9: la IA no puede ser fuente técnica, resolver cálculos ni generar automáticamente el Excel.
 - **Decisión de gestión:** no adoptar marcas, modelos, normas ni especificaciones sin una fuente verificable.
 
 ## Mediciones de campo
@@ -92,8 +92,32 @@ No se han incorporado mediciones de campo en esta etapa.
 
 No se han incorporado especificaciones de fabricante en esta etapa.
 
+## D-008 — Estado de las fuentes oficiales
+
+- **Conclusión provisional histórica:** inicialmente no estaban disponibles el enunciado ni la actualización.
+- **Resolución:** F-005 y F-006 se incorporaron mediante los commits remotos `fae8cc5` y `e066c93`, se preservaron con SHA-256 y se leyeron íntegramente.
+- **Limitación:** no existe rúbrica independiente; se utilizan F-005 §§11–13 sin inventar ponderaciones.
+
+## D-009 — Preservación y uso de la plantilla candidata
+
+- **Evidencia verificada:** se incorporó una copia byte a byte de `Plantilla Actividades de comprobación.xlsx`, SHA-256 `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`.
+- **Evidencia verificada:** el libro trae ejemplos didácticos de materiales, marcas, referencias, cantidades y proveedores; los precios por renglón están vacíos y `J43` contiene `SUM(J2:J41)`.
+- **Decisión de gestión:** el original controlado no se editará y sus ejemplos no se considerarán selección ni dimensionamiento del proyecto.
+- **Resolución de procedencia:** F-005 §5 exige la plantilla adjunta y el estudiante confirmó que el archivo incorporado es esa plantilla; se acepta como original operativo.
+- **Decisión pendiente:** confirmar con el docente si la fórmula económica preexistente `J43` debe conservarse en la copia final o quedar vacía; no se incorporarán montos en ningún caso.
+
+## D-010 — Cierre de Fase 1
+
+- **Resultado:** 76 requisitos oficiales identificados: INA-001 a INA-071 desde F-005 e INA-072 a INA-076 desde F-006.
+- **Decisión:** cerrar la Fase 1 documental. Los puntos abiertos están identificados y no impiden comenzar posteriormente el diseño, pero deberán resolverse antes de afectar cálculos o entrega.
+- **Restricción:** este cierre no valida supuestos arquitectónicos, mediciones, productos, cantidades ni planos.
+- **Continuidad verificada:** los registros F-007, F-008 y F-009 se integraron desde `origin/desarrollo-proyecto` mediante avance rápido hasta `6e086ea`; no hubo conflictos ni pérdida de cambios locales.
+
 ## Historial de cambios de decisión
 
 | Fecha | ID | Cambio | Motivo / evidencia | Impacto |
 |---|---|---|---|---|
 | 2026-10-18 | D-001 a D-007 | Registro inicial | Instrucciones de inicialización del usuario | Base documental; sin diseño definitivo |
+| 2026-10-18 | D-008 y D-009 | Control de fuentes y plantilla | Inventario local, hashes y auditoría OOXML | Fase 1 parcial; fuentes oficiales pendientes |
+| 2026-10-18 | D-005, D-006, D-008 a D-010 | Cotejo y cierre oficial | F-005, F-006, F-007 y plantilla auditada | Corrige procedencias, define 76 requisitos y cierra Fase 1 |
+| 2026-10-18 | D-010 | Recuperación de sesión | Commits remotos 0a65211, 281bc09 y 6e086ea | Integra datos, arquitectura conceptual y transferencia sin conflictos |
