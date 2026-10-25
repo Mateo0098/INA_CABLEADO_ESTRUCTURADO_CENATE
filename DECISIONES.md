@@ -214,3 +214,15 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 | Fecha | ID | Cambio | Motivo / evidencia | Impacto |
 |---|---|---|---|---|
 | 2026-10-25 | D-018 a D-020 | Cierre académico de longitudes y sistema pasivo | Modelo Fase 2D, matriz compatible y plan Excel | Reduce pendientes a variables de campo/docente/activos y revisión humana |
+
+## D-021 — Guía operativa para cierre manual del Excel
+
+- **Clasificación:** decisión de gestión documental.
+- **Fecha:** 2026-10-25.
+- **Decisión:** consolidar en `06_excel/GUIA_CIERRE_ESTUDIANTE_FASE3A.md` la transferencia fila por fila de materiales y herramientas, fórmulas de comprobación, unidades, estados, acciones, criterios de OOXML/hojas/columnas/precios y tratamiento explícito de `J43`.
+- **Evidencia:** revisión dirigida de entradas, modelo, resultados, memoria, matriz, planes CSV y estructura documentada del libro.
+- **Límite:** no existe una copia completada por el estudiante. Original y copia provisional siguen intactos y contienen ejemplos didácticos; no se reporta un libro final ni se simula validación de contenido nuevo.
+- **Cantidades:** 74 y 155 cajas Cat 6A de 305 m; 51 paneles; 1 984 jacks; 992 placas; 11 TR; 13 racks propuestos. Son resultados condicionados al escenario/documentación Fase 2D, no mediciones nuevas ni selección definitiva.
+- **Fibra/canalización:** cassettes y housings conservan arquitectura sin pigtails/adaptadores duplicados; E2/E3 permanecen paramétricos; se separa longitud de canalización de sección/diámetro/producto.
+- **Herramientas:** tabla de 12 filas (2–13), con cantidad de escenario para una cuadrilla y distinción de herramientas reutilizables frente a lubricante/consumibles variables; sin marcas/modelos inventados.
+- **Historial:** no se sobrescribe la decisión docente pendiente sobre `J43`; fórmula original `SUM(J2:J41)` y columnas económicas sin montos deben tratarse según confirmación docente.

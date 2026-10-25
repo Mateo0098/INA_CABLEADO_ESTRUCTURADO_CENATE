@@ -1,31 +1,23 @@
 # Último reporte Codex — índice de transferencia
 
-**Actualizado:** 2026-10-25  
-**Fase:** 2D — cierre de cantidades y preparación del Excel
+**Actualizado:** 2026-10-25
+**Fase:** 3A — cierre operativo del Excel INA
 
-**Estado:** escenario cuantitativo y sistema pasivo preparados y verificados; Excel listo para transferencia manual, no final.
+**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-25_FASE3A_CIERRE_OPERATIVO_EXCEL.md`
+**Estado:** guía por fila publicada; el original y la copia provisional están intactos y no existe libro completado por el estudiante.
 
-**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-25_FASE2D_CIERRE_CANTIDADES.md`
+**Rama local observada:** `desarrollo-proyecto`
+**HEAD local al inicio:** `846900b0dda373813c0a9a8e52ec30056d1184c7`
+**Sincronización:** `git fetch origin` completado; divergencia previa `0 0`.
+**Commit de esta fase:** se completará aquí tras crear y publicar el commit en `origin/desarrollo-proyecto`.
 
-**Commit de implementación auditado:** `470112ef46731e5cc301a7f37a2cd913b82f367e`
-**Rama:** `desarrollo-proyecto`  
-**Protocolo de próximos reportes:** `AGENTS.md`, sección «Codex → GitHub → ChatGPT».  
-**Estado del índice:** actualizado por Codex conforme al protocolo vigente.
+## HECHO / VERIFICADO / PENDIENTE
 
-## Confirmado por implementación y controles Fase 2D
+- **HECHO:** `06_excel/GUIA_CIERRE_ESTUDIANTE_FASE3A.md` consolida materiales filas 2–27, herramientas 2–13, fórmulas, unidades, estados, acciones y controles.
+- **VERIFICADO:** cifras cotejadas con la base documental Fase 2D: A 74 y B 155 cajas de 305 m; 51 paneles; 1 984 RJ45 condicionados; 992 placas; 11 TR; 13 racks propuestos. Sin nueva medición ni recálculo.
+- **PENDIENTE:** libro personal y validación final, criterio docente para RJ45/J43, variables E2/E3, decisiones de canalización/activos y sincronización/publicación.
 
-- 58 resultados Fase 2D y 129/129 controles aprobados; regresión Fase 2B 63/63.
-- Cobre: máximos 45,7 m A y 42,7 m B frente a 90 m; 229 cajas de 305 m como escenario.
-- Fibra vertical: 284,025 m; E1: 221,55 m de escenario; E2/E3 conservan `x/y`.
-- Sistema CCH cerrado por cuarto sin pigtails/adaptadores duplicados.
-- Plan Excel materiales filas 2–27 y herramientas 2–13; libros intactos y sin precios.
+## Bloqueos y hasta tres prioridades siguientes
 
-## Bloqueos relevantes
-
-1. Resolver `x/y` y confirmar si 145 + 50 m corresponde a E1.
-2. Aprobar geometría, reserva/desperdicio, dos RJ45 por área y tratamiento de `J43`.
-3. Definir canalizaciones/pares activos y ejecutar transferencia manual del Excel.
-
-## Siguiente acción prioritaria
-
-Revisar `08_entrega/PAQUETE_REVISION_FASE2D/README.md` y ejecutar `06_excel/PLAN_TRANSFERENCIA_EXCEL_FASE2D.md` sobre una copia personal, trasladando solo filas aprobadas y manteniendo pendientes E2/E3.
+1. El estudiante debe trasladar manualmente las filas aprobadas y retirar ejemplos; luego comprobar OOXML, dos hojas, A–K, recálculo, ausencia de importes y `J43`.
+2. Resolver con evidencia docente/campo `J43`, RJ45 por área, E1/`x`/`y` y selección de canalización; mantener abiertas las cantidades dependientes.

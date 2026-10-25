@@ -129,3 +129,27 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Definir pares ópticos activos para patch cords y comprobar carga, energía y ventilación de racks.
 - [ ] Ejecutar transferencia manual, retiro de ejemplos y prueba de recálculo del Excel por el estudiante.
 - [ ] Realizar revisión humana y ensayo de exposición con la guía Fase 2D.
+
+## Checkpoint Fase 3A — 2026-10-25
+
+### HECHO
+
+- [x] Preparar `06_excel/GUIA_CIERRE_ESTUDIANTE_FASE3A.md` con fórmula, unidad, estado y acción por fila de materiales y herramientas, además de controles reproducibles y límites.
+- [x] Aclarar que longitudes de canalización no seleccionan sección/diámetro; E2/E3 mantienen `x/y`; cassettes integrados no se duplican con pigtails/adaptadores separados.
+- [x] Registrar que J43 conserva una decisión docente pendiente y que no se autorizan importes.
+
+### VERIFICADO
+
+- [x] Los documentos Fase 2D citados informan 74 cajas A y 155 B (229 total), 51 paneles, 1 984 RJ45 condicionados, 992 placas dobles, 11 TR y 13 racks propuestos.
+- [x] La correspondencia de herramientas cubre filas 2–13; cantidades son escenario de una cuadrilla. El lubricante permanece sin cantidad y depende del método.
+- [x] El original INA y la copia provisional están presentes; según hash/control Fase 2D permanecen intactos, no completados y con ejemplos didácticos.
+
+### PENDIENTE
+
+- [ ] Transferencia manual del estudiante, retiro de ejemplos y validación sobre el libro resultante; aún no existe copia completada en `06_excel/`.
+- [ ] Consultar al docente dos RJ45 por área doble y conservar `J43` sin cambios hasta criterio explícito.
+- [ ] Completar mediciones/aprobaciones `x/y`, destino E1, rutas, canalizaciones y pares ópticos activos; mantener cantidades afectadas abiertas.
+
+### Publicación Fase 3A
+
+- [x] Recuperar la escritura mediante elevación puntual de Git; `git fetch origin` completado, divergencia previa `0 0`, commit publicado en `origin/desarrollo-proyecto`. `main` sin cambios.

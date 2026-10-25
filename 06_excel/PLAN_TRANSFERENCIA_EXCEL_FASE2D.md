@@ -2,6 +2,8 @@
 
 **Estado:** correspondencia técnicamente preparada; el libro no se modificó y todavía no es final.
 
+La guía consolidada de edición por fila, herramientas y controles de cierre está en `06_excel/GUIA_CIERRE_ESTUDIANTE_FASE3A.md`.
+
 ## Archivos controlados
 
 - Original intacto: `06_excel/Plantilla Actividades de comprobación.xlsx`.
