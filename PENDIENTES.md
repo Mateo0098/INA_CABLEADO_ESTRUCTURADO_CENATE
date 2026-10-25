@@ -4,6 +4,17 @@
 
 No ejecutar los trabajos técnicos de esta lista sin abrir y documentar la etapa correspondiente.
 
+## Avance de Fase 2 — consolidación preliminar (2026-10-25)
+
+- [x] Consolidar en `03_diseno/DISENO_INTEGRADO_REFERENCIA_FASE2.md` la propuesta conceptual conjunta A/B, dimensiones asumidas, puertos, paneles, backbone exterior/vertical, ER/TR y secuencia de entregables.
+- [ ] Revisar y aprobar el diseño consolidado contra las fuentes oficiales antes de tratar sus hipótesis como decisiones definitivas.
+- [ ] Preparar planos tipo acotados y un registro de rutas representativas por laboratorio/piso.
+- [ ] Completar cálculos y componentes comerciales con fichas técnicas, sin inventar recorridos ni diámetros.
+- [ ] Producir los nueve gráficos y comprobar su concordancia con el Excel.
+- [ ] Cerrar y revisar la copia de trabajo del Excel para entrega.
+
+**Advertencia de estado:** la consolidación anterior es un documento de diseño de referencia; no significa que los planos, los cálculos de longitudes ni la lista final de materiales estén terminados.
+
 ## P0 — Bloqueos y entradas indispensables
 
 - [x] Incorporar el enunciado y la actualización del profesor en `01_requisitos/`, registrando origen y hash.
