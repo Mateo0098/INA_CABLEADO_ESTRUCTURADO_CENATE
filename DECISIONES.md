@@ -1,7 +1,7 @@
 # Registro de decisiones, supuestos y cuestiones pendientes
 
 **Última actualización:** 2026-10-25
-**Etapa:** Fase 2C — paquete técnico de revisión preparado; entrega final abierta
+**Etapa:** Fase 2D — cantidades de escenario y preparación Excel; entrega final abierta
 
 ## D-001 — Identidad y alcance académico
 
@@ -184,3 +184,33 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 | Fecha | ID | Cambio | Motivo / evidencia | Impacto |
 |---|---|---|---|---|
 | 2026-10-25 | D-015 a D-017 | Cierre técnico controlado | Matriz consolidada, revisión de variables, planes Excel y 124 controles automáticos | Paquete revisable disponible; entrega final aún depende de validación humana, campo y traslado manual |
+
+## D-018 — Escenario académico de recorridos
+
+- **Clasificación:** supuesto de diseño explícito, no medición de campo.
+- **Geometría:** TR al extremo del pasillo; progresivas por centros de laboratorio; 3 m internos en TR, medio pasillo, distribución interior según 10 m de profundidad, bajante de 3 m y desviación lateral por fachada.
+- **Reserva y desperdicio:** 3 m por enlace de cobre y 5 % de desperdicio de compra, tratados por separado. Fibra: 3 m internos y 5 m de reserva en cada extremo, más 5 %.
+- **Control:** máximo con reserva A = 45,7 m y B = 42,7 m, ambos inferiores al máximo docente de 90 m.
+- **Resultado condicionado:** 229 cajas de Cat 6A de 305 m; 284,025 m de cable vertical OS2 12F; E1 = 221,55 m de 24F bajo la hipótesis 145 + 50 m.
+- **Límite:** E2 = `169,05 + 1,05x` y E3 = `16,8 + 1,05y`; no se cierran sin `x/y`.
+
+## D-019 — Sistema pasivo compatible de referencia
+
+- **Cobre:** cable, panel, jack, placa y patch cord Panduit Cat 6A documentados en `05_materiales/MATRIZ_TECNICA_FASE2D.md`.
+- **Fibra:** 22 cassettes CCH 12F y 6 cassettes CCH 24F; 12 housings `CCH-01U`, un `CCH-03U` y un `CCH-04U`.
+- **No duplicación:** pigtails y adaptadores separados permanecen en cero porque están integrados en los cassettes.
+- **Racks:** 13 gabinetes nuevos de 42U como escenario, sin duplicar ER-P; activos, energía, carga y ventilación continúan separados.
+- **Organización:** 51 organizadores de cobre y 14 ópticos, uno por panel/housing.
+
+## D-020 — Preparación del Excel Fase 2D
+
+- **Decisión:** mantener original y copia controlada sin cambios y preparar la transferencia manual de filas 2–27 y herramientas 2–13.
+- **Listas para revisión:** cantidades numéricas de cobre, fibra vertical, E1, cassettes, housings, racks y organizadores.
+- **Bloqueadas justificadamente:** E2/E3, patch cords ópticos activos, producto de canalización, puesta a tierra y cajas exteriores reales.
+- **Restricción:** no hay precios; `J43` permanece sin resolver por el docente; el libro conserva ejemplos y no es final.
+
+## Historial de cambios de decisión — Fase 2D
+
+| Fecha | ID | Cambio | Motivo / evidencia | Impacto |
+|---|---|---|---|---|
+| 2026-10-25 | D-018 a D-020 | Cierre académico de longitudes y sistema pasivo | Modelo Fase 2D, matriz compatible y plan Excel | Reduce pendientes a variables de campo/docente/activos y revisión humana |

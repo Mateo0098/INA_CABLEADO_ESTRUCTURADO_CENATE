@@ -1,0 +1,8 @@
+bloque,estado,archivo_control,observacion
+Imágenes,REVISADO_CON_ESCENARIO,01_imagenes_revision/,Nueve pares; ER/TR actualizados
+Cobre,ESCENARIO_CALCULADO,02_soporte_tecnico/MEMORIA_CALCULOS_FASE2D.md,Cumple 90 m en geometría propuesta
+Fibra vertical,ESCENARIO_CALCULADO,02_soporte_tecnico/resultados_fase2d.csv,284.025 m sujetos a geometría
+Fibra E1,ESCENARIO_CALCULADO,02_soporte_tecnico/resultados_fase2d.csv,221.55 m sujetos a validar 145+50
+Fibra E2_E3,PENDIENTE_VARIABLES,02_soporte_tecnico/resultados_fase2d.csv,Conserva x e y
+Materiales,BASE_CONSOLIDADA,02_soporte_tecnico/MATRIZ_TECNICA_FASE2D.md,Canalización y activos pendientes
+Excel,LISTO_PARA_TRANSFERENCIA_MANUAL,03_excel_provisional/PLAN_TRANSFERENCIA_EXCEL_FASE2D.md,Copia aún contiene ejemplos

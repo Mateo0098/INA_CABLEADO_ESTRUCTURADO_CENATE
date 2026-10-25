@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 2C — paquete técnico de revisión preparado; la entrega final continúa condicionada por validación humana, mediciones y traslado manual al Excel.
+**Etapa:** Fase 2D — cantidades de escenario y correspondencia Excel preparadas; la entrega final continúa condicionada por revisión humana y variables indispensables.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -64,6 +64,8 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - Copia Excel de trabajo creada y preservada sin llenado automático; el original permanece intacto.
 - Paquete de revisión Fase 2C disponible en `08_entrega/PAQUETE_REVISION_FASE2C/`, con imágenes, soporte técnico, planes de transferencia al Excel, fuentes reproducibles e inventario SHA-256.
 - Guía de exposición individual de al menos ocho minutos disponible en `08_entrega/GUIA_EXPOSICION_8_MIN_FASE2C.md`.
+- Escenario Fase 2D reproducible: recorridos de cobre verificados contra 90 m, fibra vertical por piso, sistema CCH por cuarto y plan de Excel para filas 2–27.
+- Paquete actualizado en `08_entrega/PAQUETE_REVISION_FASE2D/`; E2/E3, canalizaciones y puertos activos siguen explícitamente pendientes.
 - La primera actividad no debe incluir precios ni costos.
 - La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 

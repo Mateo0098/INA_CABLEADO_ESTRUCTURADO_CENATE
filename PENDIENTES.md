@@ -10,7 +10,7 @@ No ejecutar los trabajos técnicos de esta lista sin abrir y documentar la etapa
 - [ ] Revisar y aprobar el diseño consolidado contra las fuentes oficiales antes de tratar sus hipótesis como decisiones definitivas.
 - [ ] Preparar planos tipo acotados y un registro de rutas representativas por laboratorio/piso.
 - [ ] Completar cálculos y componentes comerciales con fichas técnicas, sin inventar recorridos ni diámetros.
-- [ ] Producir los nueve gráficos y comprobar su concordancia con el Excel.
+- [x] Producir los nueve gráficos y comprobar su concordancia con el plan de Excel.
 - [ ] Cerrar y revisar la copia de trabajo del Excel para entrega.
 
 **Advertencia de estado:** la consolidación anterior es un documento de diseño de referencia; no significa que los planos, los cálculos de longitudes ni la lista final de materiales estén terminados.
@@ -35,7 +35,7 @@ No ejecutar los trabajos técnicos de esta lista sin abrir y documentar la etapa
 - [ ] Validar la configuración arquitectónica preliminar y las dimensiones de laboratorios, pasillos, TR y ER.
 - [ ] Identificar y verificar las normas, reglamentos y criterios institucionales aplicables, conservando fuentes y versiones.
 - [x] Establecer el sistema de identificación de edificios, pisos, espacios, racks, cables, puertos y salidas.
-- [ ] Desarrollar plantas preliminares de A y B con rutas candidatas y comprobar el límite de 90 m del enlace permanente.
+- [x] Desarrollar plantas preliminares de A y B con rutas candidatas y comprobar el límite de 90 m del enlace permanente en el escenario Fase 2D.
 - [ ] Validar cantidad y ubicación de TR por piso y ubicación de cada ER.
 - [ ] Definir criterios de backbone vertical y exterior sin seleccionar todavía productos no verificados.
 - [ ] Confirmar el significado operativo de “área de trabajo doble” antes de dimensionar puertos y salidas.
@@ -45,18 +45,18 @@ No ejecutar los trabajos técnicos de esta lista sin abrir y documentar la etapa
 - [x] Crear cálculos reproducibles con entradas, fórmulas, unidades, redondeos, controles y versiones.
 - [ ] Dimensionar salidas, puertos, cableado, racks, organizadores, terminaciones, canalizaciones y reservas una vez aprobadas las entradas.
 - [ ] Verificar fichas técnicas de fabricante y registrar URL o documento, fecha de consulta, revisión y parámetros usados.
-- [ ] Elaborar la lista de materiales coherente con diseño y cálculos, sin precios ni costos en la primera actividad.
+- [x] Elaborar la lista de materiales de referencia coherente con diseño y cálculos, sin precios ni costos; conservar variables pendientes.
 - [ ] Trasladar resultados aprobados a una copia controlada de la plantilla Excel.
 
 ## P3 — Imágenes, revisión y entrega
 
-- [ ] Generar las cinco imágenes base de F-005 y las cuatro adicionales ER/TR de F-006 después de estabilizar cálculos y materiales; agregar imágenes si existen variaciones entre pisos o laboratorios.
+- [x] Generar las cinco imágenes base de F-005 y las cuatro adicionales ER/TR de F-006; mantenerlas como esquemas no a escala.
 - [x] Verificar concordancia entre imágenes, planos, cálculos, materiales y Excel para el alcance preliminar implementado en Fase 2B.
-- [ ] Documentar la procedencia y la asistencia de IA de cada material de apoyo que corresponda.
+- [x] Documentar la procedencia y la asistencia de IA de los materiales de apoyo generados.
 - [ ] Ejecutar revisión técnica, documental y de trazabilidad.
 - [x] Crear el reporte de cierre de Fase 1 en `09_auditorias/`.
 - [ ] Consolidar los entregables finales en `08_entrega/` cuando corresponda.
-- [ ] Preparar la defensa individual de al menos ocho minutos y la demostración de fórmulas cuando se alcance la fase de entrega.
+- [x] Preparar una guía de defensa individual de al menos ocho minutos y demostración de fórmulas; pendiente ensayo humano.
 
 ## Criterio de cierre de la fase de diseño y datos de entrada
 
@@ -103,3 +103,29 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Verificar compatibilidad integral y disponibilidad local de cassettes/ODF, racks, organizadores, patch cords y equipos activos; no hay referencia final para todos los componentes.
 - [ ] Trasladar manualmente al Excel solo filas y cantidades aprobadas, retirar ejemplos didácticos, mantener precios vacíos y probar recálculo en la aplicación que usará el estudiante.
 - [ ] Ensayar la exposición y ajustar la guía a la comprensión y evidencia disponible del estudiante.
+
+## Checkpoint Fase 2D — 2026-10-25
+
+### Completado y verificado
+
+- [x] Definir un escenario geométrico reproducible para recorridos horizontales A/B sin presentarlo como medición.
+- [x] Comprobar rutas desfavorables con reserva: A 45,7 m y B 42,7 m, ambas menores o iguales a 90 m.
+- [x] Separar cable horizontal, reserva, desperdicio y patch cords; calcular 229 cajas de 305 m como escenario.
+- [x] Calcular los once enlaces verticales por piso: 284,025 m de cable OS2 12F como escenario.
+- [x] Calcular E1 en 221,55 m de cable 24F bajo la hipótesis 145 + 50 m y conservar E2/E3 con `x/y`.
+- [x] Cerrar compatibilidad funcional de cassettes y housings CCH por cuarto sin duplicar pigtails/adaptadores.
+- [x] Identificar referencias candidatas de rack, organizador y patch cords; separar equipos activos.
+- [x] Preparar correspondencia Excel filas 2–27 y herramientas 2–13, con instrucciones manuales.
+- [x] Actualizar únicamente las cuatro figuras ER/TR afectadas por housings, longitudes y control de 90 m.
+- [x] Crear paquete de revisión Fase 2D con inventario SHA-256.
+
+### Pendientes indispensables
+
+- [ ] El estudiante debe aceptar o ajustar geometría, reserva de 3 m y desperdicio de 5 % antes de usar las 229 cajas.
+- [ ] Confirmar con el docente dos RJ45 por área doble y tratamiento de `J43`.
+- [ ] Resolver `x/y` o excluir E2/E3 de una cantidad cerrada; validar que 145 + 50 m corresponde realmente a E1.
+- [ ] Definir sección/diámetro y producto de bandejas, bajantes y ducto mediante ocupación y condiciones del sitio.
+- [ ] Inspeccionar cajas/registros exteriores; seis posiciones teóricas no son seis unidades de compra.
+- [ ] Definir pares ópticos activos para patch cords y comprobar carga, energía y ventilación de racks.
+- [ ] Ejecutar transferencia manual, retiro de ejemplos y prueba de recálculo del Excel por el estudiante.
+- [ ] Realizar revisión humana y ensayo de exposición con la guía Fase 2D.

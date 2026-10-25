@@ -1,0 +1,37 @@
+id,valor,unidad,clasificacion,fuente,estado
+A_PISOS,4,piso,dato establecido por docente,INA-003,confirmado
+A_LABS_PISO,5,laboratorio/piso,dato establecido por docente,INA-003,confirmado
+A_FACHADA_LAB,8.5,m/sobre pasillo,supuesto de diseño,D-003/PLA-A,no medida
+B_PISOS,7,piso,dato establecido por docente,INA-004,confirmado
+B_LABS_PISO,6,laboratorio/piso,dato establecido por docente,INA-004,confirmado
+B_FACHADA_LAB,7.5,m/sobre pasillo,supuesto de diseño,D-003/PLA-B,no medida
+LAB_PROFUNDIDAD,10,m,supuesto de diseño,D-003,no medida
+ANCHO_PASILLO,2.4,m,supuesto de diseño,D-003,no medido
+TR_TRAMO_INTERNO,3,m/enlace,supuesto de diseño académico,Fase 2D,no medido
+BAJANTE_PUESTO,3,m/enlace,supuesto de diseño académico,Fase 2D,no medido
+AREAS_DOBLES_LAB,16,área doble/laboratorio,dato establecido por docente,INA-011,mínimo confirmado
+RJ45_AREA_DOBLE,2,puerto/área doble,supuesto de diseño,D-012,pendiente docente
+RESERVA_COBRE_ENLACE,3,m/enlace,supuesto de diseño académico,Fase 2D,no medido
+DESPERDICIO_COBRE,5,porcentaje,supuesto de compra académico,Fase 2D,revisar estudiante
+LONGITUD_CAJA_COBRE,305,m/caja,especificación fabricante,PUP6AHD04BU-G,verificada
+MAX_ENLACE_PERMANENTE,90,m/enlace,dato establecido por docente,INA-010,confirmado
+ALTURA_PISO,3.5,m,supuesto de diseño,D-003,no medida
+TRAMO_INTERNO_FIBRA_EXTREMO,3,m/extremo,supuesto de diseño académico,Fase 2D,no medido
+RESERVA_FIBRA_EXTREMO,5,m/extremo,supuesto de diseño académico,Fase 2D,no medido
+DESPERDICIO_FIBRA,5,porcentaje,supuesto de compra académico,Fase 2D,revisar estudiante
+DUCTO_EXISTENTE,145,m ducto,dato reportado por estudiante,CAM-01,requiere verificación
+DUCTO_NUEVO_A,50,m ducto,propuesta de diseño,CAM-03,destino por verificar
+X_RUTA_B,,m ruta exterior,decisión pendiente,D-005,sin medir
+Y_RUTA_A_B,,m ruta exterior,decisión pendiente,D-005,sin medir
+PUERTOS_PANEL_COBRE,48,puerto/panel,supuesto de diseño,D-012,provisional
+PANELES_TR_A,4,panel/TR,resultado condicionado,resultados_fase2b.csv,provisional
+PANELES_TR_B,5,panel/TR,resultado condicionado,resultados_fase2b.csv,provisional
+TOTAL_PANELES,51,panel,resultado condicionado,resultados_fase2b.csv,provisional
+TOTAL_TR,11,TR,resultado calculado,resultados_fase2b.csv,confirmado por pisos
+TOTAL_RJ45,1984,puerto/enlace,resultado condicionado,resultados_fase2b.csv,provisional
+TOTAL_AREAS,992,área doble,resultado condicionado,resultados_fase2b.csv,provisional
+FIBRAS_VERTICAL,12,fibra/enlace,supuesto de diseño,D-013,provisional
+FIBRAS_EXTERIOR,24,fibra/enlace,supuesto de diseño,D-013,provisional
+ENLACES_EXTERIORES,3,enlace,dato establecido por docente,INA-005/INA-006,confirmado
+PATCH_CORD_COBRE_FT,7,ft/unidad,especificación fabricante,UTP28X7BU,verificada
+RACK_U,42,U/rack,supuesto de referencia,D-011,provisional

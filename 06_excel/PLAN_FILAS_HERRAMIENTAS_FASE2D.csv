@@ -1,0 +1,13 @@
+fila_excel,herramienta_funcional,cantidad_referencia,estado,fundamento,accion_estudiante
+2,Guía pasacables y juego de tiro,1,ESCENARIO_UNA_CUADRILLA,Un frente de instalación,Confirmar organización de cuadrilla
+3,Lubricante compatible con cable y ducto,,VARIABLE_METODO,Consumo depende de ruta y producto,Seleccionar después del ducto
+4,Soporte de bobina,2,PAR_FUNCIONAL,Sostener una bobina durante el tendido,Confirmar carga de bobina
+5,Herramienta de impacto compatible,2,ESCENARIO_DOS_TECNICOS,Terminación simultánea Cat 6A,Confirmar con sistema Panduit
+6,Juego de cortador y pelador de cobre,2,ESCENARIO_DOS_TECNICOS,Preparación Cat 6A,Confirmar cuadrilla
+7,Fusionadora de fibra OS2,1,EQUIPO_COMPARTIDO,Empalmes en cassettes,Verificar calibración
+8,Cortadora de precisión y peladora de fibra,1,EQUIPO_COMPARTIDO,Preparación para fusión,Verificar compatibilidad
+9,Fuente y medidor óptico OS2,1,EQUIPO_COMPARTIDO,Prueba óptica básica,Definir método y longitudes de onda
+10,OTDR compatible con OS2,1,SUJETO_PROCEDIMIENTO,Caracterización de enlaces,Confirmar alcance académico
+11,Certificador Cat 6A con adaptadores de enlace permanente,1,EQUIPO_COMPARTIDO,Comprobar 1 984 enlaces,Exigir calibración vigente
+12,Etiquetadora,1,EQUIPO_COMPARTIDO,Identificación consistente,Definir consumibles
+13,Juego de herramientas de rack y nivel,1,ESCENARIO_UNA_CUADRILLA,Montaje y alineación,Validar con rack final

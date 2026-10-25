@@ -1,0 +1,59 @@
+id,formula,resultado,unidad,clasificacion,estado,dependencias
+A_COBRE_DISTANCIAS_PASILLO,centros desde TR extremo,4.25;4.25;12.75;12.75;21.25,m por laboratorio,escenario académico,no medido,A_LABS_PISO;A_FACHADA_LAB
+A_COBRE_INTERIOR_PROM,LAB_PROFUNDIDAD+FACHADA/4+BAJANTE_PUESTO,15.125,m/enlace,escenario académico,no medido,LAB_PROFUNDIDAD;FACHADA;BAJANTE_PUESTO
+A_COBRE_RUTA_PROM,PROMEDIO(TR_INTERNO+PASILLO/2+DISTANCIA+INTERIOR_PROM),30.375,m/enlace,resultado de escenario,provisional,geometría Fase 2D
+A_COBRE_RUTA_MAX,TR_INTERNO+PASILLO/2+DISTANCIA_MAX+INTERIOR_MAX,42.7,m/enlace,resultado de escenario,provisional,geometría Fase 2D
+A_COBRE_MAX_CON_RESERVA,RUTA_MAX+RESERVA_COBRE_ENLACE,45.7,m cable/enlace,resultado de escenario,provisional,A_COBRE_RUTA_MAX;RESERVA_COBRE_ENLACE
+A_COBRE_CUMPLE_90M,MAX_CON_RESERVA<=MAX_ENLACE_PERMANENTE,SI,control,verificación aritmética,verificado en escenario,A_COBRE_MAX_CON_RESERVA;MAX_ENLACE_PERMANENTE
+A_COBRE_BASE,SUMA(ruta representativa*32 enlaces/lab*pisos),19440,m cable horizontal,resultado de escenario,provisional,rutas representativas
+A_COBRE_RESERVA,ENLACES*RESERVA_COBRE_ENLACE,1920,m cable horizontal,resultado de escenario,provisional,RESERVA_COBRE_ENLACE
+A_COBRE_DESPERDICIO,(BASE+RESERVA)*DESPERDICIO_COBRE/100,1068,m cable horizontal,resultado de escenario,provisional,DESPERDICIO_COBRE
+A_COBRE_REQUERIDO,BASE+RESERVA+DESPERDICIO,22428,m cable horizontal,resultado de escenario,provisional,A_COBRE_BASE;A_COBRE_RESERVA;A_COBRE_DESPERDICIO
+A_COBRE_CAJAS_305M,CEIL(REQUERIDO/LONGITUD_CAJA_COBRE),74,caja de 305 m,resultado de escenario,provisional,A_COBRE_REQUERIDO;LONGITUD_CAJA_COBRE
+A_COBRE_METROS_COMERCIALES,CAJAS_305M*305,22570,m cable en cajas,resultado de escenario,provisional,A_COBRE_CAJAS_305M
+A_BANDEJA_BASE,PISOS*(LONGITUD_PASILLO+LABS*(PROFUNDIDAD+FACHADA)),472,m de bandeja compartida,resultado de escenario,dimensionar sección,geometría Fase 2D
+B_COBRE_DISTANCIAS_PASILLO,centros desde TR extremo,3.75;3.75;11.25;11.25;18.75;18.75,m por laboratorio,escenario académico,no medido,B_LABS_PISO;B_FACHADA_LAB
+B_COBRE_INTERIOR_PROM,LAB_PROFUNDIDAD+FACHADA/4+BAJANTE_PUESTO,14.875,m/enlace,escenario académico,no medido,LAB_PROFUNDIDAD;FACHADA;BAJANTE_PUESTO
+B_COBRE_RUTA_PROM,PROMEDIO(TR_INTERNO+PASILLO/2+DISTANCIA+INTERIOR_PROM),30.325,m/enlace,resultado de escenario,provisional,geometría Fase 2D
+B_COBRE_RUTA_MAX,TR_INTERNO+PASILLO/2+DISTANCIA_MAX+INTERIOR_MAX,39.7,m/enlace,resultado de escenario,provisional,geometría Fase 2D
+B_COBRE_MAX_CON_RESERVA,RUTA_MAX+RESERVA_COBRE_ENLACE,42.7,m cable/enlace,resultado de escenario,provisional,B_COBRE_RUTA_MAX;RESERVA_COBRE_ENLACE
+B_COBRE_CUMPLE_90M,MAX_CON_RESERVA<=MAX_ENLACE_PERMANENTE,SI,control,verificación aritmética,verificado en escenario,B_COBRE_MAX_CON_RESERVA;MAX_ENLACE_PERMANENTE
+B_COBRE_BASE,SUMA(ruta representativa*32 enlaces/lab*pisos),40756.8,m cable horizontal,resultado de escenario,provisional,rutas representativas
+B_COBRE_RESERVA,ENLACES*RESERVA_COBRE_ENLACE,4032,m cable horizontal,resultado de escenario,provisional,RESERVA_COBRE_ENLACE
+B_COBRE_DESPERDICIO,(BASE+RESERVA)*DESPERDICIO_COBRE/100,2239.44,m cable horizontal,resultado de escenario,provisional,DESPERDICIO_COBRE
+B_COBRE_REQUERIDO,BASE+RESERVA+DESPERDICIO,47028.24,m cable horizontal,resultado de escenario,provisional,B_COBRE_BASE;B_COBRE_RESERVA;B_COBRE_DESPERDICIO
+B_COBRE_CAJAS_305M,CEIL(REQUERIDO/LONGITUD_CAJA_COBRE),155,caja de 305 m,resultado de escenario,provisional,B_COBRE_REQUERIDO;LONGITUD_CAJA_COBRE
+B_COBRE_METROS_COMERCIALES,CAJAS_305M*305,47275,m cable en cajas,resultado de escenario,provisional,B_COBRE_CAJAS_305M
+B_BANDEJA_BASE,PISOS*(LONGITUD_PASILLO+LABS*(PROFUNDIDAD+FACHADA)),892.5,m de bandeja compartida,resultado de escenario,dimensionar sección,geometría Fase 2D
+TOTAL_COBRE_REQUERIDO,A_COBRE_REQUERIDO+B_COBRE_REQUERIDO,69456.24,m cable horizontal,resultado de escenario,provisional,A_COBRE_REQUERIDO;B_COBRE_REQUERIDO
+TOTAL_COBRE_CAJAS_305M,A_COBRE_CAJAS_305M+B_COBRE_CAJAS_305M,229,caja de 305 m,resultado de escenario,provisional,A_COBRE_CAJAS_305M;B_COBRE_CAJAS_305M
+TOTAL_COBRE_METROS_COMERCIALES,TOTAL_CAJAS*305,69845,m cable en cajas,resultado de escenario,provisional,TOTAL_COBRE_CAJAS_305M
+BANDEJA_INTERIOR_BASE,A_BANDEJA_BASE+B_BANDEJA_BASE,1364.5,m bandeja,resultado de escenario,sección pendiente,A_BANDEJA_BASE;B_BANDEJA_BASE
+BANDEJA_INTERIOR_RESERVA_5,BANDEJA_BASE*5%,68.225,m bandeja,resultado de escenario,provisional,BANDEJA_INTERIOR_BASE
+BANDEJA_INTERIOR_TOTAL,BANDEJA_BASE+RESERVA,1432.725,m bandeja,resultado de escenario,sección pendiente,BANDEJA_INTERIOR_BASE;BANDEJA_INTERIOR_RESERVA_5
+BAJANTES_PROTEGIDAS,TOTAL_AREAS,992,bajante compartida para 2 cables,resultado condicionado,provisional,TOTAL_AREAS
+TUBERIA_BAJANTES_BASE,TOTAL_AREAS*BAJANTE_PUESTO,2976,m de tubería/bajante,resultado de escenario,diámetro pendiente,TOTAL_AREAS;BAJANTE_PUESTO
+TUBERIA_BAJANTES_TOTAL,BASE*1.05,3124.8,m de tubería/bajante,resultado de escenario,diámetro pendiente,TUBERIA_BAJANTES_BASE
+CAJAS_SALIDA_DOBLE,TOTAL_AREAS,992,caja de salida,resultado condicionado,tipo pendiente,TOTAL_AREAS
+A_FIBRA_VERTICAL_ENLACES,cota+2*(tramo interno+reserva),16;19.5;23;26.5,m cable por enlace,resultado de escenario,provisional,ALTURA_PISO;reservas Fase 2D
+A_FIBRA_VERTICAL_BASE,SUMA(longitudes por enlace),85,m cable 12F,resultado de escenario,provisional,A_FIBRA_VERTICAL_ENLACES
+A_FIBRA_VERTICAL_REQUERIDA,BASE*(1+DESPERDICIO_FIBRA/100),89.25,m cable 12F,resultado de escenario,provisional,A_FIBRA_VERTICAL_BASE;DESPERDICIO_FIBRA
+B_FIBRA_VERTICAL_ENLACES,cota+2*(tramo interno+reserva),16;19.5;23;26.5;30;33.5;37,m cable por enlace,resultado de escenario,provisional,ALTURA_PISO;reservas Fase 2D
+B_FIBRA_VERTICAL_BASE,SUMA(longitudes por enlace),185.5,m cable 12F,resultado de escenario,provisional,B_FIBRA_VERTICAL_ENLACES
+B_FIBRA_VERTICAL_REQUERIDA,BASE*(1+DESPERDICIO_FIBRA/100),194.775,m cable 12F,resultado de escenario,provisional,B_FIBRA_VERTICAL_BASE;DESPERDICIO_FIBRA
+TOTAL_FIBRA_VERTICAL_REQUERIDA,A+B,284.025,m cable 12F,resultado de escenario,provisional,A_FIBRA_VERTICAL_REQUERIDA;B_FIBRA_VERTICAL_REQUERIDA
+E1_FIBRA_24F_REQUERIDA,(145+50+2*(tramo interno+reserva))*1.05,221.55,m cable 24F,resultado de escenario,verificar ruta,DUCTO_EXISTENTE;DUCTO_NUEVO_A;reservas Fase 2D
+E2_FIBRA_24F_FORMULA,(145+x+16)*1.05,169.05 + 1.05x,m cable 24F,fórmula con variable,pendiente x,DUCTO_EXISTENTE;X_RUTA_B
+E3_FIBRA_24F_FORMULA,(y+16)*1.05,16.8 + 1.05y,m cable 24F,fórmula con variable,pendiente y,Y_RUTA_A_B
+TOTAL_FIBRA_24F_FORMULA,E1+E2+E3,407.4 + 1.05x + 1.05y,m cable 24F,fórmula con variables,pendiente x/y,E1;E2;E3
+PATCH_CORD_COBRE_USUARIO,TOTAL_RJ45,1984,patch cord 7 ft,resultado condicionado,capacidad pasiva completa,arquitectura Fase 2D
+PATCH_CORD_COBRE_RACK,TOTAL_RJ45,1984,patch cord 7 ft,resultado condicionado,capacidad pasiva completa; activos separados,arquitectura Fase 2D
+PATCH_CORD_OPTICO_MAX,(408 terminaciones)/2,204,patch cord LC-LC dúplex,resultado condicionado,máximo si todas las fibras se activan,arquitectura Fase 2D
+HOUSING_CCH_01U,11 TR+ER-P,12,housing,resultado condicionado,11 nuevos + 1 sujeto a espacio existente,arquitectura Fase 2D
+HOUSING_CCH_03U,ER-A,1,housing,resultado condicionado,6 cassettes,arquitectura Fase 2D
+HOUSING_CCH_04U,ER-B,1,housing,resultado condicionado,9 cassettes,arquitectura Fase 2D
+RACK_42U_NUEVOS,11 TR+2 ER,13,rack,resultado condicionado,escenario; activos pendientes,arquitectura Fase 2D
+ORGANIZADOR_HORIZONTAL_COBRE,TOTAL_PANELES,51,organizador 1U,resultado condicionado,uno por panel,arquitectura Fase 2D
+ORGANIZADOR_HORIZONTAL_OPTICO,14 housings,14,organizador 1U,resultado condicionado,uno por housing,arquitectura Fase 2D
+PIGTAILS_COMPRA_SEPARADA,cassette pre-pigtailed,0,pigtail,resultado condicionado,evita doble conteo,arquitectura Fase 2D
+ADAPTADORES_COMPRA_SEPARADA,cassette pre-pigtailed,0,adaptador,resultado condicionado,evita doble conteo,arquitectura Fase 2D

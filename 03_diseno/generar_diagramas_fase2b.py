@@ -190,10 +190,12 @@ def rack(parts, x, y, title, units):
 def er_room(building_id, vertical_fibers, total_positions, trs):
     p = base(f"Cuarto de equipos ER — Edificio {building_id}", f"ER-{building_id}",
              "Esquema funcional de terminación óptica; equipo activo pendiente de selección")
+    housing = "CCH-03U: 6 cassettes" if building_id == "A" else "CCH-04U: 9 cassettes"
+    housing_ru = 3 if building_id == "A" else 4
+    vertical_length = "89,25 m" if building_id == "A" else "194,775 m"
     rack(p, 625, 205, "RACK 19\" / 42U PROPUESTO", [
-        (f"ODF exterior: 48 fibras (2 × 24f)", 4, COLORS["cyan"]),
-        (f"ODF vertical: {vertical_fibers} fibras ({trs} × 12f)", 5, "#dff5e8"),
-        ("Bandejas de empalme + organizadores", 3, COLORS["yellow"]),
+        (housing, housing_ru, COLORS["cyan"]),
+        ("Organizador horizontal óptico", 1, COLORS["yellow"]),
         ("Espacio reservado — activos/PDU/UPS", 7, "#f2eafd"),
     ])
     p += [rect(80, 235, 390, 180, COLORS["cyan"], COLORS["blue"], 4),
@@ -202,11 +204,11 @@ def er_room(building_id, vertical_fibers, total_positions, trs):
           line(470, 325, 625, 325, COLORS["blue"], 8, marker=True),
           rect(1100, 235, 390, 220, "#dff5e8", COLORS["green"], 4),
           text(1295, 275, "BACKBONE VERTICAL", 22, "bold", "middle"),
-          multiline(1135, 315, [f"{trs} cables independientes", "12 fibras OS2 por ER–TR", f"{vertical_fibers} fibras terminadas", "Longitudes: variables por medir"], 18, 32),
+          multiline(1135, 315, [f"{trs} cables independientes", "12 fibras OS2 por ER–TR", f"{vertical_fibers} fibras terminadas", f"Escenario total 12F: {vertical_length}", "No es medición de campo"], 18, 29),
           line(955, 350, 1100, 350, COLORS["green"], 8, marker=True),
           rect(80, 545, 390, 210, COLORS["yellow"], COLORS["orange"], 4),
           text(275, 585, "CONTINUIDAD ÓPTICA", 22, "bold", "middle"),
-          multiline(110, 625, ["Cable → empalme por fusión", "→ pigtail LC/UPC OS2", "→ adaptador LC dúplex", "→ patch cord → activo (pendiente)"], 18, 31),
+          multiline(110, 625, ["Cable → empalme por fusión", "→ cassette CCH pre-pigtailed", "→ adaptador LC dúplex incluido", "→ patch cord → activo (variable)"], 18, 31),
           line(470, 650, 625, 650, COLORS["orange"], 6, marker=True),
           multiline(1120, 560, ["Capacidad mínima mostrada:", f"{total_positions} posiciones de fibra", "No equivale a transceptores activos.", "Rack 42U: hipótesis; capacidad final pendiente."], 18, 31, "bold"),
           text(1290, 735, "ER y TR del primer piso son recintos separados; no se duplican equipos.", 16, "bold", "middle", COLORS["red"])]
@@ -217,25 +219,25 @@ def tr_room(building_id, labs, panels, ports, spare):
     p = base(f"Cuarto de telecomunicaciones TR — Edificio {building_id}", f"TR-{building_id}",
              f"Un TR por piso | {labs} laboratorios | {ports} enlaces Cat 6A")
     rack(p, 630, 195, "RACK 19\" / 42U PROPUESTO", [
-        ("ODF 12f OS2 + bandeja de empalme", 2, COLORS["cyan"]),
-        ("Organizador óptico", 1, COLORS["yellow"]),
+        ("CCH-01U + cassette 12F OS2", 1, COLORS["cyan"]),
+        ("Organizador horizontal óptico", 1, COLORS["yellow"]),
         (f"{panels} paneles Cat 6A × 48 puertos", panels * 2, "#dff5e8"),
         (f"Organizadores horizontales ({panels}U ref.)", panels, COLORS["yellow"]),
         ("Espacio reservado — switches/PDU/UPS", 7, "#f2eafd"),
     ])
     p += [rect(80, 245, 395, 175, COLORS["cyan"], COLORS["blue"], 4),
           text(277, 285, f"DESDE ER-{building_id}", 22, "bold", "middle"),
-          multiline(115, 325, ["1 cable OS2 de 12 fibras", "fusión + pigtail LC/UPC", "adaptador + patch cord óptico"], 18, 32),
+          multiline(115, 325, ["1 cable OS2 de 12 fibras", "fusión en cassette pre-pigtailed", "adaptador incluido + patch cord variable"], 18, 32),
           line(475, 335, 630, 335, COLORS["blue"], 8, marker=True),
           rect(1090, 220, 420, 280, "#dff5e8", COLORS["green"], 4),
           text(1300, 262, "DISTRIBUCIÓN HORIZONTAL", 22, "bold", "middle"),
-          multiline(1120, 305, [f"{labs} laboratorios × 32 = {ports} enlaces", f"Capacidad: {panels} × 48 = {panels*48} puertos", f"Reserva de posiciones: {spare}", "Cable Cat 6A en estrella", "Cada enlace permanente ≤ 90 m"], 18, 33),
+          multiline(1120, 305, [f"{labs} laboratorios × 32 = {ports} enlaces", f"Capacidad: {panels} × 48 = {panels*48} puertos", f"Reserva de posiciones: {spare}", "Cable Cat 6A en estrella", f"Máx. escenario: {'45,7' if building_id == 'A' else '42,7'} m ≤ 90 m"], 18, 33),
           line(960, 365, 1090, 365, COLORS["green"], 8, marker=True),
           rect(1050, 570, 480, 190, COLORS["yellow"], COLORS["orange"], 4),
           multiline(1080, 615, ["PATCH CORDS", f"Cobre: cantidad base = {ports} en rack + {ports} en usuario", "Fibra: cantidad depende de pares activos (pendiente)", "No se infiere un switch por cada posición pasiva."], 18, 34, "bold"),
           text(90, 560, "Canalización hacia áreas", 21, "bold"),
           line(95, 600, 515, 600, COLORS["orange"], 14),
-          multiline(100, 650, ["Bandeja de pasillo + derivaciones", "Dimensión: pendiente de diámetro real", "y cálculo de ocupación."], 18, 32)]
+          multiline(100, 650, ["Bandeja de pasillo + derivaciones", "Sección pendiente de ocupación", "y selección de producto."], 18, 32)]
     return footer(p)
 
 
