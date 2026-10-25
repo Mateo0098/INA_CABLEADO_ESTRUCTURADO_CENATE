@@ -1,0 +1,25 @@
+id,valor,unidad,clasificacion,fuente,estado
+A_PISOS,4,piso,dato establecido por docente,INA-003,confirmado
+A_LABS_PISO,5,laboratorio/piso,dato establecido por docente,INA-003,confirmado
+A_AREA_LAB,85,m2/laboratorio,dato establecido por docente,INA-003,confirmado
+B_PISOS,7,piso,dato establecido por docente,INA-004,confirmado
+B_LABS_PISO,6,laboratorio/piso,dato establecido por docente,INA-004,confirmado
+B_AREA_LAB,75,m2/laboratorio,dato establecido por docente,INA-004,confirmado
+AREAS_DOBLES_LAB,16,area doble/laboratorio,dato establecido por docente,INA-011,minimo confirmado
+RJ45_AREA_DOBLE,2,puerto/area doble,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,pendiente docente
+PUERTOS_PANEL_COBRE,48,puerto/panel,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
+PANEL_ADICIONAL_SI_LLENO,1,panel/TR,supuesto de reserva,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
+FIBRAS_VERTICAL,12,fibra/enlace,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
+FIBRAS_EXTERIOR,24,fibra/enlace,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
+ENLACES_EXTERIORES,3,enlace,dato establecido por docente,INA-005/INA-006,confirmado
+USAR_CASSETTE_PREPIGTAIL,1,indicador 0/1,supuesto de arquitectura de terminacion,MATRIZ_TECNICA_FASE2C.md,provisional
+ALTURA_PISO,3.5,m,supuesto de diseno,REGISTRO_MEDICIONES_Y_SUPUESTOS_CHAT.md,no medida
+DUCTO_EXISTENTE,145,m ducto,dato reportado por estudiante,CAM-01,requiere verificacion
+DUCTO_NUEVO_A,50,m ducto,propuesta de diseno,CAM-03,destino por verificar
+SEPARACION_CAJAS_REF,25,m entre cajas,criterio de clase,CAM-02,no es conteo
+X_RUTA_B,,m de ruta,decision pendiente,DISENO_INTEGRADO_REFERENCIA_FASE2.md,sin medir
+Y_RUTA_A_B,,m de ruta,decision pendiente,DISENO_INTEGRADO_REFERENCIA_FASE2.md,sin medir
+RESERVA_FIBRA,,porcentaje,supuesto pendiente,INA-021,sin aprobar
+LONG_PROM_COBRE_A,,m cable/enlace,medicion pendiente,INA-010/INA-024,sin medir
+LONG_PROM_COBRE_B,,m cable/enlace,medicion pendiente,INA-010/INA-024,sin medir
+DESPERDICIO_COBRE,,porcentaje,supuesto pendiente,INA-024,sin aprobar

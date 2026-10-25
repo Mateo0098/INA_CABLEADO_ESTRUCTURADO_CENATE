@@ -98,14 +98,29 @@ def main():
     add(out, "FIBRAS_TERM_EXTERIOR", "ENLACES_EXTERIORES*FIBRAS_EXTERIOR*2_EXTREMOS", exterior_positions, "terminacion de fibra", "resultado condicionado", "ENLACES_EXTERIORES;FIBRAS_EXTERIOR", "provisional")
     add(out, "PIGTAILS_Y_EMPALMES", "FIBRAS_TERM_VERTICAL+FIBRAS_TERM_EXTERIOR", all_positions, "unidad", "resultado condicionado", "FIBRAS_TERM_VERTICAL;FIBRAS_TERM_EXTERIOR", "provisional")
     add(out, "ADAPTADORES_LC_DUPLEX", "CEIL(TOTAL_TERMINACIONES_FIBRA/2)", math.ceil(all_positions / 2), "adaptador duplex", "resultado condicionado", "PIGTAILS_Y_EMPALMES", "provisional")
+    cassette_mode = int(v["USAR_CASSETTE_PREPIGTAIL"])
+    add(out, "CASSETTES_CCH_12F", "TOTAL_TR*2_EXTREMOS*USAR_CASSETTE_PREPIGTAIL", total_tr * 2 * cassette_mode, "cassette 12F", "resultado condicionado", "TOTAL_TR;USAR_CASSETTE_PREPIGTAIL", "provisional")
+    add(out, "CASSETTES_CCH_24F", "ENLACES_EXTERIORES*2_EXTREMOS*USAR_CASSETTE_PREPIGTAIL", int(v["ENLACES_EXTERIORES"]) * 2 * cassette_mode, "cassette 24F", "resultado condicionado", "ENLACES_EXTERIORES;USAR_CASSETTE_PREPIGTAIL", "provisional")
+    add(out, "PIGTAILS_COMPRA_SEPARADA", "PIGTAILS_Y_EMPALMES*(1-USAR_CASSETTE_PREPIGTAIL)", all_positions * (1 - cassette_mode), "pigtail", "resultado condicionado", "PIGTAILS_Y_EMPALMES;USAR_CASSETTE_PREPIGTAIL", "provisional")
+    add(out, "ADAPTADORES_COMPRA_SEPARADA", "ADAPTADORES_LC_DUPLEX*(1-USAR_CASSETTE_PREPIGTAIL)", math.ceil(all_positions / 2) * (1 - cassette_mode), "adaptador duplex", "resultado condicionado", "ADAPTADORES_LC_DUPLEX;USAR_CASSETTE_PREPIGTAIL", "provisional")
     add(out, "PATCH_CORD_COBRE_USUARIO", "TOTAL_RJ45", total_ports, "patch cord", "resultado condicionado", "TOTAL_RJ45", "provisional")
     add(out, "PATCH_CORD_COBRE_RACK", "TOTAL_RJ45", total_ports, "patch cord", "resultado condicionado", "TOTAL_RJ45", "provisional")
     add(out, "PLACAS_DOBLES", "TOTAL_AREAS", total_areas, "placa/caja", "resultado condicionado", "TOTAL_AREAS", "provisional")
     add(out, "JACKS_CAT6A", "TOTAL_RJ45", total_ports, "jack", "resultado condicionado", "TOTAL_RJ45", "provisional")
     add(out, "DUCTO_EXISTENTE_REFERENCIA", "DUCTO_EXISTENTE", v["DUCTO_EXISTENTE"], "m ducto", "dato reportado", "DUCTO_EXISTENTE", "verificar; no comprar")
     add(out, "DUCTO_NUEVO_PROPUESTO", "DUCTO_NUEVO_A", v["DUCTO_NUEVO_A"], "m ducto", "propuesta", "DUCTO_NUEVO_A", "destino/ruta por verificar")
-    theoretical_boxes = math.floor(int(v["DUCTO_EXISTENTE"]) / int(v["SEPARACION_CAJAS_REF"]))
-    add(out, "POSICIONES_CAJAS_145M", "FLOOR(DUCTO_EXISTENTE/SEPARACION_CAJAS_REF)", theoretical_boxes, "posicion intermedia teorica", "resultado orientativo", "DUCTO_EXISTENTE;SEPARACION_CAJAS_REF", "no es cantidad de compra")
+    spacing = int(v["SEPARACION_CAJAS_REF"])
+    theoretical_boxes = math.ceil(int(v["DUCTO_EXISTENTE"]) / spacing) - 1
+    new_boxes = math.ceil(int(v["DUCTO_NUEVO_A"]) / spacing) - 1
+    add(out, "POSICIONES_CAJAS_145M", "CEIL(DUCTO_EXISTENTE/SEPARACION_CAJAS_REF)-1", theoretical_boxes, "posicion intermedia teorica", "resultado orientativo", "DUCTO_EXISTENTE;SEPARACION_CAJAS_REF", "no es cantidad de compra")
+    add(out, "POSICIONES_CAJAS_50M", "CEIL(DUCTO_NUEVO_A/SEPARACION_CAJAS_REF)-1", new_boxes, "posicion intermedia teorica", "resultado orientativo", "DUCTO_NUEVO_A;SEPARACION_CAJAS_REF", "no es cantidad de compra")
+    e1_base = v["DUCTO_EXISTENTE"] + v["DUCTO_NUEVO_A"]
+    add(out, "E1_RUTA_BASE", "DUCTO_EXISTENTE+DUCTO_NUEVO_A", e1_base, "m de ruta base", "resultado condicionado", "DUCTO_EXISTENTE;DUCTO_NUEVO_A", "verificar; no es cable de compra")
+    vertical_a = sum(range(int(v["A_PISOS"]))) * v["ALTURA_PISO"]
+    vertical_b = sum(range(int(v["B_PISOS"]))) * v["ALTURA_PISO"]
+    add(out, "A_DESNIVEL_VERTICAL_MIN", "SUMA(0..A_PISOS-1)*ALTURA_PISO", vertical_a, "m de desnivel acumulado", "resultado condicionado", "A_PISOS;ALTURA_PISO", "limite inferior; no comprar")
+    add(out, "B_DESNIVEL_VERTICAL_MIN", "SUMA(0..B_PISOS-1)*ALTURA_PISO", vertical_b, "m de desnivel acumulado", "resultado condicionado", "B_PISOS;ALTURA_PISO", "limite inferior; no comprar")
+    add(out, "TOTAL_DESNIVEL_VERTICAL_MIN", "A_DESNIVEL_VERTICAL_MIN+B_DESNIVEL_VERTICAL_MIN", vertical_a + vertical_b, "m de desnivel acumulado", "resultado condicionado", "A_DESNIVEL_VERTICAL_MIN;B_DESNIVEL_VERTICAL_MIN", "limite inferior; no comprar")
 
     fieldnames = ["id", "formula", "resultado", "unidad", "clasificacion", "dependencias", "estado"]
     with OUTPUT.open("w", encoding="utf-8", newline="") as fh:

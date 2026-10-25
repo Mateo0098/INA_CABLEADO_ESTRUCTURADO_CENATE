@@ -1,7 +1,7 @@
 # Registro de decisiones, supuestos y cuestiones pendientes
 
-**Última actualización:** 2026-10-18
-**Etapa:** Fase 1 cerrada — base de requisitos auditada
+**Última actualización:** 2026-10-25
+**Etapa:** Fase 2C — paquete técnico de revisión preparado; entrega final abierta
 
 ## D-001 — Identidad y alcance académico
 
@@ -157,3 +157,30 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 | Fecha | ID | Cambio | Motivo / evidencia | Impacto |
 |---|---|---|---|---|
 | 2026-10-25 | D-011 a D-014 | Implementación documental de Fase 2B | Nueve diseños, modelo reproducible, matriz técnica, copia Excel y 63 controles automáticos | Avance verificable; metrajes, selección final y llenado manual del Excel continúan pendientes |
+
+## D-015 — Arquitectura provisional de terminación de fibra
+
+- **Clasificación:** supuesto de diseño verificable, sujeto a revisión humana y compatibilidad integral.
+- **Decisión provisional:** representar la terminación completa mediante cassettes preconectorizados/precargados: 22 unidades de 12 fibras para los once enlaces verticales y 6 unidades de 24 fibras para los tres enlaces exteriores, una por extremo.
+- **Resultado calculado:** las 408 terminaciones funcionales y 204 posiciones LC dúplex permanecen como magnitudes de capacidad, pero pigtails y adaptadores comprados por separado se fijan en cero mientras se mantenga esta arquitectura, para evitar doble conteo.
+- **Evidencia comercial:** familias Corning CCH documentadas en `05_materiales/MATRIZ_TECNICA_FASE2C.md`; no constituye compra ni selección definitiva.
+
+## D-016 — Cierre controlado del Excel
+
+- **Dato establecido por el docente:** la IA no debe generar automáticamente el Excel de entrega y la primera actividad no incluye precios.
+- **Decisión de gestión:** preservar sin cambios tanto el original como la copia provisional y entregar planes de correspondencia fila por fila para que el estudiante haga el traslado manual, comprenda las fórmulas y retire los ejemplos didácticos.
+- **Evidencia verificada:** ambos libros mantienen SHA-256 `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`, las hojas originales y `J43=SUM(J2:J41)`.
+- **Condición:** la copia continúa marcada como provisional y no debe presentarse como final.
+
+## D-017 — Límites de cierre académico de variables
+
+- **Supuestos razonables para escenario:** 2 RJ45 por área doble, un TR por piso, reserva de panel según D-012, 12 fibras por enlace vertical, 24 fibras por enlace exterior y arquitectura de cassette de D-015.
+- **Resultados de referencia, no mediciones:** ruta base parcial E1 = 195 m; desnivel vertical mínimo geométrico A = 21,0 m y B = 73,5 m, sin reservas ni recorridos internos.
+- **Variables que no se cierran sin evidencia:** longitudes horizontales de cobre, recorridos completos E1/E2/E3, longitudes reales verticales, reservas, ocupación de ductos/bandejas, ubicación/estado de cajas y compatibilidad final de racks, gabinetes y activos.
+- **Control:** `04_calculos/REVISION_VARIABLES_FASE2C.md` mantiene cada variable en su categoría y evita presentar escenarios como mediciones.
+
+## Historial de cambios de decisión — Fase 2C
+
+| Fecha | ID | Cambio | Motivo / evidencia | Impacto |
+|---|---|---|---|---|
+| 2026-10-25 | D-015 a D-017 | Cierre técnico controlado | Matriz consolidada, revisión de variables, planes Excel y 124 controles automáticos | Paquete revisable disponible; entrega final aún depende de validación humana, campo y traslado manual |

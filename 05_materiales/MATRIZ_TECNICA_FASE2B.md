@@ -1,5 +1,7 @@
 # Matriz técnica de materiales candidatos — Fase 2B
 
+> **Continuidad:** la trazabilidad y clasificación comercial consolidadas para Fase 2C están en `05_materiales/MATRIZ_TECNICA_FASE2C.md`. Este archivo se conserva como checkpoint histórico y no debe usarse solo para trasladar cantidades al Excel.
+
 **Fecha de consulta:** 2026-10-25  
 **Responsable de revisión final:** estudiante  
 **Alcance:** candidatos técnicos sin precios ni selección comercial definitiva. Las fuentes son páginas o fichas oficiales del fabricante; la disponibilidad local y la compatibilidad integral siguen pendientes.  

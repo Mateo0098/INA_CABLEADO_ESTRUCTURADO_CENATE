@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 2B en implementación — nueve diseños y modelo de capacidad preparados; metrajes y selección final pendientes.
+**Etapa:** Fase 2C — paquete técnico de revisión preparado; la entrega final continúa condicionada por validación humana, mediciones y traslado manual al Excel.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -62,6 +62,8 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - Entregables gráficos preliminares: nueve SVG editables y nueve PNG de 1600×1000 en `07_imagenes/fase2b/`, sujetos a revisión humana y a las mediciones pendientes.
 - Modelo reproducible de capacidad y matriz de materiales candidatos disponibles; los metrajes, la selección integral de productos y las cantidades dependientes de campo permanecen pendientes.
 - Copia Excel de trabajo creada y preservada sin llenado automático; el original permanece intacto.
+- Paquete de revisión Fase 2C disponible en `08_entrega/PAQUETE_REVISION_FASE2C/`, con imágenes, soporte técnico, planes de transferencia al Excel, fuentes reproducibles e inventario SHA-256.
+- Guía de exposición individual de al menos ocho minutos disponible en `08_entrega/GUIA_EXPOSICION_8_MIN_FASE2C.md`.
 - La primera actividad no debe incluir precios ni costos.
 - La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 

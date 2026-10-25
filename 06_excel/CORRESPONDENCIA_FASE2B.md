@@ -1,5 +1,7 @@
 # Correspondencia para la copia de trabajo Excel — Fase 2B
 
+> **Continuidad:** el plan fila por fila preparado en Fase 2C está en `06_excel/PLAN_TRANSFERENCIA_EXCEL_FASE2C.md` y sus dos CSV asociados. Este documento se conserva como referencia histórica.
+
 ## Estado de archivos
 
 | Archivo | Estado | SHA-256 al 2026-10-25 |

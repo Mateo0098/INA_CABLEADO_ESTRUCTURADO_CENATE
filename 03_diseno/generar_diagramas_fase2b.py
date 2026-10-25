@@ -102,8 +102,8 @@ def exterior():
         line(394, 770, 869, 770, COLORS["blue"], 10),
         line(869, 810, 1414, 810, COLORS["green"], 10, "22 12"),
         line(394, 850, 1414, 850, COLORS["purple"], 7, "12 10"),
-        text(630, 758, "E1: ER-P ↔ ER-A | 145 + 50 = 195 m base", 17, "bold", "middle", COLORS["blue"]),
-        text(1140, 798, "E3: ER-A ↔ ER-B = y m (pendiente)", 17, "bold", "middle", COLORS["green"]),
+        text(600, 798, "E1: ER-P ↔ ER-A | 145 + 50 = 195 m base", 17, "bold", "middle", COLORS["blue"]),
+        text(1180, 798, "E3: ER-A ↔ ER-B = y m (pendiente)", 17, "bold", "middle", COLORS["green"]),
         text(904, 840, "E2: ER-P ↔ ER-B = 145 m + x solo si se verifica el tramo compartido", 16, "bold", "middle", COLORS["purple"]),
     ]
     for xx in [455, 515, 575, 635, 695, 755]:
@@ -170,7 +170,7 @@ def laboratory(building_id, area, depth):
               text(x + 72, y + 25, f"AT-{n:02d}", 16, "bold", "middle"),
               circle(x + 57, y + 49, 7, COLORS["blue"]), circle(x + 87, y + 49, 7, COLORS["green"]),
               line(x + 72, y, x + 72, 220, COLORS["orange"], 2, "8 6")]
-    p += [multiline(1315, 240, ["LEYENDA", "AT = área doble", "● azul = RJ45-A", "● verde = RJ45-B", "Línea = bajante", "protegida propuesta"], 17, 29, "bold"),
+    p += [multiline(1315, 240, ["LEYENDA", "AT = área doble", "● azul = RJ45-A", "● verde = RJ45-B", "Línea = bajante", "protegida propuesta", "2 cables independientes", "por AT en canalización"], 16, 28, "bold"),
           text(245, 895, "Resultado calculado: 16 áreas × 2 puertos = 32 salidas y 32 enlaces Cat 6A por laboratorio.", 19, "bold")]
     return footer(p)
 

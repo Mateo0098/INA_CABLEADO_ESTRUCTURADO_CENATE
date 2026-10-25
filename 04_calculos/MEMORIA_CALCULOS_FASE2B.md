@@ -23,6 +23,8 @@
 | Terminaciones verticales | TR × 12 fibras × 2 extremos | terminación | Propuesta de 12 fibras |
 | Terminaciones exteriores | 3 enlaces × 24 fibras × 2 extremos | terminación | Propuesta de 24 fibras |
 | Adaptadores LC dúplex | redondeo superior(terminaciones individuales ÷ 2) | adaptador | Solo si se terminan todas las fibras con LC dúplex |
+| Cassettes pre-pigtailed 12F | 11 enlaces verticales × 2 extremos | cassette | 22; arquitectura provisional CCH, incluye pigtails/adaptadores/protectores |
+| Cassettes pre-pigtailed 24F | 3 enlaces exteriores × 2 extremos | cassette | 6; arquitectura provisional CCH, incluye pigtails/adaptadores/protectores |
 
 ## Resultados de capacidad comprobados
 
@@ -43,6 +45,14 @@
 - **Cable:** longitud física de cada cable más reserva aprobada; no equivale a metros de ducto.
 - **Fibras:** cantidad de hilos dentro de cada cable (12 o 24); no es longitud ni número de cables.
 - **Cajas:** seis posiciones intermedias teóricas en los tramos de 145 m y 50 m combinados (cinco y una respectivamente); no constituyen una cantidad de compra.
+- **Terminación óptica:** 408 empalmes/pigtails funcionales y 204 adaptadores LC dúplex continúan siendo controles de capacidad. Si se adopta la arquitectura provisional de cassettes pre-pigtailed, esos elementos vienen incluidos y la compra separada es cero; no se deben duplicar.
+
+## Límites inferiores calculables sin inventar recorridos
+
+- Enlace E1: `145 + 50 = 195 m` de ruta base reportada/propuesta, antes de entradas, reserva y ajustes; no es metraje de cable a comprar.
+- Desnivel vertical acumulado A: `(0+1+2+3) × 3,5 = 21 m`.
+- Desnivel vertical acumulado B: `(0+1+2+3+4+5+6) × 3,5 = 73,5 m`.
+- Total de desnivel: `94,5 m`. Es un límite inferior basado en altura de piso no medida; excluye recorridos horizontales, entrada a cuartos y reservas.
 
 ## Variables que impiden cerrar metrajes
 

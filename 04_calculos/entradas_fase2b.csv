@@ -12,6 +12,7 @@ PANEL_ADICIONAL_SI_LLENO,1,panel/TR,supuesto de reserva,DISENO_INTEGRADO_REFEREN
 FIBRAS_VERTICAL,12,fibra/enlace,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
 FIBRAS_EXTERIOR,24,fibra/enlace,supuesto de diseno,DISENO_INTEGRADO_REFERENCIA_FASE2.md,provisional
 ENLACES_EXTERIORES,3,enlace,dato establecido por docente,INA-005/INA-006,confirmado
+USAR_CASSETTE_PREPIGTAIL,1,indicador 0/1,supuesto de arquitectura de terminacion,MATRIZ_TECNICA_FASE2C.md,provisional
 ALTURA_PISO,3.5,m,supuesto de diseno,REGISTRO_MEDICIONES_Y_SUPUESTOS_CHAT.md,no medida
 DUCTO_EXISTENTE,145,m ducto,dato reportado por estudiante,CAM-01,requiere verificacion
 DUCTO_NUEVO_A,50,m ducto,propuesta de diseno,CAM-03,destino por verificar

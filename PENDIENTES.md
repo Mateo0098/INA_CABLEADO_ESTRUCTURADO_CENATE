@@ -1,6 +1,6 @@
 # Pendientes priorizados
 
-**Última actualización:** 2026-10-18
+**Última actualización:** 2026-10-25
 
 No ejecutar los trabajos técnicos de esta lista sin abrir y documentar la etapa correspondiente.
 
@@ -82,3 +82,24 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Cerrar compatibilidad de paneles, jacks, cable, ODF/cassettes, racks, patch cords y equipos activos.
 - [ ] Revisar y trasladar manualmente al Excel solo cantidades aprobadas; eliminar ejemplos didácticos en la copia, mantener precios vacíos y probar recálculo.
 - [ ] Ejecutar revisión humana técnica de todos los contenidos asistidos por IA y preparar la defensa individual.
+
+## Checkpoint Fase 2C — 2026-10-25
+
+### Completado y verificado
+
+- [x] Inspeccionar los nueve pares SVG/PNG y corregir los tres archivos fuente afectados por solapamiento o ambigüedad de ruta; reexportar sus PNG.
+- [x] Consolidar cada componente de Fase 2B con figuras, resultados de cálculo, clasificación comercial y fuente oficial disponible.
+- [x] Evitar doble conteo de terminaciones de fibra al modelar 22 cassettes de 12 fibras y 6 cassettes de 24 fibras como escenario provisional.
+- [x] Preparar planes de transferencia para las filas 2–18 de materiales y 2–13 de herramientas, sin editar automáticamente la plantilla Excel ni incorporar precios.
+- [x] Clasificar variables resolubles por escenario y variables que requieren evidencia adicional.
+- [x] Preparar paquete de revisión con 33 archivos inventariados por SHA-256 y guía de exposición de al menos ocho minutos.
+- [x] Ejecutar 124/124 controles de Fase 2C y conservar 63/63 controles de regresión de Fase 2B.
+
+### Bloqueos críticos antes de entregar
+
+- [ ] Obtener revisión humana del estudiante sobre imágenes, cálculos, productos candidatos y explicación de fórmulas.
+- [ ] Confirmar con el docente dos RJ45 por área doble y el tratamiento de la fórmula preexistente `J43`.
+- [ ] Completar o aceptar formalmente las mediciones de rutas de cobre, fibra, reservas, cajas y canalizaciones; E2 y E3 no tienen metraje confirmado.
+- [ ] Verificar compatibilidad integral y disponibilidad local de cassettes/ODF, racks, organizadores, patch cords y equipos activos; no hay referencia final para todos los componentes.
+- [ ] Trasladar manualmente al Excel solo filas y cantidades aprobadas, retirar ejemplos didácticos, mantener precios vacíos y probar recálculo en la aplicación que usará el estudiante.
+- [ ] Ensayar la exposición y ajustar la guía a la comprensión y evidencia disponible del estudiante.

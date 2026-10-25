@@ -1,0 +1,13 @@
+fila_excel,herramienta_funcional,cantidad_referencia,estado,relacion_metodo,accion_estudiante
+2,Guía pasacables y elementos de tiro,,PENDIENTE_CUADRILLA,Canalización subterránea e interior,Definir cantidad según cuadrilla
+3,Lubricante compatible con cable y ducto,,PENDIENTE_PRODUCTO,Tendido en ducto,Verificar compatibilidad del fabricante
+4,Soporte de bobina y control de tensión/radio,,PENDIENTE_CUADRILLA,Tendido de cobre y fibra,Definir procedimiento
+5,Herramienta de terminación compatible con jack/panel,,PENDIENTE_SISTEMA,Terminación Cat 6A,Seleccionar tras aprobar sistema Panduit
+6,Cortador y pelador de cable de cobre,,PENDIENTE_CUADRILLA,Preparación Cat 6A,Definir cantidad por técnico
+7,Fusionadora de fibra óptica,,PENDIENTE_MODELO,Empalmes OS2,Verificar calibración y procedimiento
+8,Cortadora de precisión y peladora de fibra,,PENDIENTE_MODELO,Preparación OS2,Verificar compatibilidad
+9,Fuente y medidor óptico compatibles con OS2,,PENDIENTE_PROCEDIMIENTO,Comprobación óptica,Definir longitudes de onda y método
+10,OTDR compatible con OS2,,PENDIENTE_PROCEDIMIENTO,Caracterización de enlaces,Confirmar si corresponde al procedimiento académico
+11,Certificador Cat 6A con adaptadores de enlace permanente,,PENDIENTE_CALIBRACION,Certificación de cobre,Verificar calibración vigente
+12,Etiquetadora,,PENDIENTE_CUADRILLA,Identificación,Definir consumibles y esquema
+13,Herramientas de montaje de rack y nivel,,PENDIENTE_CUADRILLA,Montaje,Definir según rack final
