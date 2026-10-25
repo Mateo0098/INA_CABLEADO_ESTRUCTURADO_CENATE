@@ -1,0 +1,36 @@
+id,formula,resultado,unidad,clasificacion,dependencias,estado
+A_LABS,A_PISOS*A_LABS_PISO,20,laboratorio,resultado calculado,A_PISOS;A_LABS_PISO,calculado
+A_AREAS,A_LABS*AREAS_DOBLES_LAB,320,area doble,resultado calculado,A_LABS;AREAS_DOBLES_LAB,calculado
+A_RJ45,A_AREAS*RJ45_AREA_DOBLE,640,puerto/enlace,resultado condicionado,A_AREAS;RJ45_AREA_DOBLE,provisional
+A_RJ45_TR,A_LABS_PISO*AREAS_DOBLES_LAB*RJ45_AREA_DOBLE,160,puerto/TR,resultado condicionado,A_LABS_PISO;AREAS_DOBLES_LAB;RJ45_AREA_DOBLE,provisional
+A_PANELES_TR,"CEIL(RJ45_TR/PUERTOS_PANEL_COBRE)+IF(MOD(RJ45_TR,PUERTOS_PANEL_COBRE)=0,PANEL_ADICIONAL_SI_LLENO,0)",4,panel/TR,resultado condicionado,A_RJ45_TR;PUERTOS_PANEL_COBRE;PANEL_ADICIONAL_SI_LLENO,provisional
+A_PANELES_TOTAL,A_PANELES_TR*A_PISOS,16,panel,resultado condicionado,A_PANELES_TR;A_PISOS,provisional
+A_CAPACIDAD_PANEL,A_PANELES_TOTAL*PUERTOS_PANEL_COBRE,768,puerto,resultado condicionado,A_PANELES_TOTAL;PUERTOS_PANEL_COBRE,provisional
+A_PUERTOS_LIBRES,A_CAPACIDAD_PANEL-A_RJ45,128,puerto,resultado condicionado,A_CAPACIDAD_PANEL;A_RJ45,provisional
+A_CABLE_COBRE,A_RJ45*LONG_PROM_COBRE_A*(1+DESPERDICIO_COBRE/100),N/D,m cable,resultado pendiente,A_RJ45;LONG_PROM_COBRE_A;DESPERDICIO_COBRE,pendiente de entradas
+B_LABS,B_PISOS*B_LABS_PISO,42,laboratorio,resultado calculado,B_PISOS;B_LABS_PISO,calculado
+B_AREAS,B_LABS*AREAS_DOBLES_LAB,672,area doble,resultado calculado,B_LABS;AREAS_DOBLES_LAB,calculado
+B_RJ45,B_AREAS*RJ45_AREA_DOBLE,1344,puerto/enlace,resultado condicionado,B_AREAS;RJ45_AREA_DOBLE,provisional
+B_RJ45_TR,B_LABS_PISO*AREAS_DOBLES_LAB*RJ45_AREA_DOBLE,192,puerto/TR,resultado condicionado,B_LABS_PISO;AREAS_DOBLES_LAB;RJ45_AREA_DOBLE,provisional
+B_PANELES_TR,"CEIL(RJ45_TR/PUERTOS_PANEL_COBRE)+IF(MOD(RJ45_TR,PUERTOS_PANEL_COBRE)=0,PANEL_ADICIONAL_SI_LLENO,0)",5,panel/TR,resultado condicionado,B_RJ45_TR;PUERTOS_PANEL_COBRE;PANEL_ADICIONAL_SI_LLENO,provisional
+B_PANELES_TOTAL,B_PANELES_TR*B_PISOS,35,panel,resultado condicionado,B_PANELES_TR;B_PISOS,provisional
+B_CAPACIDAD_PANEL,B_PANELES_TOTAL*PUERTOS_PANEL_COBRE,1680,puerto,resultado condicionado,B_PANELES_TOTAL;PUERTOS_PANEL_COBRE,provisional
+B_PUERTOS_LIBRES,B_CAPACIDAD_PANEL-B_RJ45,336,puerto,resultado condicionado,B_CAPACIDAD_PANEL;B_RJ45,provisional
+B_CABLE_COBRE,B_RJ45*LONG_PROM_COBRE_B*(1+DESPERDICIO_COBRE/100),N/D,m cable,resultado pendiente,B_RJ45;LONG_PROM_COBRE_B;DESPERDICIO_COBRE,pendiente de entradas
+TOTAL_LABS,A_LABS+B_LABS,62,laboratorio,resultado calculado,A_LABS;B_LABS,calculado
+TOTAL_AREAS,A_AREAS+B_AREAS,992,area doble,resultado calculado,A_AREAS;B_AREAS,calculado
+TOTAL_RJ45,A_RJ45+B_RJ45,1984,puerto/enlace,resultado condicionado,A_RJ45;B_RJ45,provisional
+TOTAL_PANELES,A_PANELES_TOTAL+B_PANELES_TOTAL,51,panel,resultado condicionado,A_PANELES_TOTAL;B_PANELES_TOTAL,provisional
+TOTAL_TR,A_PISOS+B_PISOS,11,TR,resultado calculado,A_PISOS;B_PISOS,calculado
+CABLES_VERTICAL,TOTAL_TR,11,cable de fibra,resultado condicionado,TOTAL_TR,provisional
+FIBRAS_TERM_VERTICAL,TOTAL_TR*FIBRAS_VERTICAL*2_EXTREMOS,264,terminacion de fibra,resultado condicionado,TOTAL_TR;FIBRAS_VERTICAL,provisional
+FIBRAS_TERM_EXTERIOR,ENLACES_EXTERIORES*FIBRAS_EXTERIOR*2_EXTREMOS,144,terminacion de fibra,resultado condicionado,ENLACES_EXTERIORES;FIBRAS_EXTERIOR,provisional
+PIGTAILS_Y_EMPALMES,FIBRAS_TERM_VERTICAL+FIBRAS_TERM_EXTERIOR,408,unidad,resultado condicionado,FIBRAS_TERM_VERTICAL;FIBRAS_TERM_EXTERIOR,provisional
+ADAPTADORES_LC_DUPLEX,CEIL(TOTAL_TERMINACIONES_FIBRA/2),204,adaptador duplex,resultado condicionado,PIGTAILS_Y_EMPALMES,provisional
+PATCH_CORD_COBRE_USUARIO,TOTAL_RJ45,1984,patch cord,resultado condicionado,TOTAL_RJ45,provisional
+PATCH_CORD_COBRE_RACK,TOTAL_RJ45,1984,patch cord,resultado condicionado,TOTAL_RJ45,provisional
+PLACAS_DOBLES,TOTAL_AREAS,992,placa/caja,resultado condicionado,TOTAL_AREAS,provisional
+JACKS_CAT6A,TOTAL_RJ45,1984,jack,resultado condicionado,TOTAL_RJ45,provisional
+DUCTO_EXISTENTE_REFERENCIA,DUCTO_EXISTENTE,145,m ducto,dato reportado,DUCTO_EXISTENTE,verificar; no comprar
+DUCTO_NUEVO_PROPUESTO,DUCTO_NUEVO_A,50,m ducto,propuesta,DUCTO_NUEVO_A,destino/ruta por verificar
+POSICIONES_CAJAS_145M,FLOOR(DUCTO_EXISTENTE/SEPARACION_CAJAS_REF),5,posicion intermedia teorica,resultado orientativo,DUCTO_EXISTENTE;SEPARACION_CAJAS_REF,no es cantidad de compra

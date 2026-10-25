@@ -121,3 +121,39 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 | 2026-10-18 | D-008 y D-009 | Control de fuentes y plantilla | Inventario local, hashes y auditoría OOXML | Fase 1 parcial; fuentes oficiales pendientes |
 | 2026-10-18 | D-005, D-006, D-008 a D-010 | Cotejo y cierre oficial | F-005, F-006, F-007 y plantilla auditada | Corrige procedencias, define 76 requisitos y cierra Fase 1 |
 | 2026-10-18 | D-010 | Recuperación de sesión | Commits remotos 0a65211, 281bc09 y 6e086ea | Integra datos, arquitectura conceptual y transferencia sin conflictos |
+
+## D-011 — Identificación y geometría de referencia de Fase 2B
+
+- **Clasificación:** decisión de diseño provisional.
+- **Identificadores adoptados:** `ER-P`, `ER-A`, `ER-B`, `TR-{edificio}-P{piso}`, `LAB-{edificio}-P{piso}-L{número}` y `AT-{01..16}`.
+- **Representación:** nueve SVG editables y nueve PNG 1600×1000 en `07_imagenes/fase2b/`, generados por un script reproducible.
+- **Condición:** los esquemas no están a escala. Las geometrías de laboratorios, pasillos, ER/TR, ubicación en planta baja y alineación vertical siguen clasificadas como supuestos de diseño.
+- **Procedencia:** apoyo visual de OpenAI Codex; revisión humana obligatoria antes de entrega.
+
+## D-012 — Capacidad pasiva provisional de cobre
+
+- **Supuesto:** una “área de trabajo doble” se modela con dos puertos RJ45; continúa pendiente de confirmación docente.
+- **Resultado condicionado:** A = 640 enlaces, B = 1 344, total = 1 984.
+- **Paneles:** 48 puertos. Se adopta provisionalmente una regla reproducible: redondear hacia arriba y agregar un panel cuando la división exacta dejaría cero posiciones libres.
+- **Resultado:** A = 4 paneles/TR y 16 totales; B = 5 paneles/TR y 35 totales; total = 51 paneles, con 464 posiciones libres.
+- **Limitación:** los metros de cable permanecen `N/D` hasta medir rutas y aprobar desperdicio. Los 90 m son límite, no longitud asumida.
+
+## D-013 — Capacidad pasiva provisional de fibra
+
+- **Supuesto de diseño:** 12 fibras OS2 por cada uno de los 11 enlaces ER–TR y 24 fibras OS2 por cada uno de los tres enlaces exteriores.
+- **Resultado condicionado:** 264 terminaciones individuales verticales + 144 exteriores = 408 terminaciones/pigtails/empalmes si se terminan todas las fibras; 204 adaptadores LC dúplex bajo esa misma condición.
+- **Separación de magnitudes:** cantidad de fibras, cantidad de cables, metros de cable y metros de ducto se registran por separado.
+- **Limitación:** `x`, `y`, reservas y recorridos internos continúan pendientes; 145 m y 50 m no se replican automáticamente entre los tres enlaces.
+
+## D-014 — Materiales candidatos y Excel de trabajo
+
+- **Especificaciones verificadas de fabricante:** se documentaron candidatos oficiales de Panduit y Corning para panel Cat 6A, jack Cat 6A, cable Cat 6A, cables OS2 de 12/24 fibras, pigtail LC/UPC y adaptador LC dúplex.
+- **Estado comercial:** candidatos, no selección final; disponibilidad local, compatibilidad integral y cantidades dependientes de medición siguen pendientes.
+- **Excel:** se creó `06_excel/Plantilla Actividades de comprobación_TRABAJO_FASE2B.xlsx` como copia byte a byte del original. Ambos conservan SHA-256 `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6` y `J43=SUM(J2:J41)`.
+- **Decisión académica:** la copia no fue llenada automáticamente con IA. La correspondencia para traslado manual revisado está en `06_excel/CORRESPONDENCIA_FASE2B.md`; no contiene precios.
+
+## Historial de cambios de decisión — Fase 2B
+
+| Fecha | ID | Cambio | Motivo / evidencia | Impacto |
+|---|---|---|---|---|
+| 2026-10-25 | D-011 a D-014 | Implementación documental de Fase 2B | Nueve diseños, modelo reproducible, matriz técnica, copia Excel y 63 controles automáticos | Avance verificable; metrajes, selección final y llenado manual del Excel continúan pendientes |

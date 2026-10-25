@@ -52,15 +52,16 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 1 cerrada — requisitos oficiales auditados; diseño aún no iniciado.
+**Etapa:** Fase 2B en implementación — nueve diseños y modelo de capacidad preparados; metrajes y selección final pendientes.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
 - Matriz con 76 requisitos oficiales `INA-*` y trazabilidad de los 38 registros contextuales `CTX-*`.
 - No existe una rúbrica independiente; se controlan los criterios de evaluación incluidos en el enunciado.
 - Plantilla Excel oficial operativa preservada sin modificación, auditada y compatible con las instrucciones.
-- Entregables gráficos mínimos: cinco imágenes base del enunciado más cuatro imágenes ER/TR de la actualización; total mínimo de nueve, ampliable si existen variaciones.
-- Decisiones técnicas definitivas, levantamiento de campo, cálculos, selección de materiales e imágenes: pendientes.
+- Entregables gráficos preliminares: nueve SVG editables y nueve PNG de 1600×1000 en `07_imagenes/fase2b/`, sujetos a revisión humana y a las mediciones pendientes.
+- Modelo reproducible de capacidad y matriz de materiales candidatos disponibles; los metrajes, la selección integral de productos y las cantidades dependientes de campo permanecen pendientes.
+- Copia Excel de trabajo creada y preservada sin llenado automático; el original permanece intacto.
 - La primera actividad no debe incluir precios ni costos.
 - La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 
