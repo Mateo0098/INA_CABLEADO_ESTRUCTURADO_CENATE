@@ -4,7 +4,7 @@
 **Fase:** 3A — guía de transferencia y cierre operativo
 **Rama observada:** `desarrollo-proyecto`
 **HEAD previo:** `846900b0dda373813c0a9a8e52ec30056d1184c7`
-**Sincronización/publicación:** tras la recuperación puntual de permisos se ejecutó `git fetch origin`; `HEAD...origin/desarrollo-proyecto` indicó `0 0` antes del commit. El SHA final queda registrado en este reporte y en el índice tras crear el commit.
+**Sincronización/publicación:** tras la recuperación puntual de permisos se ejecutó `git fetch origin`; `HEAD...origin/desarrollo-proyecto` indicó `0 0` antes de integrar. Commit de implementación: `4c264247ab5d05b7f3e30de4e9147b376e6450f5`. El reporte y el índice se actualizan en el commit documental siguiente; ambos se publicarán juntos.
 
 ## Objetivo y alcance
 
@@ -106,6 +106,6 @@ Comandos que el estudiante puede ejecutar al disponer de su copia: `python 09_au
 
 - **Rama:** `desarrollo-proyecto`.
 - **HEAD previo:** `846900b0dda373813c0a9a8e52ec30056d1184c7`.
-- **SHA de implementación/publicación:** se completará en este reporte luego de crear el commit; el índice de transferencia lo reflejará.
-- **Publicación:** `origin/desarrollo-proyecto`; `main` sin cambios.
+- **SHA de implementación:** `4c264247ab5d05b7f3e30de4e9147b376e6450f5`.
+- **Publicación:** commit de implementación y actualización del reporte/índice se publicarán juntos en `origin/desarrollo-proyecto`; `main` sin cambios.
 - **Siguiente acción:** el estudiante completa y valida su copia personal.

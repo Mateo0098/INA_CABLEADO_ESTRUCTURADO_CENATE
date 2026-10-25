@@ -9,7 +9,8 @@
 **Rama local observada:** `desarrollo-proyecto`
 **HEAD local al inicio:** `846900b0dda373813c0a9a8e52ec30056d1184c7`
 **Sincronización:** `git fetch origin` completado; divergencia previa `0 0`.
-**Commit de esta fase:** se completará aquí tras crear y publicar el commit en `origin/desarrollo-proyecto`.
+**Commit de implementación:** `4c264247ab5d05b7f3e30de4e9147b376e6450f5`.
+**Publicación:** los cambios de implementación y la actualización final de este índice se publican juntos en `origin/desarrollo-proyecto`.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
