@@ -1,23 +1,24 @@
 # Último reporte Codex — índice de transferencia
 
 **Actualizado:** 2026-10-25
-**Fase:** 3B — Excel INA completado
+**Fase:** 4 — consolidación final INA CENATE
 
-**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-25_FASE3B_EXCEL_COMPLETADO.md`
-**Estado:** XLSX creado, empaquetado y validado por 135 controles. No hay precios; el original permanece intacto. Revisión humana y mediciones reales siguen pendientes.
+**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-25_FASE4_CONSOLIDACION_FINAL.md`
+**Paquete:** `08_entrega/ENTREGA_FINAL_INA_CENATE/`
+**Estado:** paquete autónomo creado; validador Excel 135/135; nueve PNG revisados visualmente; integridad y hashes del paquete comprobados. Excel no visualizado en aplicación de escritorio.
 
 **Rama:** `desarrollo-proyecto`
-**Commit de implementación:** `2ef7816056dbb579e00cdc7021cd8487988d36b7`
-**Publicación:** el commit de implementación, reporte e índice se publican juntos en `origin/desarrollo-proyecto`; `main` sin cambios.
+**Commit de implementación:** `2ba3776` (`docs: consolidar paquete final INA Fase 4`).
+**Publicación:** reporte e índice se incluyen en el commit documental de cierre; el SHA final se confirma en la respuesta terminal. `main` sin cambios.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
-- **HECHO:** `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` y su copia en `08_entrega/PAQUETE_REVISION_FASE3B/` contienen ambas hojas completadas y sin costos.
-- **VERIFICADO:** 135/135 controles; fórmulas/cachés, OOXML, estilos, estructura, original, cantidades y nueve diseños revisados.
-- **PENDIENTE:** aceptación académica humana; mediciones para sustituir supuestos de E1/E2/E3 y comprobación final en Excel de escritorio, que no está disponible en el entorno.
+- **HECHO:** paquete con XLSX, nueve PNG, nueve SVG, memoria técnica resumida y guía individual de defensa de 8–9 minutos.
+- **VERIFICADO:** 135/135 controles Fase 3B; formatos/cantidades y coincidencia de copias; inventario SHA-256 de 22 archivos; inspección visual de nueve PNG.
+- **PENDIENTE:** estudiante revisa y practica el material; Excel/LibreOffice de escritorio no disponibles para revisión visual; rutas y canalizaciones siguen sujetas a verificación de campo/fabricante.
 
 ## Hasta tres prioridades siguientes
 
-1. El estudiante revisa las reglas del curso, hipótesis, fórmulas, referencias candidatas y explicabilidad del XLSX antes de presentarlo.
-2. Reemplazar rutas/supuestos exteriores y decisiones preliminares de canalización con evidencia del sitio y fichas seleccionadas.
-3. Abrir y comprobar recálculo/impresión en la aplicación de entrega.
+1. Revisión selectiva de ChatGPT: leer este índice, el reporte Fase 4 y los artefactos decisivos del paquete.
+2. El estudiante ensaya la guía y demuestra comprensión de fórmulas y supuestos.
+3. Abrir el XLSX en la aplicación de entrega cuando esté disponible y verificar presentación/impresión.
