@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 4 — paquete final organizado y preparado para revisión selectiva; el escenario Excel pasó controles OOXML/fórmulas, pero requiere revisión académica humana y no se observó en Excel de escritorio.
+**Etapa:** Fase 4 — paquete final organizado; XLSX regenerado desde la plantilla mediante Excel 16 COM y abierto con éxito en Excel. Revisión académica humana y supuestos de campo siguen pendientes.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -68,7 +68,8 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - El paquete histórico Fase 2D se conserva sin cambios. El escenario Fase 3B adopta x=75 m y y=50 m para E2/E3 y un circuito dúplex activo por enlace; son supuestos académicos, no mediciones.
 - Paquete Fase 3B disponible en `08_entrega/PAQUETE_REVISION_FASE3B/`, con libro completado, memoria complementaria y nueve pares de imágenes actualizados.
 - Paquete final autocontenido Fase 4 en `08_entrega/ENTREGA_FINAL_INA_CENATE/`, con Excel, nueve PNG, nueve SVG, memoria resumida y guía individual de defensa de al menos ocho minutos; incluye inventario SHA-256.
-- Revisión visual de los nueve PNG realizada el 2026-10-25: textos, identificación ER/TR y conexiones comprensibles; sin correcciones necesarias. Excel y SVG no se comprobaron visualmente en aplicaciones de escritorio.
+- Revisión visual de los nueve PNG realizada el 2026-10-25: textos, identificación ER/TR y conexiones comprensibles; sin correcciones necesarias. No se hizo inspección visual en pantalla del XLSX ni los SVG; Excel sí abrió el XLSX por COM.
+- Corrección crítica Fase 4: `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` se regeneró desde la plantilla usando Excel 16 COM; Excel abrió y guardó una copia de prueba y abrió también la ruta final empaquetada. Causa anterior: pérdida de declaraciones de prefijos OOXML por serialización manual con ElementTree.
 - La primera actividad no debe incluir precios ni costos.
 - La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 

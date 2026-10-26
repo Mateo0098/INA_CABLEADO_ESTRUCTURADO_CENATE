@@ -249,3 +249,13 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Fuentes:** libro de `06_excel/`, diseños de `07_imagenes/fase2b/` y cantidades/supuestos de `04_calculos/MEMORIA_CANTIDADES_FASE3B.md`.
 - **Revisión visual:** los nueve PNG se revisaron el 2026-10-25; no se observaron errores que requieran corrección. No se pudo abrir visualmente el XLSX en Excel/LibreOffice.
 - **Procedencia IA:** memoria y guía preparadas con apoyo de OpenAI Codex; el estudiante debe revisar y comprender el contenido antes de presentarlo.
+
+## D-024 — Reparacion de compatibilidad Microsoft Excel del libro Fase 4
+
+- **Clasificacion:** correccion del formato del entregable; no cambia materiales, formulas, cantidades ni decisiones tecnicas Fase 3B.
+- **Fecha:** 2026-10-25.
+- **Causa confirmada:** `09_auditorias/crear_excel_fase3b.py` modificaba libro y hojas como XML con `xml.etree.ElementTree`. ElementTree descarto declaraciones de espacios de nombres referenciadas por `mc:Ignorable`/`mc:Requires`; el XML retuvo prefijos como `x15`, `xr`, `xr6`, `xr10`, `xr2` y `x14ac` pero perdio sus declaraciones `xmlns`. Microsoft Open XML SDK reporto seis errores `MC_InvalidIgnorableAttribute`/`MC_InvalidRequiresAttribute`; la plantilla original reporto cero. Excel 16 COM rechazo el libro defectuoso con HRESULT `0x800A03EC`.
+- **Correccion:** regenerar desde la plantilla original mediante Microsoft Excel 16 COM. Datos y formulas se escribieron por la interfaz de hojas de calculo, sin alterar XML a mano. El autorrelleno de formulas de tabla se desactivo solo durante esa sesion COM y se restauro al valor previo; no se cambio configuracion global.
+- **Verificacion real:** Excel abrio la plantilla, el archivo regenerado, una copia de prueba guardada y reabierta, y la ruta final del paquete. Se comprobaron las dos hojas, las 29 formulas/cantidades de materiales, herramientas y ausencia de precios. Open XML SDK reporta cero errores en los dos entregables finales. La plantilla conserva SHA-256 `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`.
+- **Preservacion:** el libro defectuoso se respaldo fuera del paquete final en `09_auditorias/evidencias/Excel_COM/INA_CENATE_ACTIVIDAD_1_COMPLETADA_DEFECTUOSO_2026-10-25.xlsx`, SHA-256 `1A1CC4B4A825C21BF7C421B106235D9C921BCA4A42C384209E4F9408A7B7D530`.
+- **Procedencia:** `09_auditorias/regenerar_excel_fase4.ps1` toma la matriz aprobada existente en `crear_excel_fase3b.py`; el libro fue regenerado con asistencia de OpenAI Codex y requiere revision academica del estudiante.

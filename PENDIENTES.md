@@ -197,3 +197,24 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] No hay Excel/LibreOffice en el entorno: apertura y presentación visual del libro sin verificar.
 - [ ] Revisión académica y ensayo final por el estudiante.
 - [ ] Mediciones reales, aceptación de supuestos de rutas y selección final de canalizaciones siguen fuera de este escenario.
+
+## Correccion critica del XLSX Fase 4 — 2026-10-25
+
+### HECHO
+
+- [x] Confirmar que la plantilla abre en Microsoft Excel 16 y el XLSX anterior falla con HRESULT `0x800A03EC`.
+- [x] Identificar seis errores de compatibilidad en espacios de nombres OOXML, causados por serializacion XML manual en el generador anterior.
+- [x] Respaldar el XLSX defectuoso fuera del paquete final.
+- [x] Regenerar desde la plantilla intacta mediante Excel COM, con datos existentes y calculo nativo.
+- [x] Actualizar las copias de `06_excel/` y `08_entrega/ENTREGA_FINAL_INA_CENATE/` solo despues de pasar pruebas.
+
+### VERIFICADO
+
+- [x] Microsoft Excel 16 abrio la salida, guardo y reabrio una copia de prueba, y abrio la ruta final con dos hojas.
+- [x] Excel comprobo 29 formulas/cantidades de materiales, 11 cantidades de herramientas y ausencia de precios.
+- [x] Open XML SDK: 0 errores en ambas copias finales; el respaldo defectuoso conserva los 6 errores reportados.
+- [x] Original INA intacto; copias finales identicas; inventario SHA-256 actualizado.
+
+### PENDIENTE
+
+- [ ] Revision academica personal del estudiante; las rutas, canalizaciones y demas supuestos del escenario siguen siendo provisionales.
