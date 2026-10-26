@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 2D — cantidades de escenario y correspondencia Excel preparadas; la entrega final continúa condicionada por revisión humana y variables indispensables.
+**Etapa:** Fase 3B — libro de escenario Excel completado y validado por controles OOXML/fórmulas; requiere revisión académica del estudiante y las hipótesis de ruta/canalización siguen siendo provisionales.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -61,16 +61,17 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - Plantilla Excel oficial operativa preservada sin modificación, auditada y compatible con las instrucciones.
 - Entregables gráficos preliminares: nueve SVG editables y nueve PNG de 1600×1000 en `07_imagenes/fase2b/`, sujetos a revisión humana y a las mediciones pendientes.
 - Modelo reproducible de capacidad y matriz de materiales candidatos disponibles; los metrajes, la selección integral de productos y las cantidades dependientes de campo permanecen pendientes.
-- Copia Excel de trabajo creada y preservada sin llenado automático; el original permanece intacto.
+- El original INA y la copia de trabajo Fase 2B se conservan intactos. `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` es un libro adicional asistido por IA, preparado bajo el escenario Fase 3B y no sustituye la revisión/comprensión del estudiante.
 - Paquete de revisión Fase 2C disponible en `08_entrega/PAQUETE_REVISION_FASE2C/`, con imágenes, soporte técnico, planes de transferencia al Excel, fuentes reproducibles e inventario SHA-256.
 - Guía de exposición individual de al menos ocho minutos disponible en `08_entrega/GUIA_EXPOSICION_8_MIN_FASE2C.md`.
 - Escenario Fase 2D reproducible: recorridos de cobre verificados contra 90 m, fibra vertical por piso, sistema CCH por cuarto y plan de Excel para filas 2–27.
-- Paquete actualizado en `08_entrega/PAQUETE_REVISION_FASE2D/`; E2/E3, canalizaciones y puertos activos siguen explícitamente pendientes.
+- El paquete histórico Fase 2D se conserva sin cambios. El escenario Fase 3B adopta x=75 m y y=50 m para E2/E3 y un circuito dúplex activo por enlace; son supuestos académicos, no mediciones.
+- Paquete Fase 3B disponible en `08_entrega/PAQUETE_REVISION_FASE3B/`, con libro completado, memoria complementaria y nueve pares de imágenes actualizados.
 - La primera actividad no debe incluir precios ni costos.
 - La entrega y defensa individual son el 29 de octubre de 2026; la exposición debe durar al menos ocho minutos efectivos.
 
 ## Trazabilidad y uso de IA
 
-La estructura y la organización documental inicial fueron preparadas el 18 de octubre de 2026 con asistencia de OpenAI Codex. El enunciado permite IA solo como apoyo conceptual, organizativo, lingüístico, de fórmulas comprendidas y visual. Prohíbe usarla como fuente técnica, para resolver directamente cálculos, generar automáticamente el Excel, sustituir el criterio del estudiante o aportar especificaciones sin verificación. El estudiante debe elaborar, comprender y defender personalmente todo contenido técnico.
+La estructura y la organización documental inicial fueron preparadas el 18 de octubre de 2026 con asistencia de OpenAI Codex. El enunciado permite IA solo como apoyo conceptual, organizativo, lingüístico, de fórmulas comprendidas y visual. Prohíbe usarla como fuente técnica, para resolver directamente cálculos, generar automáticamente el Excel, sustituir el criterio del estudiante o aportar especificaciones sin verificación. El libro Fase 3B se generó por solicitud expresa del usuario, pero esta intervención no modifica el requisito académico: el estudiante debe revisar si puede entregar un artefacto asistido, comprender, corregir y defender personalmente todo contenido técnico.
 
 Antes de trabajar, leer `README.md`, `DECISIONES.md`, `PENDIENTES.md` y `AGENTS.md`.

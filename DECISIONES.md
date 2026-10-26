@@ -226,3 +226,17 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Fibra/canalización:** cassettes y housings conservan arquitectura sin pigtails/adaptadores duplicados; E2/E3 permanecen paramétricos; se separa longitud de canalización de sección/diámetro/producto.
 - **Herramientas:** tabla de 12 filas (2–13), con cantidad de escenario para una cuadrilla y distinción de herramientas reutilizables frente a lubricante/consumibles variables; sin marcas/modelos inventados.
 - **Historial:** no se sobrescribe la decisión docente pendiente sobre `J43`; fórmula original `SUM(J2:J41)` y columnas económicas sin montos deben tratarse según confirmación docente.
+
+## D-022 — Libro de escenario completado y supuestos exteriores Fase 3B
+
+- **Clasificación:** decisión de diseño académica solicitada por el usuario; distancias y dimensionamiento de canalización son supuestos, no mediciones ni especificaciones verificadas de fabricante.
+- **Fecha:** 2026-10-25.
+- **Decisión:** producir `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` y su copia en `08_entrega/PAQUETE_REVISION_FASE3B/`, partiendo del original sin modificar; mantener estructura/estilos de las dos hojas y celdas de costo vacías.
+- **Supuestos adoptados:** 16 áreas dobles por laboratorio, dos RJ45 por área, un TR/piso, reserva de cobre de 3 m por enlace, 5 % de desperdicio y geometría Fase 2D.
+- **Estimaciones de fibra exterior:** x=75 m para E2 (tres intervalos teóricos de 25 m) e y=50 m para E3 (dos intervalos); diagramas esquemáticos sin escala y 25 m no normativos. E1 se conserva como escenario 145+50 m hacia A. Ninguna es medición de campo.
+- **Resultados derivados nuevos:** E1 221,55 m; E2 247,8 m; E3 69,3 m de cable 24F; total exterior 538,65 m. Fibra activa: un circuito dúplex por cada uno de 14 enlaces, 28 patch cords, dos por enlace (uno por extremo).
+- **Canalización preliminar genérica:** bandeja 100×50 mm/3 m (478 tramos); bajantes PVC nominal 25 mm/3 m, dos Cat 6A (1 042 tramos); ducto exterior nominal 50 mm (50 m propuestos). Sección/diámetro interior, ocupación, carga, trazado y accesorios requieren verificación antes de construcción/compra. No se inventa fabricante.
+- **Otros consumibles:** 3 968 etiquetas como supuesto de dos por enlace; lubricante de tiro queda variable y claramente clasificado como consumible, no herramienta.
+- **Terminación y costos:** 0 pigtails y 0 adaptadores separados bajo arquitectura de cassette integrado. En la copia se limpia `J43` y se rotula la fila como cantidades sin costos; I/J no contienen importes. El original se mantiene byte a byte intacto.
+- **Procedencia/revisión humana:** XLSX y gráficas preparados con asistencia de OpenAI Codex por petición del usuario; revisar restricciones académicas, hipótesis y fórmulas, y defender individualmente el contenido. Esta decisión no cambia las reglas oficiales del curso.
+- **Verificación:** `09_auditorias/validar_excel_fase3b.py`, 135/135 controles; OOXML/XML parseable, fórmulas y cachés coincidentes, estilos y SHA del original preservados. No hubo Microsoft Excel/LibreOffice para observar recálculo visual.

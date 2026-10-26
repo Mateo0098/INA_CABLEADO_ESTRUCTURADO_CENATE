@@ -153,3 +153,26 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 ### Publicación Fase 3A
 
 - [x] Recuperar la escritura mediante elevación puntual de Git; `git fetch origin` completado, divergencia previa `0 0`, commit publicado en `origin/desarrollo-proyecto`. `main` sin cambios.
+
+## Checkpoint Fase 3B — 2026-10-25
+
+### HECHO
+
+- [x] Crear `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` a partir del original intacto, sustituir ejemplos didácticos en ambas hojas, mantener columnas/encabezados/estilos y retirar la fórmula económica J43 solo en la copia.
+- [x] Incluir el libro en `08_entrega/PAQUETE_REVISION_FASE3B/` junto con memoria y nueve pares gráficos actualizados.
+- [x] Adoptar x=75 m y y=50 m como supuestos académicos claramente rotulados; completar 221,55 m E1, 247,8 m E2, 69,3 m E3 y 28 patch cords ópticos bajo una activación dúplex por enlace.
+- [x] Seleccionar canalización preliminar genérica (bandeja 100×50 mm, bajante PVC Ø nominal 25 mm y ducto exterior Ø nominal 50 mm) sin inventar marca/modelo.
+
+### VERIFICADO
+
+- [x] `python 09_auditorias/validar_excel_fase3b.py`: 135/135 controles aprobados.
+- [x] Hash del original conservado: `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`; el paquete contiene una copia idéntica del XLSX completado.
+- [x] Nueve SVG/PNG actualizados para reflejar supuestos de E2/E3, canalización y cantidad óptica activa; PNG 1600×1000 y revisión visual de esquemas exterior/TR.
+- [x] Proveedores locales no inventados; celdas I/J vacías; cassettes integrados no duplican pigtails/adaptadores.
+
+### PENDIENTE / LIMITACIÓN
+
+- [ ] El estudiante debe revisar las restricciones académicas sobre contenido asistido por IA, comprender y validar técnicamente el escenario.
+- [ ] x/y, los 145 m existentes, el destino de los 50 m propuestos, rutas y cajas deben reemplazarse por mediciones aceptadas antes de obra/compra.
+- [ ] Las canalizaciones genéricas no tienen fabricante ni ficha verificada; comprobar diámetros interiores, ocupación, cargas, soportes y accesorios.
+- [ ] No se pudo observar apertura/recalculo visual en Microsoft Excel/LibreOffice; el entorno no contiene estas aplicaciones. Fórmulas y valores en caché sí se validaron independientemente.
