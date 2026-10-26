@@ -240,3 +240,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Terminación y costos:** 0 pigtails y 0 adaptadores separados bajo arquitectura de cassette integrado. En la copia se limpia `J43` y se rotula la fila como cantidades sin costos; I/J no contienen importes. El original se mantiene byte a byte intacto.
 - **Procedencia/revisión humana:** XLSX y gráficas preparados con asistencia de OpenAI Codex por petición del usuario; revisar restricciones académicas, hipótesis y fórmulas, y defender individualmente el contenido. Esta decisión no cambia las reglas oficiales del curso.
 - **Verificación:** `09_auditorias/validar_excel_fase3b.py`, 135/135 controles; OOXML/XML parseable, fórmulas y cachés coincidentes, estilos y SHA del original preservados. No hubo Microsoft Excel/LibreOffice para observar recálculo visual.
+
+## D-023 — Consolidación final Fase 4
+
+- **Clasificación:** decisión de gestión documental; no altera datos, supuestos ni resultados técnicos de Fase 3B.
+- **Fecha:** 2026-10-25.
+- **Decisión:** organizar `08_entrega/ENTREGA_FINAL_INA_CENATE/` como paquete autocontenido con el Excel completado, nueve PNG, nueve SVG, memoria resumida, guía de defensa de al menos ocho minutos e inventario SHA-256.
+- **Fuentes:** libro de `06_excel/`, diseños de `07_imagenes/fase2b/` y cantidades/supuestos de `04_calculos/MEMORIA_CANTIDADES_FASE3B.md`.
+- **Revisión visual:** los nueve PNG se revisaron el 2026-10-25; no se observaron errores que requieran corrección. No se pudo abrir visualmente el XLSX en Excel/LibreOffice.
+- **Procedencia IA:** memoria y guía preparadas con apoyo de OpenAI Codex; el estudiante debe revisar y comprender el contenido antes de presentarlo.

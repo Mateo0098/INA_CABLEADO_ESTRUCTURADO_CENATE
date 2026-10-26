@@ -176,3 +176,24 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] x/y, los 145 m existentes, el destino de los 50 m propuestos, rutas y cajas deben reemplazarse por mediciones aceptadas antes de obra/compra.
 - [ ] Las canalizaciones genéricas no tienen fabricante ni ficha verificada; comprobar diámetros interiores, ocupación, cargas, soportes y accesorios.
 - [ ] No se pudo observar apertura/recalculo visual en Microsoft Excel/LibreOffice; el entorno no contiene estas aplicaciones. Fórmulas y valores en caché sí se validaron independientemente.
+
+## Checkpoint Fase 4 — 2026-10-25
+
+### HECHO
+
+- [x] Crear `08_entrega/ENTREGA_FINAL_INA_CENATE/` con cinco carpetas y los entregables requeridos.
+- [x] Preparar memoria técnica resumida con cantidades, fórmulas y clasificación de supuestos/resultados.
+- [x] Preparar guía individual de 8–9 minutos con arquitectura, cálculos y preguntas técnicas probables.
+- [x] Revisar visualmente los nueve PNG; no se requieren correcciones.
+
+### VERIFICADO
+
+- [x] Validador Fase 3B: 135/135 controles aprobados.
+- [x] Estado local HEAD y referencia `origin/desarrollo-proyecto` observada: `574433db8d9af6bfb8fc0972ebb51e5927eb7064`; la lectura de FETCH_HEAD fue bloqueada por permiso de escritura en `.git`.
+- [x] El paquete incluye copia del XLSX y los 18 diseños; se registrará igualdad byte a byte con sus fuentes y el SHA-256 de todos los archivos.
+
+### PENDIENTE / LIMITACIÓN
+
+- [ ] No hay Excel/LibreOffice en el entorno: apertura y presentación visual del libro sin verificar.
+- [ ] Revisión académica y ensayo final por el estudiante.
+- [ ] Mediciones reales, aceptación de supuestos de rutas y selección final de canalizaciones siguen fuera de este escenario.
