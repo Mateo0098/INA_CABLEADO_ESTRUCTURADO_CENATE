@@ -218,3 +218,20 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 ### PENDIENTE
 
 - [ ] Revision academica personal del estudiante; las rutas, canalizaciones y demas supuestos del escenario siguen siendo provisionales.
+
+## Checkpoint de formatos PDF del paquete final — 2026-10-26
+
+### HECHO
+
+- [x] Convertir memoria y guía a PDF A4 sin alterar sus fuentes Markdown; crear índice de entregables en PDF.
+- [x] Mantener los Markdown como fuentes internas fuera del paquete de lectura y retirar el README Markdown redundante del paquete.
+- [x] Actualizar README del repositorio, inventario SHA-256 e índice de transferencia Codex.
+
+### VERIFICADO
+
+- [x] Cotejar el contenido de las fuentes con el texto extraído de los PDF y renderizar/revisar visualmente las seis páginas.
+- [x] Conservar sin cambios el XLSX corregido mediante Excel COM y los nueve pares PNG/SVG, según SHA-256.
+
+### PENDIENTE
+
+- [ ] El estudiante debe comprobar personalmente el contenido técnico y ensayar la defensa; los supuestos de rutas, canalizaciones y demás entradas no verificadas siguen provisionales.

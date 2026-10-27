@@ -6,7 +6,7 @@ Repositorio del proyecto académico del INA para el módulo **ELTT12000 — Pres
 
 Preparar, diseñar y documentar de forma reproducible y auditable la infraestructura física de telecomunicaciones para dos edificios nuevos del complejo CENATE del INA. El alcance previsto comprende cableado horizontal, cuartos de telecomunicaciones (TR), cuartos de equipos (ER), canalizaciones y backbone de fibra óptica.
 
-Esta inicialización no contiene dimensionamiento definitivo, cantidades, selección final de productos, precios, costos ni planos. Las dimensiones arquitectónicas disponibles son preliminares y requieren validación.
+El repositorio contiene un escenario académico con cantidades calculadas y diseños esquemáticos. No son un dimensionamiento constructivo definitivo ni mediciones de campo. Las dimensiones arquitectónicas disponibles son preliminares y requieren validación; la primera actividad no incluye precios ni costos.
 
 ## Alcance conocido
 
@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 4 — paquete final organizado; XLSX regenerado desde la plantilla mediante Excel 16 COM y abierto con éxito en Excel. Revisión académica humana y supuestos de campo siguen pendientes.
+**Etapa:** Fase 4 — paquete final con tres PDF de lectura; XLSX regenerado desde la plantilla mediante Excel 16 COM y abierto con éxito en Excel. Revisión académica humana y supuestos de campo siguen pendientes.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -67,7 +67,8 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - Escenario Fase 2D reproducible: recorridos de cobre verificados contra 90 m, fibra vertical por piso, sistema CCH por cuarto y plan de Excel para filas 2–27.
 - El paquete histórico Fase 2D se conserva sin cambios. El escenario Fase 3B adopta x=75 m y y=50 m para E2/E3 y un circuito dúplex activo por enlace; son supuestos académicos, no mediciones.
 - Paquete Fase 3B disponible en `08_entrega/PAQUETE_REVISION_FASE3B/`, con libro completado, memoria complementaria y nueve pares de imágenes actualizados.
-- Paquete final autocontenido Fase 4 en `08_entrega/ENTREGA_FINAL_INA_CENATE/`, con Excel, nueve PNG, nueve SVG, memoria resumida y guía individual de defensa de al menos ocho minutos; incluye inventario SHA-256.
+- Paquete final autocontenido Fase 4 en `08_entrega/ENTREGA_FINAL_INA_CENATE/`, con Excel, nueve PNG, nueve SVG, `INDICE_ENTREGABLES.pdf`, memoria técnica y guía individual de defensa en PDF; incluye inventario SHA-256. Para leerlo bastan Excel, un lector PDF y un visor de imágenes.
+- Las fuentes Markdown de los tres PDF y el README histórico del paquete se conservan fuera de la entrega en `08_entrega/FUENTES_INTERNAS_PAQUETE_FINAL/`. Los PDF se generan con `09_auditorias/generar_pdf_entrega.py` y se comprueban con `09_auditorias/validar_pdf_entrega.py`.
 - Revisión visual de los nueve PNG realizada el 2026-10-25: textos, identificación ER/TR y conexiones comprensibles; sin correcciones necesarias. No se hizo inspección visual en pantalla del XLSX ni los SVG; Excel sí abrió el XLSX por COM.
 - Corrección crítica Fase 4: `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` se regeneró desde la plantilla usando Excel 16 COM; Excel abrió y guardó una copia de prueba y abrió también la ruta final empaquetada. Causa anterior: pérdida de declaraciones de prefijos OOXML por serialización manual con ElementTree.
 - La primera actividad no debe incluir precios ni costos.

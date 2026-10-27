@@ -259,3 +259,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Verificacion real:** Excel abrio la plantilla, el archivo regenerado, una copia de prueba guardada y reabierta, y la ruta final del paquete. Se comprobaron las dos hojas, las 29 formulas/cantidades de materiales, herramientas y ausencia de precios. Open XML SDK reporta cero errores en los dos entregables finales. La plantilla conserva SHA-256 `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`.
 - **Preservacion:** el libro defectuoso se respaldo fuera del paquete final en `09_auditorias/evidencias/Excel_COM/INA_CENATE_ACTIVIDAD_1_COMPLETADA_DEFECTUOSO_2026-10-25.xlsx`, SHA-256 `1A1CC4B4A825C21BF7C421B106235D9C921BCA4A42C384209E4F9408A7B7D530`.
 - **Procedencia:** `09_auditorias/regenerar_excel_fase4.ps1` toma la matriz aprobada existente en `crear_excel_fase3b.py`; el libro fue regenerado con asistencia de OpenAI Codex y requiere revision academica del estudiante.
+
+## D-025 — Documentos de lectura PDF del paquete final
+
+- **Clasificación:** decisión de formato y gestión documental; no altera datos, supuestos, cálculos ni diseños técnicos.
+- **Fecha:** 2026-10-26.
+- **Decisión:** entregar la memoria técnica y la guía individual como PDF A4, junto con `INDICE_ENTREGABLES.pdf`; conservar sus Markdown íntegros y el README histórico fuera de `08_entrega/ENTREGA_FINAL_INA_CENATE/`, en `08_entrega/FUENTES_INTERNAS_PAQUETE_FINAL/`.
+- **Fundamento:** permitir la lectura del paquete con Excel, un lector PDF y un visor de imágenes. El índice PDF explica la finalidad de cada carpeta y archivo.
+- **Verificación:** cotejar fragmentos textuales de cada fuente Markdown con texto extraído del PDF, renderizar todas las páginas y revisar visualmente las seis páginas; comparar SHA-256 del XLSX y los nueve PNG/nueve SVG antes y después.
+- **Procedencia y límite:** conversión y validación preparadas con OpenAI Codex; el estudiante aún debe revisar y comprender el contenido técnico antes de presentarlo.
