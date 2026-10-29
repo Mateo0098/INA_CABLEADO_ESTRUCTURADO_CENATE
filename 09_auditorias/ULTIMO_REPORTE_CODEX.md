@@ -1,23 +1,23 @@
-# Ultimo reporte Codex - indice de transferencia
+# Último reporte Codex — índice de transferencia
 
-**Fecha:** 2026-10-28
-**Fase:** 5 - planos tecnicos A3
-**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-28_FASE5_PLANOS_TECNICOS.md`
-**Paquete:** `08_entrega/ENTREGA_FINAL_INA_CENATE/`
-**Rama:** `desarrollo-proyecto`
-**Commit de implementacion:** `9d3deef1ff1aa876a764b9946b642f7b8808c2db`
-**Estado:** nueve laminas generadas y revisadas; PDF, PNG y SVG listos; reporte e indice incorporados al cierre documental de esta fase. Publicacion y SHA final se confirman en la respuesta terminal.
+- **Fecha:** 2026-10-28
+- **Fase:** 5B — dos prototipos gráficos de ingeniería
+- **Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-28_FASE5B_PROTOTIPOS_GRAFICOS.md`
+- **Prototipos:** `08_entrega/PROTOTIPOS_GRAFICOS_FASE5B/`
+- **Rama:** `desarrollo-proyecto`
+- **Commit de implementación:** `66459462a63125afc91dabcb3ff5f80e5038afca`
+**Estado:** dos prototipos generados, verificados y listos para evaluación; las nueve láminas Fase 5 siguen vigentes. Publicación y SHA final se confirman en la respuesta de cierre.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
-- **HECHO:** nueve laminas con PDF A3 individuales, PDF combinado de nueve paginas, PNG 2382 x 1684 y SVG editable.
-- **VERIFICADO:** 59/59 controles; conteos y capacidades contrastados con el Excel; revision visual de las nueve hojas; 50/50 hashes del inventario coinciden; graficos anteriores preservados como historicos.
-- **PENDIENTE:** revision academica personal y validacion de dimensiones, rutas, ductos, registros, ocupacion y capacidad final de racks. No se realizo impresion fisica.
+- **HECHO:** P1 TR-A y P2 canalizaciones A en SVG, PDF A3 horizontal y PNG de 300 ppp; comparativo PDF vectorial de dos páginas A3. Las otras siete láminas y el Excel no se modificaron.
+- **VERIFICADO:** 29/29 controles de cantidades y formato; 192 bocas RJ45 dibujadas (160 asignadas, 32 libres), 42U y cinco laboratorios; revisión visual de páginas completas y ampliaciones.
+- **PENDIENTE:** valoración del estudiante y ChatGPT antes de rediseñar las otras siete láminas; comprobación de geometría, rutas y capacidad de canalización en campo. Sin impresión física.
 
 ## Bloqueos y prioridades siguientes
 
-**Bloqueos de formato:** ninguno identificado. **Pendientes tecnicos:** supuestos de campo y seleccion final de instalacion requieren evidencia; ver detalle en el reporte vigente.
+**Bloqueo técnico para publicar:** ninguno. **Condición para ampliar el alcance:** evaluación de estos dos prototipos.
 
-1. El estudiante revisa las laminas y confirma que comprende y puede defender su contenido asistido por IA.
-2. Sustituir supuestos de rutas y dimensiones por datos aceptados antes de obra o compra.
-3. Verificar materiales, compatibilidad local, energia, ventilacion y capacidad de racks.
+1. Revisar `08_entrega/PROTOTIPOS_GRAFICOS_FASE5B/COMPARATIVO_FASE5_VS_PROTOTIPOS.pdf` y ambos PDF individuales.
+2. Registrar aceptación o ajustes gráficos antes de extender el método a las otras siete láminas.
+3. Confirmar en campo ubicación, trazados, pasamuros y ocupación antes de obra o compra.
