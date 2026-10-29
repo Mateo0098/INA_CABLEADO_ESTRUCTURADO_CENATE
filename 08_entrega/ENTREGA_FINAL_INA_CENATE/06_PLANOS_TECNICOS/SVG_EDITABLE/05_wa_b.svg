@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1680 1188">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<rect x="0" y="0" width="1680" height="1188" fill="#FFFFFF"/>
+<rect x="22" y="22" width="1636" height="1144" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="3"/>
+<rect x="22" y="22" width="1636" height="104" rx="0" fill="#202D3A" stroke="#202D3A" stroke-width="0"/>
+<text x="54" y="66" font-size="27" font-weight="700" text-anchor="start" fill="#FFFFFF">INA · CENATE  /  CABLEADO ESTRUCTURADO</text>
+<text x="54" y="103" font-size="34" font-weight="700" text-anchor="start" fill="#FFFFFF">DISTRIBUCIÓN DE ÁREAS DE TRABAJO · EDIFICIO B</text>
+<text x="1620" y="63" font-size="25" font-weight="700" text-anchor="end" fill="#FFFFFF">LÁMINA 05/09</text>
+<text x="1620" y="99" font-size="21" font-weight="700" text-anchor="end" fill="#D8E4EA">WA-B</text>
+<text x="54" y="153" font-size="19" font-weight="400" text-anchor="start" fill="#667482">Laboratorio típico · 75 m² · geometría supuesta 10 × 7,5 m · 16 WA dobles</text>
+<rect x="140" y="230" width="1130" height="660" rx="0" fill="#FCFDFD" stroke="#202D3A" stroke-width="4"/>
+<line x1="600" y1="890" x2="720" y2="890" stroke="#FFFFFF" stroke-width="10"/>
+<line x1="600" y1="890" x2="600" y2="780" stroke="#D17A35" stroke-width="2"/>
+<polyline points="600,890 710,890" fill="none" stroke="#D17A35" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="660" y="925" font-size="17" font-weight="700" text-anchor="middle" fill="#202D3A">ACCESO</text>
+<polyline points="230,285 230,250 1120,250 1120,285" fill="none" stroke="#D17A35" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="675" y="225" font-size="17" font-weight="700" text-anchor="middle" fill="#D17A35">CANASTA AÉREA PRINCIPAL · 100 × 50 mm (PRELIMINAR)</text>
+<rect x="240" y="330" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="327" y="357" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-01</text>
+<text x="327" y="384" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="296" y="407" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="315" cy="420" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="341" cy="420" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="327" y="451" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="327" y1="250" x2="327" y2="405" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="490" y="330" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="577" y="357" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-02</text>
+<text x="577" y="384" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="546" y="407" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="565" cy="420" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="591" cy="420" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="577" y="451" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="577" y1="250" x2="577" y2="405" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="740" y="330" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="827" y="357" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-03</text>
+<text x="827" y="384" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="796" y="407" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="815" cy="420" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="841" cy="420" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="827" y="451" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="827" y1="250" x2="827" y2="405" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="990" y="330" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="1077" y="357" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-04</text>
+<text x="1077" y="384" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="1046" y="407" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="1065" cy="420" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="1091" cy="420" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="1077" y="451" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="1077" y1="250" x2="1077" y2="405" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="240" y="460" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="327" y="487" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-05</text>
+<text x="327" y="514" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="296" y="537" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="315" cy="550" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="341" cy="550" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="327" y="581" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="327" y1="250" x2="327" y2="535" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="490" y="460" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="577" y="487" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-06</text>
+<text x="577" y="514" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="546" y="537" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="565" cy="550" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="591" cy="550" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="577" y="581" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="577" y1="250" x2="577" y2="535" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="740" y="460" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="827" y="487" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-07</text>
+<text x="827" y="514" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="796" y="537" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="815" cy="550" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="841" cy="550" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="827" y="581" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="827" y1="250" x2="827" y2="535" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="990" y="460" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="1077" y="487" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-08</text>
+<text x="1077" y="514" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="1046" y="537" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="1065" cy="550" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="1091" cy="550" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="1077" y="581" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="1077" y1="250" x2="1077" y2="535" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="240" y="590" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="327" y="617" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-09</text>
+<text x="327" y="644" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="296" y="667" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="315" cy="680" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="341" cy="680" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="327" y="711" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="327" y1="250" x2="327" y2="665" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="490" y="590" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="577" y="617" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-10</text>
+<text x="577" y="644" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="546" y="667" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="565" cy="680" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="591" cy="680" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="577" y="711" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="577" y1="250" x2="577" y2="665" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="740" y="590" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="827" y="617" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-11</text>
+<text x="827" y="644" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="796" y="667" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="815" cy="680" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="841" cy="680" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="827" y="711" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="827" y1="250" x2="827" y2="665" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="990" y="590" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="1077" y="617" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-12</text>
+<text x="1077" y="644" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="1046" y="667" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="1065" cy="680" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="1091" cy="680" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="1077" y="711" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="1077" y1="250" x2="1077" y2="665" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="240" y="720" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="327" y="747" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-13</text>
+<text x="327" y="774" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="296" y="797" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="315" cy="810" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="341" cy="810" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="327" y="841" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="327" y1="250" x2="327" y2="795" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="490" y="720" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="577" y="747" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-14</text>
+<text x="577" y="774" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="546" y="797" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="565" cy="810" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="591" cy="810" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="577" y="841" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="577" y1="250" x2="577" y2="795" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="740" y="720" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="827" y="747" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-15</text>
+<text x="827" y="774" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="796" y="797" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="815" cy="810" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="841" cy="810" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="827" y="841" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="827" y1="250" x2="827" y2="795" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="990" y="720" width="175" height="72" rx="5" fill="#EEF3F6" stroke="#8A98A4" stroke-width="2"/>
+<text x="1077" y="747" font-size="18" font-weight="700" text-anchor="middle" fill="#202D3A">WA-16</text>
+<text x="1077" y="774" font-size="14" font-weight="400" text-anchor="middle" fill="#667482">PUESTO DOBLE</text>
+<rect x="1046" y="797" width="64" height="26" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="1065" cy="810" r="5" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="1091" cy="810" r="5" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="1077" y="841" font-size="13" font-weight="700" text-anchor="middle" fill="#176B87">A / B</text>
+<line x1="1077" y1="250" x2="1077" y2="795" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<rect x="1340" y="300" width="245" height="205" rx="4" fill="#FFF6E5" stroke="#D17A35" stroke-width="3"/>
+<text x="1462" y="340" font-size="21" font-weight="700" text-anchor="middle" fill="#202D3A">TR-B-Pxx</text>
+<text x="1362" y="385" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Panel Cat 6A · 48 puertos</text>
+<text x="1362" y="415" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Grupo de 32 enlaces</text>
+<text x="1362" y="445" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Estrella · identificación</text>
+<text x="1362" y="475" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">de cable: A-Pxx-Lxx-WAxx-A/B</text>
+<polyline points="1270,250 1305,250 1305,430 1340,430" fill="none" stroke="#176B87" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1340" y="545" width="245" height="300" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="1358" y="575" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">CONTEO POR LABORATORIO</text>
+<text x="1362" y="600" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">16 áreas WA</text>
+<text x="1362" y="631" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">2 puertos RJ45/WA</text>
+<text x="1362" y="662" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">32 conexiones Cat 6A</text>
+<text x="1362" y="693" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">1 grupo de salida al TR</text>
+<text x="1362" y="724" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A"></text>
+<text x="1362" y="755" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">Asignación asumida</text>
+<text x="1362" y="786" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">según Excel corregido</text>
+<rect x="140" y="925" width="1445" height="90" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="158" y="955" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">SÍMBOLOS</text>
+<rect x="165" y="955" width="38" height="22" rx="3" fill="#FFFFFF" stroke="#176B87" stroke-width="2"/>
+<circle cx="177" cy="966" r="4" fill="#176B87" stroke="#176B87" stroke-width="1"/>
+<circle cx="191" cy="966" r="4" fill="#319184" stroke="#319184" stroke-width="1"/>
+<text x="220" y="973" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Área doble con RJ45-A / RJ45-B</text>
+<line x1="565" y1="966" x2="655" y2="966" stroke="#176B87" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="675" y="973" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Derivación/canalización hacia puesto</text>
+<line x1="1050" y1="966" x2="1140" y2="966" stroke="#176B87" stroke-width="6"/>
+<text x="1160" y="973" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Agrupación lógica de cableado Cat 6A al TR</text>
+<line x1="42" y1="1076" x2="1638" y2="1076" stroke="#AEB9C2" stroke-width="2"/>
+<rect x="42" y="1083" width="1596" height="76" rx="0" fill="#FFFFFF" stroke="#82909B" stroke-width="1.5"/>
+<line x1="42" y1="1121" x2="1638" y2="1121" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1160" y1="1083" x2="1160" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1320" y1="1083" x2="1320" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1450" y1="1083" x2="1450" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<text x="56" y="1108" font-size="15" font-weight="700" text-anchor="start" fill="#202D3A">PROYECTO: INA CENATE | ELTT12000 | CABLEADO ESTRUCTURADO</text>
+<text x="1174" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">FECHA 2026-10-28</text>
+<text x="1333" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">REV. 0</text>
+<text x="1462" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">LÁMINA 05/09</text>
+<text x="56" y="1147" font-size="13" font-weight="400" text-anchor="start" fill="#667482">Representación por grupos; no se dibujan cables individuales superpuestos. Dos RJ45 por área es supuesto adoptado.</text>
+<text x="1174" y="1147" font-size="12" font-weight="700" text-anchor="start" fill="#202D3A">SIN ESCALA</text>
+<text x="1333" y="1147" font-size="12" font-weight="400" text-anchor="start" fill="#667482">IA: apoyo visual</text>
+<text x="1462" y="1147" font-size="11" font-weight="700" text-anchor="start" fill="#B44B4B">NO CONSTRUCTIVO</text>
+</svg>

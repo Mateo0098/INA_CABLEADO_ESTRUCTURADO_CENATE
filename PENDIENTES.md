@@ -235,3 +235,24 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 ### PENDIENTE
 
 - [ ] El estudiante debe comprobar personalmente el contenido técnico y ensayar la defensa; los supuestos de rutas, canalizaciones y demás entradas no verificadas siguen provisionales.
+
+
+
+## Checkpoint Fase 5 - planos tecnicos (2026-10-28)
+
+### HECHO
+
+- [x] Crear nueve laminas tecnicas A3 horizontal con PDF individuales, PDF combinado, PNG de 2382x1684 px y SVG editable.
+- [x] Representar 160 puertos/TR A, 192 puertos/TR B, reservas de panel, 32 puertos por laboratorio y racks de 42U.
+- [x] Separar enlaces exteriores OS2 24F de enlaces verticales OS2 12F; representar cassettes/housings sin accesorios duplicados.
+- [x] Identificar las colecciones Fase 2 como historicas y actualizar el indice de entregables e inventario SHA-256.
+
+### VERIFICADO
+
+- [x] Revision visual de las nueve paginas renderizadas; PDF vectorial con texto seleccionable; formato A3 horizontal; salidas SVG/PNG/PDF generadas del mismo flujo.
+- [x] Confirmar cifras del XLSX corregido, capacidad de 48 puertos por panel, reservas (32 en A; 48 en B), fibras/cassettes y limite de 42U.
+
+### PENDIENTE
+
+- [ ] Revision y aprobacion tecnica/academica por el estudiante; geometria y longitudes no medidas siguen siendo provisionales.
+- [ ] No se hizo impresion fisica; la entrega academica es digital.

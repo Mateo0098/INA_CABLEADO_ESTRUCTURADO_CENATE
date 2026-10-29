@@ -268,3 +268,16 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Fundamento:** permitir la lectura del paquete con Excel, un lector PDF y un visor de imágenes. El índice PDF explica la finalidad de cada carpeta y archivo.
 - **Verificación:** cotejar fragmentos textuales de cada fuente Markdown con texto extraído del PDF, renderizar todas las páginas y revisar visualmente las seis páginas; comparar SHA-256 del XLSX y los nueve PNG/nueve SVG antes y después.
 - **Procedencia y límite:** conversión y validación preparadas con OpenAI Codex; el estudiante aún debe revisar y comprender el contenido técnico antes de presentarlo.
+
+
+
+## D-026 - Planos tecnicos A3 Fase 5 (2026-10-28)
+
+- Clasificacion: decision de presentacion y resultados calculados representados; geometria y recorridos continuan como supuestos.
+- Decision: incorporar nueve laminas numeradas 01/09-09/09 en PDF A3 horizontal, PNG y SVG editable, y un PDF combinado vectorial.
+- Coherencia: Edificio A 160 puertos por TR en cuatro paneles de 48 (32 libres); Edificio B 192 por TR en cinco paneles de 48 (48 libres). Cada laboratorio tiene 16 WA dobles y 32 puertos bajo el supuesto adoptado.
+- Fibra: OS2 24F para E1/E2/E3 y OS2 12F para backbone vertical. Cassette integrado representado sin duplicar pigtails/adaptadores. CCH-03U: 4 x 12F + 2 x 24F = 96 fibras en ER-A; CCH-04U: 7 x 12F + 2 x 24F = 132 en ER-B.
+- Racks: elevaciones referenciales de 42U; puertos libres identificados como pasivos, sin implicar puertos activos.
+- Supuestos: geometria, longitudes y canalizaciones no verificadas se rotulan como esquematicas o supuestas; no se declara escala numerica para plantas.
+- Historico: conservar sin alterar los nueve PNG/SVG anteriores e identificarlos como coleccion historica en el indice del paquete.
+- Procedencia: composicion visual con asistencia de OpenAI Codex; revision tecnica y academica personal pendiente.

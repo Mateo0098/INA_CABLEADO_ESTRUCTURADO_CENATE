@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1680 1188">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<rect x="0" y="0" width="1680" height="1188" fill="#FFFFFF"/>
+<rect x="22" y="22" width="1636" height="1144" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="3"/>
+<rect x="22" y="22" width="1636" height="104" rx="0" fill="#202D3A" stroke="#202D3A" stroke-width="0"/>
+<text x="54" y="66" font-size="27" font-weight="700" text-anchor="start" fill="#FFFFFF">INA · CENATE  /  CABLEADO ESTRUCTURADO</text>
+<text x="54" y="103" font-size="34" font-weight="700" text-anchor="start" fill="#FFFFFF">ELEVACIÓN DE EQUIPAMIENTO ÓPTICO · ER EDIFICIO B</text>
+<text x="1620" y="63" font-size="25" font-weight="700" text-anchor="end" fill="#FFFFFF">LÁMINA 08/09</text>
+<text x="1620" y="99" font-size="21" font-weight="700" text-anchor="end" fill="#D8E4EA">ER-B</text>
+<text x="54" y="153" font-size="19" font-weight="400" text-anchor="start" fill="#667482">Cassette integrado · terminación pasiva · activos sin selección</text>
+<rect x="210" y="218" width="500" height="804" rx="3" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="210" y="218" width="500" height="42" rx="0" fill="#EEF2F5" stroke="#202D3A" stroke-width="1"/>
+<text x="460.0" y="247" font-size="19" font-weight="700" text-anchor="middle" fill="#202D3A">RACK ER-B · 19 in · 42U</text>
+<line x1="240" y1="260" x2="240" y2="1016" stroke="#667482" stroke-width="2"/>
+<line x1="218" y1="998" x2="238" y2="998" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="1010.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">01</text>
+<line x1="218" y1="980" x2="238" y2="980" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="992.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">02</text>
+<line x1="218" y1="962" x2="238" y2="962" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="974.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">03</text>
+<line x1="218" y1="944" x2="238" y2="944" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="956.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">04</text>
+<line x1="218" y1="926" x2="238" y2="926" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="938.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">05</text>
+<line x1="218" y1="908" x2="238" y2="908" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="920.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">06</text>
+<line x1="218" y1="890" x2="238" y2="890" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="902.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">07</text>
+<line x1="218" y1="872" x2="238" y2="872" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="884.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">08</text>
+<line x1="218" y1="854" x2="238" y2="854" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="866.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">09</text>
+<line x1="218" y1="836" x2="238" y2="836" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="848.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">10</text>
+<line x1="218" y1="818" x2="238" y2="818" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="830.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">11</text>
+<line x1="218" y1="800" x2="238" y2="800" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="812.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">12</text>
+<line x1="218" y1="782" x2="238" y2="782" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="794.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">13</text>
+<line x1="218" y1="764" x2="238" y2="764" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="776.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">14</text>
+<line x1="218" y1="746" x2="238" y2="746" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="758.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">15</text>
+<line x1="218" y1="728" x2="238" y2="728" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="740.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">16</text>
+<line x1="218" y1="710" x2="238" y2="710" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="722.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">17</text>
+<line x1="218" y1="692" x2="238" y2="692" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="704.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">18</text>
+<line x1="218" y1="674" x2="238" y2="674" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="686.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">19</text>
+<line x1="218" y1="656" x2="238" y2="656" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="668.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">20</text>
+<line x1="218" y1="638" x2="238" y2="638" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="650.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">21</text>
+<line x1="218" y1="620" x2="238" y2="620" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="632.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">22</text>
+<line x1="218" y1="602" x2="238" y2="602" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="614.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">23</text>
+<line x1="218" y1="584" x2="238" y2="584" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="596.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">24</text>
+<line x1="218" y1="566" x2="238" y2="566" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="578.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">25</text>
+<line x1="218" y1="548" x2="238" y2="548" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="560.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">26</text>
+<line x1="218" y1="530" x2="238" y2="530" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="542.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">27</text>
+<line x1="218" y1="512" x2="238" y2="512" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="524.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">28</text>
+<line x1="218" y1="494" x2="238" y2="494" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="506.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">29</text>
+<line x1="218" y1="476" x2="238" y2="476" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="488.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">30</text>
+<line x1="218" y1="458" x2="238" y2="458" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="470.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">31</text>
+<line x1="218" y1="440" x2="238" y2="440" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="452.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">32</text>
+<line x1="218" y1="422" x2="238" y2="422" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="434.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">33</text>
+<line x1="218" y1="404" x2="238" y2="404" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="416.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">34</text>
+<line x1="218" y1="386" x2="238" y2="386" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="398.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">35</text>
+<line x1="218" y1="368" x2="238" y2="368" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="380.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">36</text>
+<line x1="218" y1="350" x2="238" y2="350" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="362.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">37</text>
+<line x1="218" y1="332" x2="238" y2="332" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="344.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">38</text>
+<line x1="218" y1="314" x2="238" y2="314" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="326.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">39</text>
+<line x1="218" y1="296" x2="238" y2="296" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="308.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">40</text>
+<line x1="218" y1="278" x2="238" y2="278" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="290.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">41</text>
+<line x1="218" y1="260" x2="238" y2="260" stroke="#AAB4BC" stroke-width="1"/>
+<text x="236" y="272.96" font-size="11" font-weight="400" text-anchor="end" fill="#667482">42</text>
+<rect x="252" y="944" width="446" height="70" rx="1" fill="#DDEEF3" stroke="#202D3A" stroke-width="1"/>
+<text x="475.0" y="986.0" font-size="15" font-weight="700" text-anchor="middle" fill="#202D3A">CCH-04U · 9 cassettes</text>
+<rect x="252" y="924" width="446" height="16" rx="1" fill="#F8EBCB" stroke="#202D3A" stroke-width="1"/>
+<text x="475.0" y="939.0" font-size="15" font-weight="700" text-anchor="middle" fill="#202D3A">Organizador óptico horizontal</text>
+<rect x="252" y="904" width="446" height="16" rx="1" fill="#E2F0E7" stroke="#202D3A" stroke-width="1"/>
+<text x="475.0" y="919.0" font-size="15" font-weight="700" text-anchor="middle" fill="#202D3A">Guía / entrada backbone 12F</text>
+<rect x="252" y="812" width="446" height="88" rx="1" fill="#F0ECF7" stroke="#202D3A" stroke-width="1"/>
+<text x="475.0" y="863.0" font-size="15" font-weight="700" text-anchor="middle" fill="#202D3A">Reserva técnica · activos pendientes</text>
+<rect x="252" y="252" width="446" height="556" rx="1" fill="#F8F9FA" stroke="#202D3A" stroke-width="1"/>
+<text x="475.0" y="537.0" font-size="15" font-weight="700" text-anchor="middle" fill="#202D3A">Espacio libre reservado · 31U</text>
+<text x="460.0" y="1056" font-size="16" font-weight="700" text-anchor="middle" fill="#667482">ELEVACIÓN FRONTAL · UNIDADES NUMERADAS DE ABAJO HACIA ARRIBA</text>
+<rect x="800" y="225" width="770" height="315" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="818" y="255" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">TERMINACIÓN Y CAPACIDAD ÓPTICA</text>
+<text x="830" y="282" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">Exterior: 2 × OS2 24F llegan a cada ER nuevo.</text>
+<text x="830" y="316" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">Vertical: 7 cables OS2 12F hacia TR; 84 fibras.</text>
+<text x="830" y="350" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">Capacidad por cuarto: 132 posiciones de fibra.</text>
+<text x="830" y="384" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">CCH-04U · 9 cassettes · el cassette incluye pigtails / adaptadores según matriz.</text>
+<text x="830" y="418" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">El diagrama no agrega pigtails ni adaptadores sueltos.</text>
+<text x="830" y="452" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">Un par dúplex por enlace: patch cords representativos;</text>
+<text x="830" y="486" font-size="18" font-weight="400" text-anchor="start" fill="#202D3A">transceptores y puertos activos no especificados.</text>
+<rect x="800" y="580" width="770" height="320" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="818" y="610" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">ESQUEMA DE CONEXIÓN · NO A ESCALA</text>
+<rect x="835" y="680" width="180" height="100" rx="4" fill="#EAF4F6" stroke="#176B87" stroke-width="2"/>
+<text x="925.0" y="705" font-size="17" font-weight="700" text-anchor="middle" fill="#202D3A">E1 / E2 / E3</text>
+<text x="925.0" y="729" font-size="17" font-weight="400" text-anchor="middle" fill="#202D3A">24F OS2</text>
+<rect x="1110" y="680" width="205" height="100" rx="4" fill="#F4F0FA" stroke="#7865A5" stroke-width="2"/>
+<text x="1212.5" y="705" font-size="17" font-weight="700" text-anchor="middle" fill="#202D3A">CCH-04U · 9 cassettes</text>
+<text x="1212.5" y="729" font-size="17" font-weight="400" text-anchor="middle" fill="#202D3A">LC dúplex</text>
+<rect x="1410" y="680" width="125" height="100" rx="4" fill="#EAF5ED" stroke="#418260" stroke-width="2"/>
+<text x="1472.5" y="705" font-size="17" font-weight="700" text-anchor="middle" fill="#202D3A">12F</text>
+<text x="1472.5" y="729" font-size="17" font-weight="400" text-anchor="middle" fill="#202D3A">TR</text>
+<line x1="1015" y1="730" x2="1110" y2="730" stroke="#176B87" stroke-width="6"/>
+<line x1="1315" y1="730" x2="1410" y2="730" stroke="#418260" stroke-width="6"/>
+<text x="1062" y="710" font-size="15" font-weight="700" text-anchor="middle" fill="#176B87">24F</text>
+<text x="1362" y="710" font-size="15" font-weight="700" text-anchor="middle" fill="#418260">12F</text>
+<text x="835" y="835" font-size="17" font-weight="700" text-anchor="start" fill="#202D3A">CCH-03U (A): 4 × 12F + 2 × 24F = 96 fibras.</text>
+<text x="835" y="870" font-size="17" font-weight="700" text-anchor="start" fill="#202D3A">CCH-04U (B): 7 × 12F + 2 × 24F = 132 fibras.</text>
+<rect x="800" y="930" width="770" height="115" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="818" y="960" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">RUTAS</text>
+<text x="830" y="985" font-size="16" font-weight="400" text-anchor="start" fill="#202D3A">Exterior desde ducto subterráneo · reserva en rack · entrada vertical a TR</text>
+<line x1="42" y1="1076" x2="1638" y2="1076" stroke="#AEB9C2" stroke-width="2"/>
+<rect x="42" y="1083" width="1596" height="76" rx="0" fill="#FFFFFF" stroke="#82909B" stroke-width="1.5"/>
+<line x1="42" y1="1121" x2="1638" y2="1121" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1160" y1="1083" x2="1160" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1320" y1="1083" x2="1320" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<line x1="1450" y1="1083" x2="1450" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
+<text x="56" y="1108" font-size="15" font-weight="700" text-anchor="start" fill="#202D3A">PROYECTO: INA CENATE | ELTT12000 | CABLEADO ESTRUCTURADO</text>
+<text x="1174" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">FECHA 2026-10-28</text>
+<text x="1333" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">REV. 0</text>
+<text x="1462" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">LÁMINA 08/09</text>
+<text x="56" y="1147" font-size="13" font-weight="400" text-anchor="start" fill="#667482">Racks de 42U propuestos; dimensiones y capacidad final de instalación requieren validación del recinto.</text>
+<text x="1174" y="1147" font-size="12" font-weight="700" text-anchor="start" fill="#202D3A">VERTICAL 1U</text>
+<text x="1333" y="1147" font-size="12" font-weight="400" text-anchor="start" fill="#667482">IA: apoyo visual</text>
+<text x="1462" y="1147" font-size="11" font-weight="700" text-anchor="start" fill="#B44B4B">NO CONSTRUCTIVO</text>
+</svg>

@@ -1,5 +1,6 @@
-# Diagramas técnicos Fase 2B
+# Coleccion historica de diagramas tecnicos Fase 2B
 
+**ESTADO: HISTORICO / REFERENCIA.** La version vigente para entrega esta en `08_entrega/ENTREGA_FINAL_INA_CENATE/06_PLANOS_TECNICOS/`.
 ## Inventario
 
 | N.º | SVG editable | PNG de entrega | Código |
