@@ -1,22 +1,23 @@
-# Último reporte Codex — índice de transferencia
+# Ultimo reporte Codex - indice de transferencia
 
-**Fecha:** 2026-10-26. **Fase:** 4 — formatos PDF del paquete final.
-**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-26_FASE4_FORMATOS_PDF.md`.
-**Paquete:** `08_entrega/ENTREGA_FINAL_INA_CENATE/`.
-**Rama:** `desarrollo-proyecto`.
-**Commit de implementación:** `726a161d6257cd1d30c27562d0be9f8a7ef79daa`.
-**Estado:** tres PDF de lectura creados y verificados; inventario actualizado; publicación del reporte e índice en el commit documental de cierre, cuyo SHA final se confirma en la respuesta terminal.
+**Fecha:** 2026-10-28
+**Fase:** 5 - planos tecnicos A3
+**Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-28_FASE5_PLANOS_TECNICOS.md`
+**Paquete:** `08_entrega/ENTREGA_FINAL_INA_CENATE/`
+**Rama:** `desarrollo-proyecto`
+**Commit de implementacion:** `9d3deef1ff1aa876a764b9946b642f7b8808c2db`
+**Estado:** nueve laminas generadas y revisadas; PDF, PNG y SVG listos; reporte e indice incorporados al cierre documental de esta fase. Publicacion y SHA final se confirman en la respuesta terminal.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
-- **HECHO:** memoria, guía e índice disponibles en PDF; Markdown fuente fuera del paquete.
-- **VERIFICADO:** seis páginas A4 renderizadas y revisadas; contenido textual conservado; 19/19 hashes del XLSX y diseños sin cambio.
-- **PENDIENTE:** revisión técnica y académica personal del estudiante y validación de supuestos de campo.
+- **HECHO:** nueve laminas con PDF A3 individuales, PDF combinado de nueve paginas, PNG 2382 x 1684 y SVG editable.
+- **VERIFICADO:** 59/59 controles; conteos y capacidades contrastados con el Excel; revision visual de las nueve hojas; 50/50 hashes del inventario coinciden; graficos anteriores preservados como historicos.
+- **PENDIENTE:** revision academica personal y validacion de dimensiones, rutas, ductos, registros, ocupacion y capacidad final de racks. No se realizo impresion fisica.
 
 ## Bloqueos y prioridades siguientes
 
-**Bloqueos de formato:** ninguno identificado. **Bloqueos técnicos previos:** supuestos de ruta y canalización pendientes de evidencia; no se modificaron.
+**Bloqueos de formato:** ninguno identificado. **Pendientes tecnicos:** supuestos de campo y seleccion final de instalacion requieren evidencia; ver detalle en el reporte vigente.
 
-1. Abrir los PDF, el XLSX y los PNG en las aplicaciones de presentación del estudiante.
-2. Revisar personalmente el contenido técnico asistido por IA y ensayar la defensa.
-3. Sustituir supuestos de campo por mediciones aceptadas antes de obra o compra.
+1. El estudiante revisa las laminas y confirma que comprende y puede defender su contenido asistido por IA.
+2. Sustituir supuestos de rutas y dimensiones por datos aceptados antes de obra o compra.
+3. Verificar materiales, compatibilidad local, energia, ventilacion y capacidad de racks.
