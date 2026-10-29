@@ -281,3 +281,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - Supuestos: geometria, longitudes y canalizaciones no verificadas se rotulan como esquematicas o supuestas; no se declara escala numerica para plantas.
 - Historico: conservar sin alterar los nueve PNG/SVG anteriores e identificarlos como coleccion historica en el indice del paquete.
 - Procedencia: composicion visual con asistencia de OpenAI Codex; revision tecnica y academica personal pendiente.
+
+## D-027 — Prototipos de representación física para TR-A y planta A (2026-10-28)
+
+- **Clasificación:** decisión de presentación; conserva cantidades aprobadas, especificaciones verificadas de fabricante y supuestos de geometría separados.
+- **Decisión:** crear solamente dos prototipos A3 horizontales en `08_entrega/PROTOTIPOS_GRAFICOS_FASE5B/`, sin reemplazar las nueve láminas vigentes ni alterar el Excel. Los prototipos serán evaluados antes de extender la técnica gráfica a las otras siete láminas.
+- **TR-A:** gabinete frontal de 42U con rieles y numeración U01–U42; cuatro paneles de 48 conectores RJ45 dibujados, 160 posiciones asignadas y 32 libres; un cassette integrado OS2 12F en CCH-01U; cuatro organizadores horizontales y uno óptico. El cordón frontal es representativo, con extremo libre; no se instala ni presupone switch.
+- **Planta A:** cinco laboratorios académicos y un TR por piso; bandeja preliminar 100 × 50 mm, tubos nominales Ø25 mm, cajas y pasamuros ilustrativos. Dos salidas dobles por laboratorio ilustran rutas independientes; no se fijan las 16 posiciones WA completas. Muros, rutas y fijaciones siguen como supuestos sin escala de obra.
+- **Evidencia de fabricante consultada el 2026-10-28:** Panduit, guía NetKey `111369255.pdf`, página de paneles NK6XPPG48Y (48 puertos Cat 6A, 2U); Corning, guía `LAN-2564-AEN`, CCH-01U (1U, dos posiciones); Corning, ficha familiar `cch-pigtailed-splice-cassette_CALA_AEN.pdf`, cassette CCH-CS12-A9-P00RE (12F OS2, LC dúplex). Estas referencias respaldan símbolos y capacidades, no compra definitiva. Enlaces completos en el README de prototipos.
+- **Procedencia y revisión:** composición vectorial con asistencia de OpenAI Codex. El estudiante y ChatGPT deben evaluar la mejora gráfica y la coherencia académica antes de modificar las otras siete láminas.

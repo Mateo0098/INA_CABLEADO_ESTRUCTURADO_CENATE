@@ -256,3 +256,21 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 
 - [ ] Revision y aprobacion tecnica/academica por el estudiante; geometria y longitudes no medidas siguen siendo provisionales.
 - [ ] No se hizo impresion fisica; la entrega academica es digital.
+
+## Checkpoint Fase 5B — dos prototipos gráficos (2026-10-28)
+
+### HECHO
+
+- [x] Crear de forma independiente el prototipo TR-A y el de canalizaciones del edificio A en SVG, PDF A3 y PNG de 300 ppp, más un comparativo vectorial de dos páginas.
+- [x] Mantener intactas las otras siete láminas y la colección Fase 5 vigente.
+- [x] Dibujar 192 conectores RJ45 individuales en el rack, de los cuales 160 están asignados y 32 libres; mostrar un cassette integrado OS2 12F, rieles, organizadores, pasamuros, bandeja de doble borde, tubos y cajas.
+
+### VERIFICADO
+
+- [x] Contrastar cantidades con el Excel definitivo y límites físicos de 42U; verificar PDF A3 vectoriales, PNG de 300 ppp, SVG editables y comparativo.
+- [x] Renderizar y revisar visualmente las láminas completas y ampliaciones; corregir el rotulado de bloques, rieles, leyenda y rutas de tubos independientes.
+
+### PENDIENTE
+
+- [ ] Evaluación del estudiante y ChatGPT de ambos prototipos antes de extender el rediseño a las otras siete láminas.
+- [ ] Medición de campo y validación constructiva de rutas, ocupación de ductos/bandejas, fijaciones y ubicación final de WA y TR. No se hizo impresión física.
