@@ -1,6 +1,6 @@
 # Reporte Codex — Fase 5C: nueve planos técnicos definitivos
 
-**Fecha:** 2026-10-29. **Rama:** `desarrollo-proyecto`. **Commit de implementación local:** `c4287c69ef5f7c583b64fe95fd9a91439adeb18d`. **Publicación:** pendiente de confirmar al redactar; dos intentos de `git fetch origin desarrollo-proyecto` devolvieron `Recv failure: Connection was reset`. El conector GitHub sí confirmó que el remoto sigue en `a8a4cc9af875ce5bbe4727220bf75724875fe82a`. El SHA final del commit documental y el estado remoto se comunican en la respuesta de cierre.
+**Fecha:** 2026-10-29. **Rama:** `desarrollo-proyecto`. **Commit de implementación local:** `c4287c69ef5f7c583b64fe95fd9a91439adeb18d`. **Publicación: BLOQUEADA.** Dos `git fetch` y el `git push` no interactivo devolvieron `Recv failure: Connection was reset`; un push anterior quedó sin respuesta y se interrumpió. GitHub CLI agotó el tiempo al consultar la credencial; no hay clave SSH configurada. El conector GitHub confirmó después que el remoto sigue en `a8a4cc9af875ce5bbe4727220bf75724875fe82a`. El SHA final local se comunica en la respuesta de cierre; no se afirma acceso de ChatGPT a estos archivos.
 
 ## Objetivo y recuperación
 
@@ -40,6 +40,6 @@ Los nombres de las nueve láminas, cada uno presente en `PDF_A3/` con extensión
 
 1. **Alto antes de obra/compra:** medir trazados, verificar ocupación, soportes, pasamuros, recinto y posiciones reales de WA/TR. Las láminas son académicas y esquemáticas.
 2. **Medio para entrega académica:** el estudiante revisa y comprende personalmente el contenido asistido por IA; no se hizo impresión física.
-3. **Publicación:** publicar los commits de implementación y reporte en `origin/desarrollo-proyecto`. Si persiste el reinicio de conexión, no afirmar que ChatGPT puede leerlos en GitHub.
+3. **Publicación bloqueada:** restaurar conectividad/autenticación Git HTTPS y ejecutar `git push origin desarrollo-proyecto`; después verificar el SHA remoto. No afirmar que ChatGPT puede leer el reporte hasta entonces.
 
-**Estado:** HECHO = archivos finales y archivo histórico; VERIFICADO = cantidades, integridad digital y revisión visual descrita; PENDIENTE = revisión personal y datos de campo. **Siguiente acción mínima viable:** publicar en `origin/desarrollo-proyecto` y abrir el PDF combinado definitivo.
+**Estado:** HECHO = archivos finales y archivo histórico locales; VERIFICADO = cantidades, integridad digital y revisión visual descrita; PENDIENTE = publicación remota, revisión personal y datos de campo. **Siguiente acción mínima viable:** restablecer Git HTTPS, publicar en `origin/desarrollo-proyecto` y comprobar el SHA; el PDF combinado ya puede abrirse localmente.
