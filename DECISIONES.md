@@ -290,3 +290,13 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Planta A:** cinco laboratorios académicos y un TR por piso; bandeja preliminar 100 × 50 mm, tubos nominales Ø25 mm, cajas y pasamuros ilustrativos. Dos salidas dobles por laboratorio ilustran rutas independientes; no se fijan las 16 posiciones WA completas. Muros, rutas y fijaciones siguen como supuestos sin escala de obra.
 - **Evidencia de fabricante consultada el 2026-10-28:** Panduit, guía NetKey `111369255.pdf`, página de paneles NK6XPPG48Y (48 puertos Cat 6A, 2U); Corning, guía `LAN-2564-AEN`, CCH-01U (1U, dos posiciones); Corning, ficha familiar `cch-pigtailed-splice-cassette_CALA_AEN.pdf`, cassette CCH-CS12-A9-P00RE (12F OS2, LC dúplex). Estas referencias respaldan símbolos y capacidades, no compra definitiva. Enlaces completos en el README de prototipos.
 - **Procedencia y revisión:** composición vectorial con asistencia de OpenAI Codex. El estudiante y ChatGPT deben evaluar la mejora gráfica y la coherencia académica antes de modificar las otras siete láminas.
+
+## D-028 — Consolidación de las nueve láminas Fase 5C (2026-10-29)
+
+- **Clasificación:** decisión de presentación técnica. Las cantidades proceden del Excel definitivo y del diseño académico vigente; geometrías, rutas y fijaciones siguen siendo supuestos de diseño, no mediciones de campo.
+- **Autorización:** la instrucción del usuario identifica los prototipos P1 TR-A y P2 planta A como aprobados y solicita extender su lenguaje físico a las nueve láminas.
+- **Decisión:** reemplazar la colección vigente en `08_entrega/ENTREGA_FINAL_INA_CENATE/06_PLANOS_TECNICOS/` por nueve SVG, nueve PDF A3, nueve PNG a 300 ppp y un PDF combinado de nueve páginas; conservar la colección previa, byte a byte, en `08_entrega/HISTORICO_PLANOS_FASE5/`.
+- **Coherencia:** A = cinco laboratorios × 32 RJ45 = 160 posiciones asignadas en cuatro paneles de 48, con 32 libres; B = seis × 32 = 192 asignadas en cinco paneles, con 48 libres. Las bocas de panel son pasivas; cordones frontales representativos con extremo libre, sin switches instalados.
+- **Óptica:** E1–E3 OS2 24F exterior, vertical OS2 12F; ER-A 4 × 12F + 2 × 24F = 96 fibras en CCH-03U; ER-B 7 × 12F + 2 × 24F = 132 fibras en CCH-04U. Cassettes con conectores integrados, sin duplicar accesorios.
+- **Formato y límites:** cotas y recorridos supuestos, plantas sin escala de obra, paso vertical uniforme por U en racks de 42U. No se efectuó impresión física ni validación constructiva.
+- **Procedencia:** composición y comprobación asistidas por OpenAI Codex; el estudiante debe revisar y comprender el contenido antes de la entrega académica.

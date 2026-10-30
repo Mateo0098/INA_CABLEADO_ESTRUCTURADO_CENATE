@@ -274,3 +274,21 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 
 - [ ] Evaluación del estudiante y ChatGPT de ambos prototipos antes de extender el rediseño a las otras siete láminas.
 - [ ] Medición de campo y validación constructiva de rutas, ocupación de ductos/bandejas, fijaciones y ubicación final de WA y TR. No se hizo impresión física.
+
+## Checkpoint Fase 5C — consolidación de nueve láminas (2026-10-29)
+
+### HECHO
+
+- [x] Extender el detalle físico de los prototipos aprobados a las nueve láminas definitivas; preservar la colección Fase 5 anterior como histórica.
+- [x] Integrar 9 SVG, 9 PDF individuales A3, 9 PNG a 300 ppp y 1 PDF combinado de 9 páginas en la carpeta final.
+- [x] Actualizar índice de entregables e inventario SHA-256 sin alterar Excel, memorias ni originales.
+
+### VERIFICADO
+
+- [x] 103/103 controles de SVG, PDF, PNG, cassettes, puertos, U, distancias de escenario y cantidades del Excel.
+- [x] Inspección visual de las nueve páginas renderizadas y ampliaciones de bandeja, tomas, ER y TR; corrección de Unicode en PDF y del trazado exterior E1/E3.
+
+### PENDIENTE
+
+- [ ] Revisión académica personal del estudiante; medir y confirmar en campo recorridos, ubicaciones, ocupación de ductos/bandejas y fijaciones antes de construir o comprar.
+- [ ] Impresión física no efectuada; se verificó el formato digital A3.

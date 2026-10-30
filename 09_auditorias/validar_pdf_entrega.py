@@ -46,7 +46,11 @@ def main() -> None:
     if args.render_dir:
         args.render_dir.mkdir(parents=True, exist_ok=True)
     assert not list(PACKAGE.rglob("*.md")), "Hay Markdown de lectura dentro del paquete"
+    planos = PACKAGE / "06_PLANOS_TECNICOS"
     expected_pdf = {str(PACKAGE / target) for _, target, _ in DOCUMENTS}
+    expected_pdf.update(str(path) for path in (planos / "PDF_A3").glob("*.pdf"))
+    expected_pdf.add(str(planos / "PLANOS_TECNICOS_INA_CENATE_9_LAMINAS.pdf"))
+    assert len(list((planos / "PDF_A3").glob("*.pdf"))) == 9
     assert {str(path) for path in PACKAGE.rglob("*.pdf")} == expected_pdf
     files = sorted(path for path in PACKAGE.rglob("*") if path.is_file()
                    and path.name != "INVENTARIO_SHA256.txt" and not path.name.startswith("~$"))

@@ -1,13 +1,13 @@
 # Prototipos gráficos de Fase 5B — INA CENATE
 
-**Estado:** dos propuestas para evaluación del estudiante y ChatGPT. La colección vigente de nueve láminas permanece en `08_entrega/ENTREGA_FINAL_INA_CENATE/06_PLANOS_TECNICOS/`.
+**Estado histórico desde 2026-10-29:** los dos prototipos sirvieron de base gráfica para las nueve láminas Fase 5C. La colección vigente está en `08_entrega/ENTREGA_FINAL_INA_CENATE/06_PLANOS_TECNICOS/`.
 
 | Prototipo | SVG editable | PDF A3 horizontal | PNG a 300 ppp |
 |---|---|---|---|
 | P1 — elevación frontal TR-A | `SVG_EDITABLE/P1_TR_A.svg` | `PDF_A3/P1_TR_A.pdf` | `PNG/P1_TR_A.png` |
 | P2 — planta de canalizaciones A | `SVG_EDITABLE/P2_PLANTA_A.svg` | `PDF_A3/P2_PLANTA_A.pdf` | `PNG/P2_PLANTA_A.png` |
 
-`COMPARATIVO_FASE5_VS_PROTOTIPOS.pdf` contiene dos páginas A3: cada una muestra la lámina Fase 5 vigente, el prototipo y una ampliación de ambos. El comparativo conserva texto y trazos vectoriales.
+`COMPARATIVO_FASE5_VS_PROTOTIPOS.pdf` documenta la comparación histórica entre Fase 5 y Fase 5B. Conserva texto y trazos vectoriales; no representa el conjunto vigente.
 
 ## Datos y límites
 

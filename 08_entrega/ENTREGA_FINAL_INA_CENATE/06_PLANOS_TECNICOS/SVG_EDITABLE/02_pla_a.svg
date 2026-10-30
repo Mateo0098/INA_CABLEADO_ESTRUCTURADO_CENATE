@@ -4,71 +4,455 @@
 <rect x="22" y="22" width="1636" height="1144" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="3"/>
 <rect x="22" y="22" width="1636" height="104" rx="0" fill="#202D3A" stroke="#202D3A" stroke-width="0"/>
 <text x="54" y="66" font-size="27" font-weight="700" text-anchor="start" fill="#FFFFFF">INA · CENATE  /  CABLEADO ESTRUCTURADO</text>
-<text x="54" y="103" font-size="34" font-weight="700" text-anchor="start" fill="#FFFFFF">DISTRIBUCIÓN DE CANASTAS Y TUBERÍAS · EDIFICIO A</text>
+<text x="54" y="103" font-size="34" font-weight="700" text-anchor="start" fill="#FFFFFF">CANALIZACIONES EDIFICIO A</text>
 <text x="1620" y="63" font-size="25" font-weight="700" text-anchor="end" fill="#FFFFFF">LÁMINA 02/09</text>
 <text x="1620" y="99" font-size="21" font-weight="700" text-anchor="end" fill="#D8E4EA">PLA-A</text>
-<text x="54" y="153" font-size="19" font-weight="400" text-anchor="start" fill="#667482">Planta típica de referencia · 5 laboratorios por piso · 85 m² por laboratorio · 1 TR/piso</text>
-<rect x="115" y="205" width="390" height="230" rx="0" fill="#F8FBFC" stroke="#202D3A" stroke-width="3"/>
-<line x1="143" y1="205" x2="205" y2="205" stroke="#FFFFFF" stroke-width="7"/>
-<line x1="143" y1="205" x2="143" y2="263" stroke="#D17A35" stroke-width="2"/>
-<text x="133" y="239" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB-A-Pxx-L01</text>
-<text x="133" y="277" font-size="17" font-weight="400" text-anchor="start" fill="#667482">85 m² · 10 × 8,5 m (supuesto)</text>
-<text x="133" y="313" font-size="17" font-weight="700" text-anchor="start" fill="#176B87">16 WA dobles · 32 puertos</text>
-<line x1="310.0" y1="435" x2="310.0" y2="560" stroke="#D17A35" stroke-width="5"/>
-<rect x="523" y="205" width="390" height="230" rx="0" fill="#F8FBFC" stroke="#202D3A" stroke-width="3"/>
-<line x1="551" y1="205" x2="613" y2="205" stroke="#FFFFFF" stroke-width="7"/>
-<line x1="551" y1="205" x2="551" y2="263" stroke="#D17A35" stroke-width="2"/>
-<text x="541" y="239" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB-A-Pxx-L02</text>
-<text x="541" y="277" font-size="17" font-weight="400" text-anchor="start" fill="#667482">85 m² · 10 × 8,5 m (supuesto)</text>
-<text x="541" y="313" font-size="17" font-weight="700" text-anchor="start" fill="#176B87">16 WA dobles · 32 puertos</text>
-<line x1="718.0" y1="435" x2="718.0" y2="560" stroke="#D17A35" stroke-width="5"/>
-<rect x="931" y="205" width="390" height="230" rx="0" fill="#F8FBFC" stroke="#202D3A" stroke-width="3"/>
-<line x1="959" y1="205" x2="1021" y2="205" stroke="#FFFFFF" stroke-width="7"/>
-<line x1="959" y1="205" x2="959" y2="263" stroke="#D17A35" stroke-width="2"/>
-<text x="949" y="239" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB-A-Pxx-L03</text>
-<text x="949" y="277" font-size="17" font-weight="400" text-anchor="start" fill="#667482">85 m² · 10 × 8,5 m (supuesto)</text>
-<text x="949" y="313" font-size="17" font-weight="700" text-anchor="start" fill="#176B87">16 WA dobles · 32 puertos</text>
-<line x1="1126.0" y1="435" x2="1126.0" y2="560" stroke="#D17A35" stroke-width="5"/>
-<rect x="115" y="605" width="390" height="230" rx="0" fill="#F8FBFC" stroke="#202D3A" stroke-width="3"/>
-<line x1="143" y1="605" x2="205" y2="605" stroke="#FFFFFF" stroke-width="7"/>
-<line x1="143" y1="605" x2="143" y2="663" stroke="#D17A35" stroke-width="2"/>
-<text x="133" y="639" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB-A-Pxx-L04</text>
-<text x="133" y="677" font-size="17" font-weight="400" text-anchor="start" fill="#667482">85 m² · 10 × 8,5 m (supuesto)</text>
-<text x="133" y="713" font-size="17" font-weight="700" text-anchor="start" fill="#176B87">16 WA dobles · 32 puertos</text>
-<line x1="310.0" y1="560" x2="310.0" y2="605" stroke="#D17A35" stroke-width="5"/>
-<rect x="523" y="605" width="390" height="230" rx="0" fill="#F8FBFC" stroke="#202D3A" stroke-width="3"/>
-<line x1="551" y1="605" x2="613" y2="605" stroke="#FFFFFF" stroke-width="7"/>
-<line x1="551" y1="605" x2="551" y2="663" stroke="#D17A35" stroke-width="2"/>
-<text x="541" y="639" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB-A-Pxx-L05</text>
-<text x="541" y="677" font-size="17" font-weight="400" text-anchor="start" fill="#667482">85 m² · 10 × 8,5 m (supuesto)</text>
-<text x="541" y="713" font-size="17" font-weight="700" text-anchor="start" fill="#176B87">16 WA dobles · 32 puertos</text>
-<line x1="718.0" y1="560" x2="718.0" y2="605" stroke="#D17A35" stroke-width="5"/>
-<rect x="90" y="475" width="1190" height="170" rx="0" fill="#F0F2F4" stroke="#B8C1C8" stroke-width="1"/>
-<text x="670" y="520" font-size="20" font-weight="700" text-anchor="middle" fill="#202D3A">PASILLO CENTRAL · ANCHO 2,4 m (SUPUESTO)</text>
-<line x1="120" y1="570" x2="1245" y2="570" stroke="#D17A35" stroke-width="12"/>
-<text x="680" y="558" font-size="18" font-weight="700" text-anchor="middle" fill="#D17A35">CANASTA PRINCIPAL · sección preliminar 100 × 50 mm</text>
-<line x1="310.0" y1="435" x2="310.0" y2="475" stroke="#D17A35" stroke-width="5"/>
-<line x1="718.0" y1="435" x2="718.0" y2="475" stroke="#D17A35" stroke-width="5"/>
-<line x1="1126.0" y1="435" x2="1126.0" y2="475" stroke="#D17A35" stroke-width="5"/>
-<line x1="310.0" y1="645" x2="310.0" y2="670" stroke="#D17A35" stroke-width="5"/>
-<line x1="718.0" y1="645" x2="718.0" y2="670" stroke="#D17A35" stroke-width="5"/>
-<rect x="1325" y="425" width="250" height="300" rx="5" fill="#FFF7E6" stroke="#D17A35" stroke-width="3"/>
-<text x="1450" y="463" font-size="22" font-weight="700" text-anchor="middle" fill="#202D3A">TR-A-Pxx</text>
-<text x="1450" y="498" font-size="17" font-weight="400" text-anchor="middle" fill="#667482">3 × 3 m (supuesto)</text>
-<text x="1450" y="547" font-size="18" font-weight="700" text-anchor="middle" fill="#176B87">160 puertos asignados</text>
-<text x="1450" y="579" font-size="17" font-weight="400" text-anchor="middle" fill="#202D3A">4 × 48 = 192 pos.</text>
-<text x="1450" y="611" font-size="17" font-weight="700" text-anchor="middle" fill="#418260">32 libres</text>
-<line x1="1280" y1="570" x2="1325" y2="570" stroke="#D17A35" stroke-width="10"/>
-<rect x="90" y="860" width="900" height="125" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
-<text x="108" y="890" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LEYENDA DE CANALIZACIÓN</text>
-<line x1="120" y1="930" x2="235" y2="930" stroke="#D17A35" stroke-width="11"/>
-<text x="260" y="938" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">Canasta/bandeja principal y ramales</text>
-<line x1="550" y1="930" x2="650" y2="930" stroke="#176B87" stroke-width="4"/>
-<text x="675" y="938" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">Tubería a WA (trazado típico)</text>
-<rect x="1020" y="860" width="555" height="125" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
-<text x="1038" y="890" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">NOTA DE DISEÑO</text>
-<text x="1045" y="917" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">Muros/puertas esquemáticos. Tubo nominal Ø25 mm</text>
-<text x="1045" y="943" font-size="17" font-weight="400" text-anchor="start" fill="#202D3A">preliminar; confirmar ocupación y geometría.</text>
+<text x="54" y="153" font-size="19" font-weight="400" text-anchor="start" fill="#667482">Planta académica típica: 5 laboratorios / TR-A · bandeja 100 × 50 mm · tubo nominal Ø25 mm</text>
+<rect x="56" y="217" width="1164" height="775" rx="0" fill="#FAFBFB" stroke="#202D3A" stroke-width="2"/>
+<rect x="79" y="501" width="1116" height="184" rx="0" fill="#F3F6F7" stroke="#CAD4D9" stroke-width="1"/>
+<text x="90" y="536" font-size="14" font-weight="700" text-anchor="start" fill="#667482">PASILLO CENTRAL</text>
+<text x="90" y="553" font-size="11" font-weight="700" text-anchor="start" fill="#667482">2,4 m SUPUESTO</text>
+<rect x="92" y="235" width="302" height="262" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="99" y="242" width="288" height="248" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="355" y="490" width="48" height="12" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="352" y1="489" x2="352" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="406" y1="489" x2="406" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="355" y1="497" x2="355" y2="450" stroke="#202D3A" stroke-width="2"/>
+<polyline points="355.0,450.0 361.13473103434245,450.4020915154309 367.16449511981847,451.6014861644138 372.9861213211592,453.5776619719695 378.5,456.29680602213136 383.6117871634099,459.71239300631197 388.2340187157677,463.7659812842323 392.28760699368803,468.3882128365901 395.70319397786864,473.5 398.4223380280305,479.0138786788408 400.3985138355862,484.83550488018153 401.5979084845691,490.86526896565755 402.0,497.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="114" y="270" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB A-01</text>
+<text x="114" y="293" font-size="12" font-weight="400" text-anchor="start" fill="#667482">85 m² supuestos · 16 WA dobles</text>
+<text x="114" y="313" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">32 enlaces RJ45 Cat 6A</text>
+<rect x="418" y="235" width="302" height="262" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="425" y="242" width="288" height="248" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="681" y="490" width="48" height="12" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="678" y1="489" x2="678" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="732" y1="489" x2="732" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="681" y1="497" x2="681" y2="450" stroke="#202D3A" stroke-width="2"/>
+<polyline points="681.0,450.0 687.1347310343424,450.4020915154309 693.1644951198185,451.6014861644138 698.9861213211592,453.5776619719695 704.5,456.29680602213136 709.6117871634099,459.71239300631197 714.2340187157678,463.7659812842323 718.2876069936881,468.3882128365901 721.7031939778686,473.5 724.4223380280305,479.0138786788408 726.3985138355862,484.83550488018153 727.5979084845691,490.86526896565755 728.0,497.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="440" y="270" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB A-02</text>
+<text x="440" y="293" font-size="12" font-weight="400" text-anchor="start" fill="#667482">85 m² supuestos · 16 WA dobles</text>
+<text x="440" y="313" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">32 enlaces RJ45 Cat 6A</text>
+<rect x="744" y="235" width="302" height="262" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="751" y="242" width="288" height="248" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="1007" y="490" width="48" height="12" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="1004" y1="489" x2="1004" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="1058" y1="489" x2="1058" y2="505" stroke="#202D3A" stroke-width="2"/>
+<line x1="1007" y1="497" x2="1007" y2="450" stroke="#202D3A" stroke-width="2"/>
+<polyline points="1007.0,450.0 1013.1347310343424,450.4020915154309 1019.1644951198185,451.6014861644138 1024.9861213211593,453.5776619719695 1030.5,456.29680602213136 1035.6117871634099,459.71239300631197 1040.2340187157677,463.7659812842323 1044.287606993688,468.3882128365901 1047.7031939778685,473.5 1050.4223380280305,479.0138786788408 1052.3985138355863,484.83550488018153 1053.5979084845692,490.86526896565755 1054.0,497.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="766" y="270" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB A-03</text>
+<text x="766" y="293" font-size="12" font-weight="400" text-anchor="start" fill="#667482">85 m² supuestos · 16 WA dobles</text>
+<text x="766" y="313" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">32 enlaces RJ45 Cat 6A</text>
+<rect x="188" y="689" width="378" height="276" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="195" y="696" width="364" height="262" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="520" y="687" width="48" height="12" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="517" y1="681" x2="517" y2="697" stroke="#202D3A" stroke-width="2"/>
+<line x1="571" y1="681" x2="571" y2="697" stroke="#202D3A" stroke-width="2"/>
+<line x1="520" y1="689" x2="520" y2="736" stroke="#202D3A" stroke-width="2"/>
+<polyline points="567.0,689.0 566.5979084845691,695.1347310343424 565.3985138355862,701.1644951198185 563.4223380280305,706.9861213211592 560.7031939778686,712.5 557.2876069936881,717.6117871634099 553.2340187157678,722.2340187157678 548.6117871634099,726.2876069936881 543.5,729.7031939778686 537.9861213211592,732.4223380280305 532.1644951198185,734.3985138355862 526.1347310343424,735.5979084845691 520.0,736.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="210" y="724" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB A-04</text>
+<text x="210" y="747" font-size="12" font-weight="400" text-anchor="start" fill="#667482">85 m² supuestos · 16 WA dobles</text>
+<text x="210" y="767" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">32 enlaces RJ45 Cat 6A</text>
+<rect x="591" y="689" width="378" height="276" rx="0" fill="#FFFFFF" stroke="#202D3A" stroke-width="4"/>
+<rect x="598" y="696" width="364" height="262" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="923" y="687" width="48" height="12" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="920" y1="681" x2="920" y2="697" stroke="#202D3A" stroke-width="2"/>
+<line x1="974" y1="681" x2="974" y2="697" stroke="#202D3A" stroke-width="2"/>
+<line x1="923" y1="689" x2="923" y2="736" stroke="#202D3A" stroke-width="2"/>
+<polyline points="970.0,689.0 969.5979084845691,695.1347310343424 968.3985138355862,701.1644951198185 966.4223380280305,706.9861213211592 963.7031939778686,712.5 960.2876069936881,717.6117871634099 956.2340187157678,722.2340187157678 951.6117871634099,726.2876069936881 946.5,729.7031939778686 940.9861213211592,732.4223380280305 935.1644951198185,734.3985138355862 929.1347310343424,735.5979084845691 923.0,736.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="613" y="724" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LAB A-05</text>
+<text x="613" y="747" font-size="12" font-weight="400" text-anchor="start" fill="#667482">85 m² supuestos · 16 WA dobles</text>
+<text x="613" y="767" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">32 enlaces RJ45 Cat 6A</text>
+<rect x="1066" y="689" width="130" height="276" rx="0" fill="#EDF3F4" stroke="#202D3A" stroke-width="4"/>
+<rect x="1073" y="696" width="116" height="262" rx="0" fill="#FFFFFF" stroke="#9CA8B0" stroke-width="1.3"/>
+<rect x="1062" y="725" width="12" height="55" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/>
+<line x1="1066" y1="726" x2="1120" y2="726" stroke="#202D3A" stroke-width="2"/>
+<polyline points="1120.0,726.0 1119.5380225141857,733.0484143798827 1118.1599946196097,739.9762284355361 1115.8894947556096,746.6649053477148 1112.7653718043598,753.0 1108.8410803757267,758.8731171664709 1104.1837661840736,764.1837661840735 1098.8731171664708,768.8410803757267 1093.0,772.7653718043597 1086.664905347715,775.8894947556095 1079.976228435536,778.1599946196097 1073.0484143798828,779.5380225141857 1066.0,780.0" fill="none" stroke="#6A7983" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="1131" y="721" font-size="17" font-weight="700" text-anchor="middle" fill="#202D3A">TR-A</text>
+<rect x="1094" y="770" width="76" height="126" rx="2" fill="#D9E1E5" stroke="#202D3A" stroke-width="2"/>
+<rect x="1102" y="784" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="788" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="800" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="804" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="816" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="820" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="832" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="836" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="848" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="852" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="864" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="868" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<rect x="1102" y="880" width="60" height="8" rx="0" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1111" cy="884" r="1.3" fill="#176B87" stroke="#176B87" stroke-width="0.1"/>
+<text x="1131" y="924" font-size="12" font-weight="700" text-anchor="middle" fill="#667482">42U / 19 in</text>
+<rect x="112" y="576.5" width="964" height="27" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="112" y1="580.5" x2="1076" y2="580.5" stroke="#D59459" stroke-width="1"/>
+<line x1="112" y1="599.5" x2="1076" y2="599.5" stroke="#D59459" stroke-width="1"/>
+<line x1="121" y1="580.5" x2="121" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="139" y1="580.5" x2="139" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="157" y1="580.5" x2="157" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="175" y1="580.5" x2="175" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="193" y1="580.5" x2="193" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="211" y1="580.5" x2="211" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="229" y1="580.5" x2="229" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="247" y1="580.5" x2="247" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="265" y1="580.5" x2="265" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="283" y1="580.5" x2="283" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="301" y1="580.5" x2="301" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="319" y1="580.5" x2="319" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="337" y1="580.5" x2="337" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="355" y1="580.5" x2="355" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="373" y1="580.5" x2="373" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="391" y1="580.5" x2="391" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="409" y1="580.5" x2="409" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="427" y1="580.5" x2="427" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="445" y1="580.5" x2="445" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="463" y1="580.5" x2="463" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="481" y1="580.5" x2="481" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="499" y1="580.5" x2="499" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="517" y1="580.5" x2="517" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="535" y1="580.5" x2="535" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="553" y1="580.5" x2="553" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="571" y1="580.5" x2="571" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="589" y1="580.5" x2="589" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="607" y1="580.5" x2="607" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="625" y1="580.5" x2="625" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="643" y1="580.5" x2="643" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="661" y1="580.5" x2="661" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="679" y1="580.5" x2="679" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="697" y1="580.5" x2="697" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="715" y1="580.5" x2="715" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="733" y1="580.5" x2="733" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="751" y1="580.5" x2="751" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="769" y1="580.5" x2="769" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="787" y1="580.5" x2="787" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="805" y1="580.5" x2="805" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="823" y1="580.5" x2="823" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="841" y1="580.5" x2="841" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="859" y1="580.5" x2="859" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="877" y1="580.5" x2="877" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="895" y1="580.5" x2="895" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="913" y1="580.5" x2="913" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="931" y1="580.5" x2="931" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="949" y1="580.5" x2="949" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="967" y1="580.5" x2="967" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="985" y1="580.5" x2="985" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1003" y1="580.5" x2="1003" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1021" y1="580.5" x2="1021" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1039" y1="580.5" x2="1039" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1057" y1="580.5" x2="1057" y2="599.5" stroke="#B96825" stroke-width="0.65"/>
+<rect x="236.0" y="497" width="22" height="79" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="240.0" y1="497" x2="240.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="254.0" y1="497" x2="254.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="240.0" y1="505" x2="254.0" y2="505" stroke="#B96825" stroke-width="0.65"/>
+<line x1="240.0" y1="523" x2="254.0" y2="523" stroke="#B96825" stroke-width="0.65"/>
+<line x1="240.0" y1="541" x2="254.0" y2="541" stroke="#B96825" stroke-width="0.65"/>
+<line x1="240.0" y1="559" x2="254.0" y2="559" stroke="#B96825" stroke-width="0.65"/>
+<line x1="233" y1="489" x2="233" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<line x1="261" y1="489" x2="261" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<rect x="232" y="578" width="30" height="23" rx="1" fill="#F4DDC1" stroke="#B96825" stroke-width="1.4"/>
+<rect x="231" y="449" width="32" height="26" rx="2" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.8"/>
+<circle cx="247" cy="462" r="3" fill="#B96825" stroke="#B96825" stroke-width="1"/>
+<text x="225" y="466" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">TB-01</text>
+<line x1="244" y1="449" x2="244" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<line x1="250" y1="449" x2="250" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<rect x="232" y="364" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="236" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="248" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="239" y1="370" x2="239" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="242" y1="370" x2="242" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="251" y1="370" x2="251" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="254" y1="370" x2="254" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="268" y="379" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">TO-01</text>
+<line x1="263" y1="459" x2="314" y2="459" stroke="#176B87" stroke-width="1.7"/>
+<line x1="263" y1="465" x2="314" y2="465" stroke="#176B87" stroke-width="1.7"/>
+<line x1="311" y1="462" x2="311" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<line x1="317" y1="462" x2="317" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<circle cx="314" cy="462" r="4" fill="#FFFFFF" stroke="#176B87" stroke-width="1"/>
+<rect x="299" y="359" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="303" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="315" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="306" y1="365" x2="306" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="309" y1="365" x2="309" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="318" y1="365" x2="318" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="321" y1="365" x2="321" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<rect x="561.0" y="497" width="22" height="79" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="565.0" y1="497" x2="565.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="579.0" y1="497" x2="579.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="565.0" y1="505" x2="579.0" y2="505" stroke="#B96825" stroke-width="0.65"/>
+<line x1="565.0" y1="523" x2="579.0" y2="523" stroke="#B96825" stroke-width="0.65"/>
+<line x1="565.0" y1="541" x2="579.0" y2="541" stroke="#B96825" stroke-width="0.65"/>
+<line x1="565.0" y1="559" x2="579.0" y2="559" stroke="#B96825" stroke-width="0.65"/>
+<line x1="558" y1="489" x2="558" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<line x1="586" y1="489" x2="586" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<rect x="557" y="578" width="30" height="23" rx="1" fill="#F4DDC1" stroke="#B96825" stroke-width="1.4"/>
+<rect x="556" y="449" width="32" height="26" rx="2" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.8"/>
+<circle cx="572" cy="462" r="3" fill="#B96825" stroke="#B96825" stroke-width="1"/>
+<text x="550" y="466" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">TB-02</text>
+<line x1="569" y1="449" x2="569" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<line x1="575" y1="449" x2="575" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<rect x="557" y="364" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="561" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="573" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="564" y1="370" x2="564" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="567" y1="370" x2="567" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="576" y1="370" x2="576" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="579" y1="370" x2="579" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="593" y="379" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">TO-02</text>
+<line x1="588" y1="459" x2="639" y2="459" stroke="#176B87" stroke-width="1.7"/>
+<line x1="588" y1="465" x2="639" y2="465" stroke="#176B87" stroke-width="1.7"/>
+<line x1="636" y1="462" x2="636" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<line x1="642" y1="462" x2="642" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<circle cx="639" cy="462" r="4" fill="#FFFFFF" stroke="#176B87" stroke-width="1"/>
+<rect x="624" y="359" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="628" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="640" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="631" y1="365" x2="631" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="634" y1="365" x2="634" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="643" y1="365" x2="643" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="646" y1="365" x2="646" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<rect x="886.0" y="497" width="22" height="79" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="890.0" y1="497" x2="890.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="904.0" y1="497" x2="904.0" y2="576" stroke="#D59459" stroke-width="1"/>
+<line x1="890.0" y1="505" x2="904.0" y2="505" stroke="#B96825" stroke-width="0.65"/>
+<line x1="890.0" y1="523" x2="904.0" y2="523" stroke="#B96825" stroke-width="0.65"/>
+<line x1="890.0" y1="541" x2="904.0" y2="541" stroke="#B96825" stroke-width="0.65"/>
+<line x1="890.0" y1="559" x2="904.0" y2="559" stroke="#B96825" stroke-width="0.65"/>
+<line x1="883" y1="489" x2="883" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<line x1="911" y1="489" x2="911" y2="505" stroke="#6A7983" stroke-width="1.8"/>
+<rect x="882" y="578" width="30" height="23" rx="1" fill="#F4DDC1" stroke="#B96825" stroke-width="1.4"/>
+<rect x="881" y="449" width="32" height="26" rx="2" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.8"/>
+<circle cx="897" cy="462" r="3" fill="#B96825" stroke="#B96825" stroke-width="1"/>
+<text x="875" y="466" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">TB-03</text>
+<line x1="894" y1="449" x2="894" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<line x1="900" y1="449" x2="900" y2="374" stroke="#176B87" stroke-width="1.7"/>
+<rect x="882" y="364" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="886" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="898" y="368" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="889" y1="370" x2="889" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="892" y1="370" x2="892" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="901" y1="370" x2="901" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="904" y1="370" x2="904" y2="373" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="918" y="379" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">TO-03</text>
+<line x1="913" y1="459" x2="964" y2="459" stroke="#176B87" stroke-width="1.7"/>
+<line x1="913" y1="465" x2="964" y2="465" stroke="#176B87" stroke-width="1.7"/>
+<line x1="961" y1="462" x2="961" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<line x1="967" y1="462" x2="967" y2="369" stroke="#176B87" stroke-width="1.7"/>
+<circle cx="964" cy="462" r="4" fill="#FFFFFF" stroke="#176B87" stroke-width="1"/>
+<rect x="949" y="359" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="953" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="965" y="363" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="956" y1="365" x2="956" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="959" y1="365" x2="959" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="968" y1="365" x2="968" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="971" y1="365" x2="971" y2="368" stroke="#D9B65A" stroke-width="0.6"/>
+<rect x="357.0" y="604" width="22" height="85" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="361.0" y1="604" x2="361.0" y2="689" stroke="#D59459" stroke-width="1"/>
+<line x1="375.0" y1="604" x2="375.0" y2="689" stroke="#D59459" stroke-width="1"/>
+<line x1="361.0" y1="612" x2="375.0" y2="612" stroke="#B96825" stroke-width="0.65"/>
+<line x1="361.0" y1="630" x2="375.0" y2="630" stroke="#B96825" stroke-width="0.65"/>
+<line x1="361.0" y1="648" x2="375.0" y2="648" stroke="#B96825" stroke-width="0.65"/>
+<line x1="361.0" y1="666" x2="375.0" y2="666" stroke="#B96825" stroke-width="0.65"/>
+<line x1="354" y1="681" x2="354" y2="697" stroke="#6A7983" stroke-width="1.8"/>
+<line x1="382" y1="681" x2="382" y2="697" stroke="#6A7983" stroke-width="1.8"/>
+<rect x="353" y="589" width="30" height="23" rx="1" fill="#F4DDC1" stroke="#B96825" stroke-width="1.4"/>
+<rect x="352" y="694" width="32" height="26" rx="2" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.8"/>
+<circle cx="368" cy="707" r="3" fill="#B96825" stroke="#B96825" stroke-width="1"/>
+<text x="346" y="711" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">TB-04</text>
+<line x1="365" y1="720" x2="365" y2="808" stroke="#176B87" stroke-width="1.7"/>
+<line x1="371" y1="720" x2="371" y2="808" stroke="#176B87" stroke-width="1.7"/>
+<rect x="353" y="798" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="357" y="802" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="369" y="802" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="360" y1="804" x2="360" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="363" y1="804" x2="363" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="372" y1="804" x2="372" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="375" y1="804" x2="375" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="389" y="813" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">TO-04</text>
+<line x1="384" y1="704" x2="435" y2="704" stroke="#176B87" stroke-width="1.7"/>
+<line x1="384" y1="710" x2="435" y2="710" stroke="#176B87" stroke-width="1.7"/>
+<line x1="432" y1="707" x2="432" y2="813" stroke="#176B87" stroke-width="1.7"/>
+<line x1="438" y1="707" x2="438" y2="813" stroke="#176B87" stroke-width="1.7"/>
+<circle cx="435" cy="707" r="4" fill="#FFFFFF" stroke="#176B87" stroke-width="1"/>
+<rect x="420" y="803" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="424" y="807" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="436" y="807" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="427" y1="809" x2="427" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="430" y1="809" x2="430" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="439" y1="809" x2="439" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="442" y1="809" x2="442" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<rect x="765.0" y="604" width="22" height="85" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="769.0" y1="604" x2="769.0" y2="689" stroke="#D59459" stroke-width="1"/>
+<line x1="783.0" y1="604" x2="783.0" y2="689" stroke="#D59459" stroke-width="1"/>
+<line x1="769.0" y1="612" x2="783.0" y2="612" stroke="#B96825" stroke-width="0.65"/>
+<line x1="769.0" y1="630" x2="783.0" y2="630" stroke="#B96825" stroke-width="0.65"/>
+<line x1="769.0" y1="648" x2="783.0" y2="648" stroke="#B96825" stroke-width="0.65"/>
+<line x1="769.0" y1="666" x2="783.0" y2="666" stroke="#B96825" stroke-width="0.65"/>
+<line x1="762" y1="681" x2="762" y2="697" stroke="#6A7983" stroke-width="1.8"/>
+<line x1="790" y1="681" x2="790" y2="697" stroke="#6A7983" stroke-width="1.8"/>
+<rect x="761" y="589" width="30" height="23" rx="1" fill="#F4DDC1" stroke="#B96825" stroke-width="1.4"/>
+<rect x="760" y="694" width="32" height="26" rx="2" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.8"/>
+<circle cx="776" cy="707" r="3" fill="#B96825" stroke="#B96825" stroke-width="1"/>
+<text x="754" y="711" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">TB-05</text>
+<line x1="773" y1="720" x2="773" y2="808" stroke="#176B87" stroke-width="1.7"/>
+<line x1="779" y1="720" x2="779" y2="808" stroke="#176B87" stroke-width="1.7"/>
+<rect x="761" y="798" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="765" y="802" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="777" y="802" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="768" y1="804" x2="768" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="771" y1="804" x2="771" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="780" y1="804" x2="780" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="783" y1="804" x2="783" y2="807" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="797" y="813" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">TO-05</text>
+<line x1="792" y1="704" x2="843" y2="704" stroke="#176B87" stroke-width="1.7"/>
+<line x1="792" y1="710" x2="843" y2="710" stroke="#176B87" stroke-width="1.7"/>
+<line x1="840" y1="707" x2="840" y2="813" stroke="#176B87" stroke-width="1.7"/>
+<line x1="846" y1="707" x2="846" y2="813" stroke="#176B87" stroke-width="1.7"/>
+<circle cx="843" cy="707" r="4" fill="#FFFFFF" stroke="#176B87" stroke-width="1"/>
+<rect x="828" y="803" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="832" y="807" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="844" y="807" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="835" y1="809" x2="835" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="838" y1="809" x2="838" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="847" y1="809" x2="847" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="850" y1="809" x2="850" y2="812" stroke="#D9B65A" stroke-width="0.6"/>
+<rect x="1018.5" y="590" width="27" height="152" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="1022.5" y1="590" x2="1022.5" y2="742" stroke="#D59459" stroke-width="1"/>
+<line x1="1041.5" y1="590" x2="1041.5" y2="742" stroke="#D59459" stroke-width="1"/>
+<line x1="1022.5" y1="598" x2="1041.5" y2="598" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="616" x2="1041.5" y2="616" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="634" x2="1041.5" y2="634" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="652" x2="1041.5" y2="652" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="670" x2="1041.5" y2="670" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="688" x2="1041.5" y2="688" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="706" x2="1041.5" y2="706" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1022.5" y1="724" x2="1041.5" y2="724" stroke="#B96825" stroke-width="0.65"/>
+<rect x="1032" y="728.5" width="65" height="27" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="1032" y1="732.5" x2="1097" y2="732.5" stroke="#D59459" stroke-width="1"/>
+<line x1="1032" y1="751.5" x2="1097" y2="751.5" stroke="#D59459" stroke-width="1"/>
+<line x1="1041" y1="732.5" x2="1041" y2="751.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1059" y1="732.5" x2="1059" y2="751.5" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1077" y1="732.5" x2="1077" y2="751.5" stroke="#B96825" stroke-width="0.65"/>
+<rect x="1020" y="577" width="25" height="27" rx="2" fill="#EACDAA" stroke="#B96825" stroke-width="1.5"/>
+<rect x="1068" y="727" width="31" height="29" rx="2" fill="#D9E2E5" stroke="#202D3A" stroke-width="1.7"/>
+<text x="982" y="626" font-size="11" font-weight="700" text-anchor="start" fill="#B96825">CODO 90°</text>
+<text x="1061" y="775" font-size="11" font-weight="700" text-anchor="end" fill="#202D3A">INGRESO TR</text>
+<line x1="160" y1="564" x2="160" y2="579" stroke="#6A7983" stroke-width="2"/>
+<line x1="150" y1="564" x2="170" y2="564" stroke="#6A7983" stroke-width="2"/>
+<circle cx="160" cy="560" r="2" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<line x1="146" y1="606" x2="174" y2="606" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="146" y1="606" x2="146" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="174" y1="606" x2="174" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="455" y1="564" x2="455" y2="579" stroke="#6A7983" stroke-width="2"/>
+<line x1="445" y1="564" x2="465" y2="564" stroke="#6A7983" stroke-width="2"/>
+<circle cx="455" cy="560" r="2" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<line x1="441" y1="606" x2="469" y2="606" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="441" y1="606" x2="441" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="469" y1="606" x2="469" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="735" y1="564" x2="735" y2="579" stroke="#6A7983" stroke-width="2"/>
+<line x1="725" y1="564" x2="745" y2="564" stroke="#6A7983" stroke-width="2"/>
+<circle cx="735" cy="560" r="2" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<line x1="721" y1="606" x2="749" y2="606" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="721" y1="606" x2="721" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="749" y1="606" x2="749" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="1010" y1="564" x2="1010" y2="579" stroke="#6A7983" stroke-width="2"/>
+<line x1="1000" y1="564" x2="1020" y2="564" stroke="#6A7983" stroke-width="2"/>
+<circle cx="1010" cy="560" r="2" fill="#FFFFFF" stroke="#6A7983" stroke-width="1"/>
+<line x1="996" y1="606" x2="1024" y2="606" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="996" y1="606" x2="996" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<line x1="1024" y1="606" x2="1024" y2="601" stroke="#6A7983" stroke-width="1.5"/>
+<text x="78" y="1008" font-size="13" font-weight="400" text-anchor="start" fill="#667482">Rutas, muros y pasamuros supuestos. Dos salidas por laboratorio ilustran la distribución; no son las 16 WA completas.</text>
+<text x="78" y="1034" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">Cada laboratorio: 16 WA dobles × 2 RJ45 = 32 enlaces. TR-A: 5 × 32 = 160 enlaces Cat 6A.</text>
+<rect x="1242" y="216" width="365" height="340" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="1260" y="246" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">DETALLE A · TRANSICIÓN</text>
+<text x="1258" y="273" font-size="14" font-weight="700" text-anchor="start" fill="#B96825">Bandeja 100 × 50 mm</text>
+<rect x="1260" y="298.0" width="267" height="42" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="1260" y1="302.0" x2="1527" y2="302.0" stroke="#D59459" stroke-width="1"/>
+<line x1="1260" y1="336.0" x2="1527" y2="336.0" stroke="#D59459" stroke-width="1"/>
+<line x1="1269" y1="302.0" x2="1269" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1287" y1="302.0" x2="1287" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1305" y1="302.0" x2="1305" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1323" y1="302.0" x2="1323" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1341" y1="302.0" x2="1341" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1359" y1="302.0" x2="1359" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1377" y1="302.0" x2="1377" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1395" y1="302.0" x2="1395" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1413" y1="302.0" x2="1413" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1431" y1="302.0" x2="1431" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1449" y1="302.0" x2="1449" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1467" y1="302.0" x2="1467" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1485" y1="302.0" x2="1485" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1503" y1="302.0" x2="1503" y2="336.0" stroke="#B96825" stroke-width="0.65"/>
+<rect x="1370" y="296" width="62" height="45" rx="2" fill="#E9D2B6" stroke="#B96825" stroke-width="2"/>
+<rect x="1380" y="339" width="43" height="38" rx="2" fill="#DDE6E9" stroke="#202D3A" stroke-width="2"/>
+<circle cx="1401" cy="356" r="4" fill="#FFFFFF" stroke="#202D3A" stroke-width="1"/>
+<line x1="1394" y1="377" x2="1394" y2="479" stroke="#176B87" stroke-width="2"/>
+<line x1="1408" y1="377" x2="1408" y2="479" stroke="#176B87" stroke-width="2"/>
+<line x1="1399" y1="381" x2="1399" y2="475" stroke="#78A9BA" stroke-width="1"/>
+<line x1="1403" y1="381" x2="1403" y2="475" stroke="#78A9BA" stroke-width="1"/>
+<rect x="1385" y="473" width="32" height="22" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.5"/>
+<line x1="1274" y1="289" x2="1274" y2="295" stroke="#6A7983" stroke-width="2"/>
+<line x1="1263" y1="288" x2="1285" y2="288" stroke="#6A7983" stroke-width="2"/>
+<text x="1258" y="409" font-size="12" font-weight="400" text-anchor="start" fill="#202D3A">Caja de transición</text>
+<line x1="1365" y1="404" x2="1390" y2="367" stroke="#202D3A" stroke-width="1"/>
+<text x="1258" y="439" font-size="12" font-weight="700" text-anchor="start" fill="#176B87">Tubo Ø25 nominal</text>
+<text x="1450" y="460" font-size="11" font-weight="700" text-anchor="start" fill="#176B87">2 × Cat 6A</text>
+<text x="1258" y="525" font-size="11" font-weight="400" text-anchor="start" fill="#667482">Soporte y fijación ilustrativos</text>
+<rect x="1242" y="572" width="365" height="249" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="1260" y="602" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">DETALLE B · SALIDA DOBLE</text>
+<line x1="1402" y1="620" x2="1402" y2="660" stroke="#176B87" stroke-width="1.7"/>
+<line x1="1408" y1="620" x2="1408" y2="660" stroke="#176B87" stroke-width="1.7"/>
+<rect x="1351" y="658" width="108" height="94" rx="3" fill="#E5E9EB" stroke="#202D3A" stroke-width="2"/>
+<rect x="1360" y="667" width="90" height="77" rx="2" fill="#FFFFFF" stroke="#6A7983" stroke-width="1.5"/>
+<rect x="1370" y="690" width="32" height="29" rx="1" fill="#E8F4F7" stroke="#176B87" stroke-width="1.25"/>
+<rect x="1372" y="692" width="28" height="25" rx="1" fill="#182C38" stroke="#182C38" stroke-width="0.6"/>
+<rect x="1378.0" y="708.27" width="16.0" height="6.67" rx="0" fill="#E8F4F7" stroke="#E8F4F7" stroke-width="0"/>
+<line x1="1374.8875" y1="692.8" x2="1374.8875" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1378.0625" y1="692.8" x2="1378.0625" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1381.2375" y1="692.8" x2="1381.2375" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1384.4125" y1="692.8" x2="1384.4125" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1387.5874999999999" y1="692.8" x2="1387.5874999999999" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1390.7625" y1="692.8" x2="1390.7625" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1393.9375" y1="692.8" x2="1393.9375" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1397.1125" y1="692.8" x2="1397.1125" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<rect x="1409" y="690" width="32" height="29" rx="1" fill="#E8F4F7" stroke="#176B87" stroke-width="1.25"/>
+<rect x="1411" y="692" width="28" height="25" rx="1" fill="#182C38" stroke="#182C38" stroke-width="0.6"/>
+<rect x="1417.0" y="708.27" width="16.0" height="6.67" rx="0" fill="#E8F4F7" stroke="#E8F4F7" stroke-width="0"/>
+<line x1="1413.8875" y1="692.8" x2="1413.8875" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1417.0625" y1="692.8" x2="1417.0625" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1420.2375" y1="692.8" x2="1420.2375" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1423.4125" y1="692.8" x2="1423.4125" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1426.5874999999999" y1="692.8" x2="1426.5874999999999" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1429.7625" y1="692.8" x2="1429.7625" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1432.9375" y1="692.8" x2="1432.9375" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<line x1="1436.1125" y1="692.8" x2="1436.1125" y2="699.28" stroke="#D9B65A" stroke-width="0.65"/>
+<circle cx="1365" cy="705" r="2" fill="#6A7983" stroke="#6A7983" stroke-width="1"/>
+<circle cx="1445" cy="705" r="2" fill="#6A7983" stroke="#6A7983" stroke-width="1"/>
+<text x="1405" y="774" font-size="12" font-weight="700" text-anchor="middle" fill="#176B87">WA doble · 2 × RJ45 Cat 6A</text>
+<text x="1405" y="793" font-size="11" font-weight="400" text-anchor="middle" fill="#667482">Placa / caja de salida ilustrativa</text>
+<rect x="1242" y="837" width="365" height="211" rx="5" fill="#F7F9FA" stroke="#C8D1D8" stroke-width="1.5"/>
+<text x="1260" y="867" font-size="20" font-weight="700" text-anchor="start" fill="#202D3A">LEYENDA DE CANALIZACIÓN</text>
+<rect x="1262" y="876.0" width="53" height="14" rx="1" fill="#F7ECDD" stroke="#B96825" stroke-width="2"/>
+<line x1="1262" y1="880.0" x2="1315" y2="880.0" stroke="#D59459" stroke-width="1"/>
+<line x1="1262" y1="886.0" x2="1315" y2="886.0" stroke="#D59459" stroke-width="1"/>
+<line x1="1271" y1="880.0" x2="1271" y2="886.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1289" y1="880.0" x2="1289" y2="886.0" stroke="#B96825" stroke-width="0.65"/>
+<line x1="1307" y1="880.0" x2="1307" y2="886.0" stroke="#B96825" stroke-width="0.65"/>
+<text x="1328" y="888" font-size="11" font-weight="400" text-anchor="start" fill="#202D3A">Bandeja aérea · 100 × 50 mm</text>
+<line x1="1264" y1="913" x2="1312" y2="913" stroke="#176B87" stroke-width="1.7"/>
+<line x1="1264" y1="919" x2="1312" y2="919" stroke="#176B87" stroke-width="1.7"/>
+<text x="1328" y="921" font-size="11" font-weight="400" text-anchor="start" fill="#202D3A">Tubo nominal Ø25 mm</text>
+<rect x="1276" y="943" width="20" height="17" rx="1" fill="#E5EBEE" stroke="#202D3A" stroke-width="1.3"/>
+<text x="1328" y="956" font-size="11" font-weight="400" text-anchor="start" fill="#202D3A">Caja de transición a tubo</text>
+<rect x="1271" y="973" width="30" height="21" rx="2" fill="#FFFFFF" stroke="#176B87" stroke-width="1.6"/>
+<rect x="1275" y="977" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<rect x="1287" y="977" width="11" height="12" rx="1" fill="#182C38" stroke="#176B87" stroke-width="0.7"/>
+<line x1="1278" y1="979" x2="1278" y2="982" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="1281" y1="979" x2="1281" y2="982" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="1290" y1="979" x2="1290" y2="982" stroke="#D9B65A" stroke-width="0.6"/>
+<line x1="1293" y1="979" x2="1293" y2="982" stroke="#D9B65A" stroke-width="0.6"/>
+<text x="1328" y="988" font-size="11" font-weight="400" text-anchor="start" fill="#202D3A">Salida doble RJ45</text>
+<line x1="1264" y1="1014" x2="1312" y2="1014" stroke="#176B87" stroke-width="2"/>
+<text x="1328" y="1019" font-size="11" font-weight="400" text-anchor="start" fill="#202D3A">Cableado Cat 6A permanente</text>
 <line x1="42" y1="1076" x2="1638" y2="1076" stroke="#AEB9C2" stroke-width="2"/>
 <rect x="42" y="1083" width="1596" height="76" rx="0" fill="#FFFFFF" stroke="#82909B" stroke-width="1.5"/>
 <line x1="42" y1="1121" x2="1638" y2="1121" stroke="#AEB9C2" stroke-width="1"/>
@@ -76,10 +460,10 @@
 <line x1="1320" y1="1083" x2="1320" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
 <line x1="1450" y1="1083" x2="1450" y2="1159" stroke="#AEB9C2" stroke-width="1"/>
 <text x="56" y="1108" font-size="15" font-weight="700" text-anchor="start" fill="#202D3A">PROYECTO: INA CENATE | ELTT12000 | CABLEADO ESTRUCTURADO</text>
-<text x="1174" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">FECHA 2026-10-28</text>
-<text x="1333" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">REV. 0</text>
+<text x="1174" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">FECHA 2026-10-29</text>
+<text x="1333" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">REV. C</text>
 <text x="1462" y="1108" font-size="13" font-weight="700" text-anchor="start" fill="#202D3A">LÁMINA 02/09</text>
-<text x="56" y="1147" font-size="13" font-weight="400" text-anchor="start" fill="#667482">Geometría de edificio y posición de recintos son supuestos; hoja esquemática, sin escala numérica.</text>
+<text x="56" y="1147" font-size="12" font-weight="400" text-anchor="start" fill="#667482">recorridos, ubicación de salidas y fijaciones ilustrativos; verificar en campo.</text>
 <text x="1174" y="1147" font-size="12" font-weight="700" text-anchor="start" fill="#202D3A">SIN ESCALA</text>
 <text x="1333" y="1147" font-size="12" font-weight="400" text-anchor="start" fill="#667482">IA: apoyo visual</text>
 <text x="1462" y="1147" font-size="11" font-weight="700" text-anchor="start" fill="#B44B4B">NO CONSTRUCTIVO</text>

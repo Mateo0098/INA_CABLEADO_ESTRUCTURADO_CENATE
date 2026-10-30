@@ -52,7 +52,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 
 ## Estado
 
-**Etapa:** Fase 5 - nueve laminas tecnicas A3 (PDF, PNG y SVG) incorporadas al paquete final. Revision academica humana y supuestos de campo siguen pendientes.
+**Etapa:** Fase 5C - nueve láminas técnicas definitivas A3 (PDF, PNG a 300 ppp y SVG) incorporadas al paquete final. Revisión académica humana y supuestos de campo siguen pendientes.
 
 - Estructura base creada.
 - Enunciado oficial y actualización docente preservados y auditados.
@@ -67,7 +67,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 - Escenario Fase 2D reproducible: recorridos de cobre verificados contra 90 m, fibra vertical por piso, sistema CCH por cuarto y plan de Excel para filas 2–27.
 - El paquete histórico Fase 2D se conserva sin cambios. El escenario Fase 3B adopta x=75 m y y=50 m para E2/E3 y un circuito dúplex activo por enlace; son supuestos académicos, no mediciones.
 - Paquete Fase 3B disponible en `08_entrega/PAQUETE_REVISION_FASE3B/`, con libro completado, memoria complementaria y nueve pares de imágenes actualizados.
-- Paquete final en `08_entrega/ENTREGA_FINAL_INA_CENATE/`, con Excel, memoria tecnica, guia individual y planos Fase 5: nueve PDF A3, nueve PNG, nueve SVG y un PDF combinado de nueve paginas; incluye inventario SHA-256. Las imagenes y fuentes de `02_DISENOS_PNG/` y `03_DISENOS_EDITABLES_SVG/` son historicas.
+- Paquete final en `08_entrega/ENTREGA_FINAL_INA_CENATE/`, con Excel, memoria técnica, guía individual y planos Fase 5C: nueve PDF A3, nueve PNG a 300 ppp, nueve SVG y un PDF combinado de nueve páginas; incluye inventario SHA-256. La colección Fase 5 anterior se conserva en `08_entrega/HISTORICO_PLANOS_FASE5/`; los diseños de Fase 2 y los prototipos Fase 5B también son históricos.
 - Las fuentes Markdown de los tres PDF y el README histórico del paquete se conservan fuera de la entrega en `08_entrega/FUENTES_INTERNAS_PAQUETE_FINAL/`. Los PDF se generan con `09_auditorias/generar_pdf_entrega.py` y se comprueban con `09_auditorias/validar_pdf_entrega.py`.
 - Revisión visual de los nueve PNG realizada el 2026-10-25: textos, identificación ER/TR y conexiones comprensibles; sin correcciones necesarias. No se hizo inspección visual en pantalla del XLSX ni los SVG; Excel sí abrió el XLSX por COM.
 - Corrección crítica Fase 4: `06_excel/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx` se regeneró desde la plantilla usando Excel 16 COM; Excel abrió y guardó una copia de prueba y abrió también la ruta final empaquetada. Causa anterior: pérdida de declaraciones de prefijos OOXML por serialización manual con ElementTree.
