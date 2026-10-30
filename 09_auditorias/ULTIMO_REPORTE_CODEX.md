@@ -1,23 +1,23 @@
 # Último reporte Codex — índice de transferencia
 
-- **Fecha:** 2026-10-28
-- **Fase:** 5B — dos prototipos gráficos de ingeniería
-- **Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-28_FASE5B_PROTOTIPOS_GRAFICOS.md`
-- **Prototipos:** `08_entrega/PROTOTIPOS_GRAFICOS_FASE5B/`
+- **Fecha:** 2026-10-29
+- **Fase:** 5C — nueve láminas técnicas definitivas
+- **Reporte vigente:** `09_auditorias/REPORTES_CODEX/2026-10-29_FASE5C_PLANOS_DEFINITIVOS.md`
+- **Entregable decisivo:** `08_entrega/ENTREGA_FINAL_INA_CENATE/06_PLANOS_TECNICOS/PLANOS_TECNICOS_INA_CENATE_9_LAMINAS.pdf`
 - **Rama:** `desarrollo-proyecto`
-- **Commit de implementación:** `66459462a63125afc91dabcb3ff5f80e5038afca`
-**Estado:** dos prototipos generados, verificados y listos para evaluación; las nueve láminas Fase 5 siguen vigentes. Publicación y SHA final se confirman en la respuesta de cierre.
+- **Commit de implementación:** `c4287c69ef5f7c583b64fe95fd9a91439adeb18d`
+- **Estado:** nueve SVG, nueve PDF A3, nueve PNG a 300 ppp y PDF combinado de nueve páginas integrados; 103/103 controles de Fase 5C aprobados; archivo histórico preservado. El conector GitHub confirmó remoto en `a8a4cc9af875ce5bbe4727220bf75724875fe82a`. Publicación nueva pendiente al redactar por error de conexión CLI `Recv failure: Connection was reset`.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
-- **HECHO:** P1 TR-A y P2 canalizaciones A en SVG, PDF A3 horizontal y PNG de 300 ppp; comparativo PDF vectorial de dos páginas A3. Las otras siete láminas y el Excel no se modificaron.
-- **VERIFICADO:** 29/29 controles de cantidades y formato; 192 bocas RJ45 dibujadas (160 asignadas, 32 libres), 42U y cinco laboratorios; revisión visual de páginas completas y ampliaciones.
-- **PENDIENTE:** valoración del estudiante y ChatGPT antes de rediseñar las otras siete láminas; comprobación de geometría, rutas y capacidad de canalización en campo. Sin impresión física.
+- **HECHO:** los planos Fase 5C reemplazan el conjunto vigente; los 28 archivos Fase 5 anteriores están en `08_entrega/HISTORICO_PLANOS_FASE5/` y coinciden con el inventario previo. Excel, memorias y `main` permanecen intactos.
+- **VERIFICADO:** 103/103 controles de planos, 29/29 de prototipos, validación de índice/memoria/defensa e inspección visual de nueve páginas renderizadas y detalles ampliados.
+- **PENDIENTE:** revisión personal del estudiante y medición de campo para uso constructivo. No se efectuó impresión física.
 
 ## Bloqueos y prioridades siguientes
 
-**Bloqueo técnico para publicar:** ninguno. **Condición para ampliar el alcance:** evaluación de estos dos prototipos.
+**Bloqueo de transferencia al redactar:** dos intentos de `git fetch` reiniciaron la conexión HTTPS; el conector GitHub confirmó el estado remoto anterior, pero no se debe asumir que ChatGPT puede leer los nuevos archivos hasta confirmar el push.
 
-1. Revisar `08_entrega/PROTOTIPOS_GRAFICOS_FASE5B/COMPARATIVO_FASE5_VS_PROTOTIPOS.pdf` y ambos PDF individuales.
-2. Registrar aceptación o ajustes gráficos antes de extender el método a las otras siete láminas.
-3. Confirmar en campo ubicación, trazados, pasamuros y ocupación antes de obra o compra.
+1. Verificar publicación de este reporte y el índice en `origin/desarrollo-proyecto`.
+2. Abrir el PDF combinado y revisar las nueve láminas A3 para la entrega académica.
+3. Confirmar en campo las hipótesis solo si se pretende construir o comprar.
