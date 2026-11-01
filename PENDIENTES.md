@@ -292,3 +292,20 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 
 - [ ] Revisión académica personal del estudiante; medir y confirmar en campo recorridos, ubicaciones, ocupación de ductos/bandejas y fijaciones antes de construir o comprar.
 - [ ] Impresión física no efectuada; se verificó el formato digital A3.
+
+## Unidad 01 — red activa y operativa (2026-11-01)
+
+### Prioridad alta: funcionalidad y límites
+
+- [ ] Inventariar interfaces, equipos, protocolo admitido, rutas de retorno y energía del ER principal; no asignarle dos SFP+ existentes sin evidencia.
+- [ ] Confirmar con el docente dos RJ45 por área doble y aceptar el nivel de activación 44 o 51 switches.
+- [ ] Validar con pruebas la concentración local SFP+/DAC, los módulos LR, conectores, presupuesto óptico y versiones de firmware; medir y certificar las rutas.
+- [ ] Definir requisitos de tráfico, sobresuscripción y tolerancia a fallas; decidir si un concentrador y un uplink por TR son aceptables o si se requiere redundancia.
+- [ ] Probar VLAN, gateways, OSPF o rutas alternativas, ACL/firewall y L3 hardware offloading con rutas de retorno y fallas E1/E2/E3.
+
+### Prioridad media: dimensionamiento y compra futura
+
+- [ ] Levantar demanda real de PoE; si existe, redimensionar equipos y carga sin atribuir PoE a las computadoras.
+- [ ] Levantar circuitos, potencia, tomas, UPS/PDU, autonomía, ventilación, espacio y profundidad de racks; evaluar la hipótesis de 13 UPS.
+- [ ] Verificar proveedores establecidos en Costa Rica y disponibilidad de equipos, módulos, DAC, cordones, UPS, PDU, accesorios y herramientas. Justificar y costear integralmente cualquier importación solo en unidad presupuestaria posterior.
+- [ ] Someter `03_diseno/UNIDAD_01_ARQUITECTURA_RED_ACTIVA.md` a revisión técnica humana; no transferir sus cantidades al Excel ni a planos de la Actividad 1.

@@ -300,3 +300,13 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Óptica:** E1–E3 OS2 24F exterior, vertical OS2 12F; ER-A 4 × 12F + 2 × 24F = 96 fibras en CCH-03U; ER-B 7 × 12F + 2 × 24F = 132 fibras en CCH-04U. Cassettes con conectores integrados, sin duplicar accesorios.
 - **Formato y límites:** cotas y recorridos supuestos, plantas sin escala de obra, paso vertical uniforme por U en racks de 42U. No se efectuó impresión física ni validación constructiva.
 - **Procedencia:** composición y comprobación asistidas por OpenAI Codex; el estudiante debe revisar y comprender el contenido antes de la entrega académica.
+
+## D-UN01 — arquitectura activa de referencia (2026-11-01)
+
+- **Alcance y procedencia:** ampliación documental separada de la Actividad 1; propuesta generada con asistencia de Codex para revisión técnica humana. El registro íntegro y las fórmulas están en `03_diseno/UNIDAD_01_ARQUITECTURA_RED_ACTIVA.md`.
+- **Resultado calculado condicionado:** 44 switches de 48 RJ45 activan 1984 enlaces asignados; 51 switches igualan 2448 posiciones de 51 paneles. No se modifica el Excel ni los planos originales.
+- **Propuesta provisional:** 44 switches y concentración local por TR con tres enlaces SFP+ locales y un uplink óptico al ER. Los 11 enlaces verticales y tres exteriores requieren 28 transceptores LR y 28 cordones LC dúplex de escenario, además de 33 conjuntos DAC locales; no se cuentan los extremos DAC como módulos LR.
+- **Especificación verificada de fabricante, 2026-11-01:** MikroTik CRS354-48G-4S+2Q+RM: 48 RJ45, 4 SFP+, 60 W máximo; CRS317-1G-16S+RM: 16 SFP+, 44 W máximo. Fuentes oficiales y límites de uso en el documento de Unidad 01. Son candidatos, no productos adjudicados.
+- **Propuesta lógica pendiente:** VLAN por laboratorio, gateways L3 en ER, enlaces exteriores enrutados y OSPF sujeto al ER principal y pruebas de ACL/firewall/offload. No existe evidencia de interfaces, equipo o compatibilidad del ER principal.
+- **Hipótesis eléctrica:** 13 UPS, una por cada rack nuevo; capacidad, autonomía, PDU, circuitos, protecciones y climatización pendientes. PoE solo ante demanda comprobada. La adquisición priorizará proveedores establecidos en Costa Rica, sin precios en esta unidad.
+- **Decisión de control:** no declarar instalación operativa, certificada ni aprobada; mantener los supuestos geométricos y las longitudes como académicos, sin convertirlos en mediciones.
