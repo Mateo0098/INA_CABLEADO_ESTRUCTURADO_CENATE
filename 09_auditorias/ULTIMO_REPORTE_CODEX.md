@@ -6,14 +6,14 @@
 - **Documento decisivo:** `03_diseno/UNIDAD_01_ARQUITECTURA_RED_ACTIVA.md`
 - **Rama:** `desarrollo-proyecto`
 - **Commit implementado:** `78351d37c7518100a0fd03621ad7c3459bb73e7e`
-- **Estado:** documentación de referencia local; publicación en `origin/desarrollo-proyecto` pendiente de comprobar.
+- **Estado:** documentación de referencia publicada en `origin/desarrollo-proyecto`; SHA remoto comprobado tras el commit del reporte: `1d5439ace13e76b219d4777e10874ceedc48a4a9`.
 - **Bloqueos técnicos:** ER principal sin inventario; compatibilidad óptica, seguridad, energía y demanda sin prueba; revisión humana pendiente.
 
 ## HECHO / VERIFICADO / PENDIENTE
 
 - **HECHO:** comparación 44/51, alternativas TR, topología recomendada, conteos trazables y decisiones registradas; Excel y planos originales sin edición.
 - **VERIFICADO:** fichas oficiales de candidatos y aritmética de puertos, enlaces, transceptores, cordones y carga máxima preliminar.
-- **PENDIENTE:** pruebas físicas, revisión técnica, selección comercial y publicación remota.
+- **PENDIENTE:** pruebas físicas, revisión técnica y selección comercial.
 
 ## Prioridades siguientes
 
