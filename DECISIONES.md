@@ -328,3 +328,14 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Artefacto:** `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx`, con fórmulas `WORKDAY` y hoja de feriados; especificaciones y limitaciones en `gantt/README.md`.
 - **Separación:** no altera el Excel original del INA, los materiales, el paquete final, `main` ni la entrega académica fechada 2026-10-29.
 - **Procedencia y control:** asistencia de ChatGPT y validación documental/estructural; revisión por el estudiante y apertura con Microsoft Excel pendientes.
+
+## D-UN03 — herramientas, instalación y certificación previstas (2026-11-04)
+
+- **Clasificación:** supuesto de dotación y procedimientos previstos; cantidades de trabajo calculadas sobre el escenario académico, sin mediciones ni pruebas físicas nuevas. Elaboración asistida por Codex, revisión técnica y académica humana pendiente.
+- **Decisión:** inventario separado en `05_materiales/unidad_03_herramientas/`: 108 filas funcionales (26/22/30/30 para 03A/03B/03C/03D), incluyendo subcomponentes, controles de exclusión y servicios alternativos; no equivale a 108 compras. Los 94 conceptos iniciales no se usan como cuota de filas.
+- **Supuesto:** C=1 frente secuencial y T=2 técnicos de cobre para dotación de referencia; cuadrillas, duración, simultaneidad, recursos existentes y EPP definitivos pendientes. Compra neta descuenta recursos aptos e incluidos, previa verificación.
+- **Evidencia de fabricante:** PN511G-SPA y plano 01874-40 de Panduit respaldan EGJT-1 para CJ6X88TGBU y descuento según empaque; NK410E respalda PDT110 para NK6XPPG48Y. DSX2-5000 es candidato Cat 6A; kit exacto y adquisición sin adjudicar. Fuentes, versiones visibles y fecha en memoria U03.
+- **Control de magnitudes:** 1984 enlaces permanentes iniciales + R_cu; hasta 408 fusiones si se terminan todas las fibras; 408 resultados de pérdida a dos longitudes en un sentido o 816 en dos sentidos si se aprueba ese procedimiento. OTDR conserva diagnóstico independiente de OLTS y cantidad de trazas pendiente.
+- **Control de duplicación:** etiquetas, limpieza óptica, protectores de fusión, adhesivo y lubricante permanecen en U02; fuente/medidor integrados en OLTS, componentes de kits y alternativas de servicio no se acumulan como compras. EPP y acceso se dimensionan con evaluación institucional; detector sin contacto no acredita ausencia de tensión.
+- **Adquisición:** compra, alquiler/servicio y equipos existentes se conservan como escenarios; ELVATRON publica familias DSX/CertiFiber/OptiFiber agotadas al consultar, sin confirmar SKU, stock ni alquiler. Las demás referencias quedan pendientes de cotización nacional. Sin precios ni cambios en Excel, planos, matriz histórica o Unidad 02.
+- **Impacto:** base documental reproducible para Unidad 04; no certificación ejecutada, autorización de trabajo ni modificación de infraestructura. No altera decisiones anteriores ni el Gantt.
