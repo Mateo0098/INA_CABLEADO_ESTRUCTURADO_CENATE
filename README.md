@@ -79,3 +79,7 @@ Un supuesto no debe presentarse como medición o dato confirmado. Las fuentes, f
 La estructura y la organización documental inicial fueron preparadas el 18 de octubre de 2026 con asistencia de OpenAI Codex. El enunciado permite IA solo como apoyo conceptual, organizativo, lingüístico, de fórmulas comprendidas y visual. Prohíbe usarla como fuente técnica, para resolver directamente cálculos, generar automáticamente el Excel, sustituir el criterio del estudiante o aportar especificaciones sin verificación. El libro Fase 3B se generó por solicitud expresa del usuario, pero esta intervención no modifica el requisito académico: el estudiante debe revisar si puede entregar un artefacto asistido, comprender, corregir y defender personalmente todo contenido técnico.
 
 Antes de trabajar, leer `README.md`, `DECISIONES.md`, `PENDIENTES.md` y `AGENTS.md`.
+
+## Actividad complementaria — cronograma Gantt
+
+Se incorporó el ejercicio de cronograma académico independiente de la Actividad de Comprobación N.º 1 en [`gantt/`](gantt/README.md). Su libro editable [`GANTT_INA_CABLEADO_2026-2027.xlsx`](gantt/GANTT_INA_CABLEADO_2026-2027.xlsx) contiene 26 actividades entre 2026-11-02 y 2027-02-16, con 74 días hábiles de Costa Rica. Sus duraciones son supuestos didácticos, no mediciones ni compromisos de ejecución. No reemplaza la plantilla oficial ni cambia la fecha de entrega original.

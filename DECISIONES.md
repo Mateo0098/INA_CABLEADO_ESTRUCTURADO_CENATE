@@ -319,3 +319,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Conciliación de RU:** 13U/16U incluye housing óptico 1U, paneles y organizadores de cobre; 15U/18U era estimación anterior con bloque óptico 2U y organizador óptico 1U. Con organizador óptico adicional al housing CCH 1U, el subtotal desglosado sería 14U/17U. Ninguno es alzado final.
 - **Adquisición:** Capris publica canastas Cablofil y Tecnofijaciones publica barras roscadas en Costa Rica (consulta 2026-11-04); stock y referencias restantes pendientes. No se incorporan precios ni se adjudican modelos.
 - **Impacto y evidencia:** fórmulas, unidades, condiciones y pendientes en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MEMORIA_DE_CANTIDADES.md` y `05_materiales/unidad_02_ampliacion/UNIDAD_02_PENDIENTES_TECNICOS.md`. No se sobrescriben decisiones D-001 a D-UN01.
+
+## G-001 — Cronograma Gantt complementario (2026-11-04)
+
+- **Clasificación:** supuesto de planificación docente / ejercicio académico complementario; no es medición de campo ni requisito nuevo de la Actividad de Comprobación N.º 1.
+- **Fuente:** pizarra de actividades facilitada por el estudiante en la conversación del 2026-11-03 y restricciones comunicadas por el estudiante: 2026-11-02 a 2027-02-16, lunes a viernes, sin feriados nacionales de Costa Rica.
+- **Decisión:** registrar 26 actividades en seis etapas, permitiendo paralelismos razonables. Los 74 días hábiles del período excluyen 2026-12-01, 2026-12-25 y 2027-01-01.
+- **Artefacto:** `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx`, con fórmulas `WORKDAY` y hoja de feriados; especificaciones y limitaciones en `gantt/README.md`.
+- **Separación:** no altera el Excel original del INA, los materiales, el paquete final, `main` ni la entrega académica fechada 2026-10-29.
+- **Procedencia y control:** asistencia de ChatGPT y validación documental/estructural; revisión por el estudiante y apertura con Microsoft Excel pendientes.

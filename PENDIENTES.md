@@ -315,3 +315,9 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [x] Individualizar 02A–02D con fórmula, unidad, fuente, estado y control de duplicación en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MATRIZ_MAESTRA_MATERIALES.csv`; conservar escenarios 44/51 sin presupuesto.
 - [ ] Resolver los bloqueos de mayor impacto de `05_materiales/unidad_02_ampliacion/UNIDAD_02_PENDIENTES_TECNICOS.md`: troncales para 160/192 cables, soporte/estructura, ubicación pared/piso/columna y despiece físico.
 - [ ] Confirmar modelos, contenido de kits, compatibilidad, oferta nacional y energía/ER principal antes de cerrar cantidades comprables; revisar técnicamente el contenido asistido por IA.
+
+## Actividad complementaria Gantt — 2026-11-04
+
+- [x] Versionar el diagrama editable con 26 actividades, 74 jornadas hábiles y feriados de Costa Rica en `gantt/`.
+- [ ] Abrir el archivo en Microsoft Excel y revisar visualmente el eje de fechas, barras y fórmulas; confirmar con el docente la aceptación de las duraciones propuestas.
+- [ ] Mantener el ejercicio de cronograma separado de la entrega original de la Actividad de Comprobación N.º 1.
