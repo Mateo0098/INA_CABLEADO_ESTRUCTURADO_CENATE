@@ -1,6 +1,6 @@
 # Reporte Codex — Unidad 02, matriz maestra detallada de materiales
 
-**Fecha:** 2026-11-04. **Rama:** `desarrollo-proyecto`. **SHA de implementación:** se confirma tras commit; HEAD de partida `451815d5aad17859e8d538e54a9d1e633454bf91`. **Autoría:** consolidación, fórmulas y texto generados con asistencia de Codex; revisión técnica humana obligatoria. **Estado:** implementado localmente; publicación y sincronización remota pendientes de comprobar.
+**Fecha:** 2026-11-04. **Rama:** `desarrollo-proyecto`. **SHA de implementación publicado:** `77090854167c2f7167a06de1e1d85667f5213398`; commit local equivalente `aa160b066a68644b8d4a55a9ef5e8f39247e8b37` (árbol idéntico). **Autoría:** consolidación, fórmulas y texto generados con asistencia de Codex; revisión técnica humana obligatoria. **Estado:** publicado mediante conector GitHub; índice de transferencia actualizado después.
 
 ## Objetivo, alcance y entradas
 
@@ -28,7 +28,7 @@
 - Lectura `csv.DictReader` y aserciones selectivas: **115 filas, 22 columnas, cuatro subsistemas, IDs únicos, ninguna celda vacía, fórmulas y unidades presentes, componentes críticos, sin columna económica, ningún cero sin justificación**. 85 filas incluyen cantidad `PENDIENTE`; tres tienen `0 JUSTIFICADO`.
 - `Get-FileHash '06_excel/Plantilla Actividades de comprobación.xlsx' -Algorithm SHA256`: `707F1812D1DA9033A2792E51E0EBBFE63D202DEF6F6945236E0AB5D6028013F6`, igual al control histórico.
 - `git diff --check`: sin errores; Git advierte conversión futura LF/CRLF en dos Markdown, sin diferencia de contenido ajena.
-- Inicio: `git status --short --branch` mostró `desarrollo-proyecto` y `gantt/` sin seguimiento. `git rev-list --left-right --count HEAD...origin/desarrollo-proyecto` dio `0 0` respecto a referencia local. `git fetch origin desarrollo-proyecto` se intentó con permiso de Git; falló por `Recv failure: Connection was reset`, por lo que **la actualidad remota no se comprobó**. Commit/push y SHA final se consignarán en respuesta terminal; no se afirmará publicación sin verificarla.
+- Inicio: `git status --short --branch` mostró `desarrollo-proyecto` y `gantt/` sin seguimiento. `git rev-list --left-right --count HEAD...origin/desarrollo-proyecto` dio `0 0` respecto a referencia local. `git fetch origin desarrollo-proyecto` y `git push origin HEAD:desarrollo-proyecto` fallaron por `Recv failure: Connection was reset`. El conector GitHub confirmó que la rama remota seguía en el padre `451815d5aad17859e8d538e54a9d1e633454bf91`; creó un commit con el **mismo SHA de árbol** `5cf0f678f9640677aedcb0414f5096415f80873a` que el local y avanzó la rama mediante actualización sin forzar. Se verificó la referencia remota en `77090854167c2f7167a06de1e1d85667f5213398` y se leyó el índice publicado. Los SHA de commit local/remoto difieren por metadatos del autor/creador del conector; los archivos son idénticos. El commit final del índice se confirma en respuesta terminal.
 
 **Limitaciones:** el CSV es un inventario preparado para completar con levantamiento, ficha, kit y cotización nacional; no es orden de compra, cómputo constructivo cerrado ni validación de campo. La ficha 12F respalda contenido del kit; la revisión exacta del 24F requiere confirmación. El equipo activo y ER principal requieren ensayos de Unidad 01. La revisión humana es indispensable conforme a reglas académicas.
 
