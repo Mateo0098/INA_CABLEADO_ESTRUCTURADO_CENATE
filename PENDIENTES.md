@@ -309,3 +309,9 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Levantar circuitos, potencia, tomas, UPS/PDU, autonomía, ventilación, espacio y profundidad de racks; evaluar la hipótesis de 13 UPS.
 - [ ] Verificar proveedores establecidos en Costa Rica y disponibilidad de equipos, módulos, DAC, cordones, UPS, PDU, accesorios y herramientas. Justificar y costear integralmente cualquier importación solo en unidad presupuestaria posterior.
 - [ ] Someter `03_diseno/UNIDAD_01_ARQUITECTURA_RED_ACTIVA.md` a revisión técnica humana; no transferir sus cantidades al Excel ni a planos de la Actividad 1.
+
+## Unidad 02 — cierre de matriz maestra (2026-11-04)
+
+- [x] Individualizar 02A–02D con fórmula, unidad, fuente, estado y control de duplicación en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MATRIZ_MAESTRA_MATERIALES.csv`; conservar escenarios 44/51 sin presupuesto.
+- [ ] Resolver los bloqueos de mayor impacto de `05_materiales/unidad_02_ampliacion/UNIDAD_02_PENDIENTES_TECNICOS.md`: troncales para 160/192 cables, soporte/estructura, ubicación pared/piso/columna y despiece físico.
+- [ ] Confirmar modelos, contenido de kits, compatibilidad, oferta nacional y energía/ER principal antes de cerrar cantidades comprables; revisar técnicamente el contenido asistido por IA.

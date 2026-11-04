@@ -310,3 +310,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Propuesta lógica pendiente:** VLAN por laboratorio, gateways L3 en ER, enlaces exteriores enrutados y OSPF sujeto al ER principal y pruebas de ACL/firewall/offload. No existe evidencia de interfaces, equipo o compatibilidad del ER principal.
 - **Hipótesis eléctrica:** 13 UPS, una por cada rack nuevo; capacidad, autonomía, PDU, circuitos, protecciones y climatización pendientes. PoE solo ante demanda comprobada. La adquisición priorizará proveedores establecidos en Costa Rica, sin precios en esta unidad.
 - **Decisión de control:** no declarar instalación operativa, certificada ni aprobada; mantener los supuestos geométricos y las longitudes como académicos, sin convertirlos en mediciones.
+
+## D-UN02 — matriz maestra detallada de materiales (2026-11-04)
+
+- **Alcance:** ampliación documental 02A–02D bajo `05_materiales/unidad_02_ampliacion/`, separada de la matriz histórica, Excel y planos académicos. Elaboración asistida por Codex; revisión técnica humana pendiente.
+- **Decisión de control:** conservar los conteos del escenario como referencias condicionadas y dejar `PENDIENTE` las compras que dependen de rutas, ocupación, soporte, kits, energía o proveedor. Cero solo cuando un kit integrado justifique no adquirir una pieza separada.
+- **Inconsistencia detectada:** la bandeja 100×50 mm histórica no demuestra capacidad para 160/192 cables; con Ø nominal histórico de 5,8 mm, 192 cables suman ~5 073 mm² frente a 5 000 mm² de rectángulo bruto. No se adopta como sección troncal definitiva; requiere redimensionamiento por segmento y ficha.
+- **Conciliación de RU:** 13U/16U incluye housing óptico 1U, paneles y organizadores de cobre; 15U/18U era estimación anterior con bloque óptico 2U y organizador óptico 1U. Con organizador óptico adicional al housing CCH 1U, el subtotal desglosado sería 14U/17U. Ninguno es alzado final.
+- **Adquisición:** Capris publica canastas Cablofil y Tecnofijaciones publica barras roscadas en Costa Rica (consulta 2026-11-04); stock y referencias restantes pendientes. No se incorporan precios ni se adjudican modelos.
+- **Impacto y evidencia:** fórmulas, unidades, condiciones y pendientes en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MEMORIA_DE_CANTIDADES.md` y `05_materiales/unidad_02_ampliacion/UNIDAD_02_PENDIENTES_TECNICOS.md`. No se sobrescriben decisiones D-001 a D-UN01.

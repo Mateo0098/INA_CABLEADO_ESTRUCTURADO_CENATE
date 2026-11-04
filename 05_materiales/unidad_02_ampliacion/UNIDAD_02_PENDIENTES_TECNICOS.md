@@ -1,0 +1,20 @@
+# Unidad 02 — decisiones técnicas que bloquean el cierre
+
+**Fecha:** 2026-11-04. **Estado:** preguntas de ingeniería y adquisición, sin cantidades inventadas. La matriz asociada está en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MATRIZ_MAESTRA_MATERIALES.csv`. Responsable de resolución: estudiante y responsables técnicos/institucionales; texto preparado con asistencia de Codex y sujeto a revisión humana.
+
+| Prioridad e impacto | Decisión pendiente | Qué impide cerrar | Evidencia mínima y responsable propuesto |
+|---|---|---|---|
+| Alta · cantidades y construcción | Sección, altura, acabado y familia de canasta por cada tramo troncal/derivación | Tramos, accesorios, carga y capacidad; 100×50 mm histórico falla el control bruto para 192 cables de Ø nominal 5,8 mm | Rutas con cables simultáneos, diámetro/peso real, criterio de ocupación y ficha de carga; diseñador y fabricante |
+| Alta · cantidades y construcción | Trazado físico de canastas y cambios de dirección, derivaciones, cruces, reducciones, nivel y penetraciones | Uniones, curvas, protección, etiquetas y longitudes comerciales | Plano de ruta medido, sin crear plano nuevo en esta unidad; diseñador/levantamiento |
+| Alta · compra y seguridad | Sistema de suspensión: trapecio, ménsula, perfiles, distancia de soporte y anclaje al techo | Varillas, tuercas, arandelas, clips, fijaciones y carga admisible | Inspección del sustrato, detalles aprobados, ficha del sistema; estructural/instalador |
+| Alta · cantidades y construcción | Ubicación de las 992 áreas: pared, piso o columna de servicio | Las 992 bajantes y 1 042 tubos históricos no son un despiece físico | Ubicación y mobiliario por laboratorio, recorrido real y tipo de caja; docente/estudiante/arquitectura |
+| Alta · compra | Diámetro interior y tipo de conduit por ruta, y compatibilidad de caja/placa/jack | Tubos, curvas, adaptadores, cajas, fijaciones; no mezclar Mini-Com con Keystone | Fichas del fabricante y modelo completo, prueba de montaje; diseñador/distribuidor |
+| Alta · compra y operación | Inventario del ER principal y aceptación de 44 o 51 switches | Interfaces LR, rack y espacio existente, DAC locales, PDU/UPS y topología definitiva | Inventario y prueba de red de Unidad 01; TI institucional/docente |
+| Alta · compra y construcción | Alzado final de cada rack, tipo de riel, kits incluidos, profundidad y carga | Tornillos, tuercas enjauladas, rieles, velcro, paneles ciegos, bandejas, RU y fijación | Manuales de equipos/gabinete y alzado revisado; diseñador/instalador |
+| Alta · compra | Circuitos eléctricos, clavijas, demanda, autonomía y ambiente térmico | PDU, cables AC, UPS, kits y ventilación; 13 UPS solo hipótesis | Levantamiento eléctrico y cálculo de carga/autonomía; responsable eléctrico |
+| Alta · compra y operación | Longitudes y rutas reales E1/E2/E3 y ER–TR; clasificación de cubierta | Cortes/bobinas 24F y 12F, prensaestopas, reservas y transiciones | Medición y aprobación de rutas, ficha del cable, inspección de ductos; campo/diseñador |
+| Alta · compra | Kit exacto de cassette 12F/24F y housing; compatibilidad LR/DAC | Riesgo de duplicar pigtails/adaptadores/protectores o comprar óptica incompatible | Fichas de referencia/revisión, lista de empaque y ensayo de equipos; fabricante/TI |
+| Media · compra | Oferta de cada referencia por proveedor establecido en Costa Rica | No permite adjudicar marca/modelo ni disponibilidad; posible importación sin cuantificar | Cotización con referencia, plazo y contenido del kit; compras/distribuidor nacional |
+| Media · construcción | Método de tierra, continuidad de canasta y tratamiento de penetraciones | Puentes, terminales, sellos y consumibles | Detalle eléctrico/institucional y productos aprobados; responsable eléctrico |
+
+**Criterio de cierre:** cada decisión exige registro de fuente, fecha, versión de ficha, unidad, responsable y efecto en filas del CSV. Si cambia una decisión histórica, actualizar `DECISIONES.md` con motivo y efecto; no editar el Excel ni los nueve planos de la entrega original durante esta unidad.
