@@ -342,7 +342,7 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 ## Cierre definitivo AC2 — 2026-11-05
 
 - [x] Integrar la plantilla original publicada, corregir el tratamiento de IVA y regenerar el XLSX, PDF, fuentes, correo, reenvío AC1 y ZIP sin modificar los originales.
-- [ ] Obtener una cotización comparable para fibra OS2 exterior, terminaciones/cassettes, herrajes y accesorios, y decidir compra, alquiler o servicio para fusión, OLTS, OTDR y certificación.
+- [ ] Sustituir la estimación académica del cable OS2 24F exterior por una cotización compatible; obtener selección/cotización de terminaciones/cassettes, paneles Cat 6A, herrajes/accesorios y decidir compra, alquiler o servicio para fusión, OLTS, OTDR y certificación.
 - [ ] Abrir `08_entrega/CIERRE_AC1_AC2_2026-11-05/PRESUPUESTO_FINAL_CENATE.xlsx` en Microsoft Excel, permitir recálculo y revisar visualmente sus fórmulas y la presentación antes de emitir una proforma comercial definitiva.
 ## Cierre AC1/AC2 — 2026-11-05
 

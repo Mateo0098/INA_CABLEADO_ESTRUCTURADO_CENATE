@@ -4,13 +4,14 @@ Terminaciones cobre,Jack Panduit CJ6X88TGBU Cat 6A,1984,unidad,5268.64,CRC,No co
 Canalización,Conduit PVC 25 mm; presentación 6 m,521,barra 6 m,15.11,USD,Incluido,3167385.6119469027,ESTIMADO,"Capris tubo S40 25 mm 6 m; 3.124,8 m académicos / 6 m, 2026-11-05",Incluido académico
 Canalización,Canasta Cablofil 300 mm x 3 m (redondeo global académico),478,tramo,45968.4,CRC,Incluido,19445040.0,ESTIMADO,"Capris CF105/300 EZ, precio publicado 2026-11-05; sección/diseño pendientes",Incluido parcial
 Racks,Gabinete 42U Lantek,13,unidad,540,USD,Excluido,3191643.0,ESTIMADO,"Lanprosa LTK-GAB420608, precio publicado 2026-11-05; modelo no adjudicado",Incluido parcial
-Terminaciones cobre,Patch panel 48 puertos comparable,51,unidad,16,USD,Excluido,370994.39999999997,ESTIMADO,"Lanprosa LTK-PPC648, referencia comercial; Cat 6A exacto pendiente",Incluido parcial
+Terminaciones cobre,"Patch panel Cat 6A, 48 puertos",51,unidad,,CRC,Pendiente,,PENDIENTE,Lanprosa LTK-PPC648 es Cat 6 de referencia comercial; no se acepta como sustituto de Cat 6A,Excluido por selección técnica pendiente
 Racks,Organizador horizontal 1U comparable,65,unidad,5,USD,Excluido,147761.25,ESTIMADO,"Lanprosa LTK-ORG1U; 51 cobre + 14 ópticos, compatibilidad de rack pendiente",Incluido académico
 Equipo activo,Switch acceso MikroTik CRS354-48G-4S+2Q+RM,44,unidad,320703,CRC,Excluido,14110932,PUBLICADO,"Ticomer OF-001, 2026-11-05",Incluido provisional
 Equipo activo,Switch distribución MikroTik CRS317-1G-16S+RM,2,unidad,261849,CRC,Excluido,523698,PUBLICADO,"Ticomer OF-003, 2026-11-05",Incluido provisional
 Óptica,Transceptor SFP+ MikroTik S+31DLC10D,28,unidad,119105,CRC,No confirmado,3334940,PUBLICADO,"CQNet OF-004, 2026-11-05; disponibilidad insuficiente",Incluido provisional
 Fibra óptica,Cable OS2 12F vertical; paquetes 50 m,6,paquete 50 m,25,USD,Excluido,68197.5,ESTIMADO,"Lanprosa LTK-FIBSM12; 284,025 m vertical académicos, 2026-11-05",Incluido académico
 Fibra óptica,Patch cord OS2 LC/UPC-LC/UPC dúplex 1 m,28,unidad,4,USD,Excluido,50920.799999999996,ESTIMADO,Lanprosa LTK-LC/UPC-LC/UPC1M; longitud/compatibilidad final pendientes,Incluido académico
-Herramientas/servicios,"Certificación cobre/fibra, fusión y OTDR",,servicio,,CRC,Pendiente,,PENDIENTE,U03: compra/alquiler/servicio excluyentes; no hay oferta comparable,Excluido por pendiente
-Fibra óptica,"Cable OS2 24F exterior, cassettes y housings",,lote,,CRC,Pendiente,,PENDIENTE,"U02: 538,65 m exterior y 28 cassettes/housings; sin oferta compatible",Excluido por pendiente
+Herramientas/servicios,"Certificación cobre/fibra, fusión y OTDR",,servicio,,CRC,Pendiente,,PENDIENTE,"U03: compra/alquiler/servicio excluyentes; ELVATRON publica instrumentos, no tarifa de servicio comparable",Excluido por pendiente
+Fibra óptica,Cable OS2 24F exterior; paquetes equivalentes de 50 m,11,paquete 50 m,50,USD,Excluido,250057.5,ESTIMADO,"U02 538,65 m; estimación académica: 2 × precio publicado Lanprosa LTK-FIBSM12 (12F/50 m); no valida SKU 24F exterior",Incluido académico; accesorios aparte
+Fibra óptica,Cassettes y housings para enlaces exteriores,28,unidad,,CRC,Pendiente,,PENDIENTE,U02: 28; sin referencia comercial compatible ni selección de sistema,Excluido por pendiente
 Canalización,"Herrajes, fijaciones, bajantes, coplas, curvas y accesorios",,lote,,CRC,Pendiente,,PENDIENTE,"U02: falta despiece físico, sustrato y kits",Excluido por pendiente

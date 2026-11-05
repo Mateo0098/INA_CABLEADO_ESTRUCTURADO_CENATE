@@ -354,7 +354,8 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Decisión:** generar `08_entrega/CIERRE_AC1_AC2_2026-11-05/PRESUPUESTO_FINAL_CENATE.xlsx` a partir de la plantilla original `insumos_entregable_2/Presupuesto FINAL.xlsx`, conservando sus siete funciones comerciales y agregando hojas de detalle, fuentes, supuestos y parámetros.
 - **Tratamiento fiscal:** los precios con IVA incluido se convierten primero a base neta; los precios sin IVA reciben IVA una sola vez; el impuesto no confirmado queda identificado. El IVA de venta se calcula una vez sobre el precio antes de IVA.
 - **Fuente laboral:** se reutiliza el costo interno de mano de obra del Gantt canónico (26 actividades, 74 días hábiles), sin rediseñar el cronograma ni sumarlo como servicio especializado.
-- **Impacto:** la proforma parcial resultante es CRC 136.080.076,02 y se declara incompleta: permanecen excluidos los servicios especializados y componentes sin cotización o despiece validado. El original de la plantilla queda sin modificar.
+- **Impacto:** la proforma parcial resultante es CRC 135.898.559,10 y se declara incompleta: permanecen excluidos paneles Cat 6A, cassettes/housings, herrajes/accesorios y servicios especializados sin cotización o despiece validado. El original de la plantilla queda sin modificar.
+- **Corrección posterior:** el cable OS2 24F exterior se incorpora como estimación académica trazable, derivada de dos referencias OS2 12F/50 m por paquete; no valida un SKU 24F. El panel Cat 6 LTK-PPC648 se excluye del costo, porque no es sustituto aprobado de Cat 6A. El Gantt canónico se añade íntegro al paquete con un vínculo relativo desde el presupuesto.
 ## D-CIERRE-AC1-AC2 — paquete urgente de entrega (2026-11-05)
 
 - **Clasificación:** presupuesto preliminar académico/comercial asistido por IA; no adjudicación, oferta firme ni comprobante fiscal.

@@ -41,15 +41,16 @@ LINES = [
     ("Canalización", "Conduit PVC 25 mm; presentación 6 m", 521, "barra 6 m", 15.11, "USD", "Incluido", "ESTIMADO", "Capris tubo S40 25 mm 6 m; 3.124,8 m académicos / 6 m, 2026-11-05", "Incluido académico"),
     ("Canalización", "Canasta Cablofil 300 mm x 3 m (redondeo global académico)", 478, "tramo", 45968.40, "CRC", "Incluido", "ESTIMADO", "Capris CF105/300 EZ, precio publicado 2026-11-05; sección/diseño pendientes", "Incluido parcial"),
     ("Racks", "Gabinete 42U Lantek", 13, "unidad", 540, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-GAB420608, precio publicado 2026-11-05; modelo no adjudicado", "Incluido parcial"),
-    ("Terminaciones cobre", "Patch panel 48 puertos comparable", 51, "unidad", 16, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-PPC648, referencia comercial; Cat 6A exacto pendiente", "Incluido parcial"),
+    ("Terminaciones cobre", "Patch panel Cat 6A, 48 puertos", 51, "unidad", None, "CRC", "Pendiente", "PENDIENTE", "Lanprosa LTK-PPC648 es Cat 6 de referencia comercial; no se acepta como sustituto de Cat 6A", "Excluido por selección técnica pendiente"),
     ("Racks", "Organizador horizontal 1U comparable", 65, "unidad", 5, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-ORG1U; 51 cobre + 14 ópticos, compatibilidad de rack pendiente", "Incluido académico"),
     ("Equipo activo", "Switch acceso MikroTik CRS354-48G-4S+2Q+RM", 44, "unidad", 320703, "CRC", "Excluido", "PUBLICADO", "Ticomer OF-001, 2026-11-05", "Incluido provisional"),
     ("Equipo activo", "Switch distribución MikroTik CRS317-1G-16S+RM", 2, "unidad", 261849, "CRC", "Excluido", "PUBLICADO", "Ticomer OF-003, 2026-11-05", "Incluido provisional"),
     ("Óptica", "Transceptor SFP+ MikroTik S+31DLC10D", 28, "unidad", 119105, "CRC", "No confirmado", "PUBLICADO", "CQNet OF-004, 2026-11-05; disponibilidad insuficiente", "Incluido provisional"),
     ("Fibra óptica", "Cable OS2 12F vertical; paquetes 50 m", 6, "paquete 50 m", 25, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-FIBSM12; 284,025 m vertical académicos, 2026-11-05", "Incluido académico"),
     ("Fibra óptica", "Patch cord OS2 LC/UPC-LC/UPC dúplex 1 m", 28, "unidad", 4, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-LC/UPC-LC/UPC1M; longitud/compatibilidad final pendientes", "Incluido académico"),
-    ("Herramientas/servicios", "Certificación cobre/fibra, fusión y OTDR", None, "servicio", None, "CRC", "Pendiente", "PENDIENTE", "U03: compra/alquiler/servicio excluyentes; no hay oferta comparable", "Excluido por pendiente"),
-    ("Fibra óptica", "Cable OS2 24F exterior, cassettes y housings", None, "lote", None, "CRC", "Pendiente", "PENDIENTE", "U02: 538,65 m exterior y 28 cassettes/housings; sin oferta compatible", "Excluido por pendiente"),
+    ("Herramientas/servicios", "Certificación cobre/fibra, fusión y OTDR", None, "servicio", None, "CRC", "Pendiente", "PENDIENTE", "U03: compra/alquiler/servicio excluyentes; ELVATRON publica instrumentos, no tarifa de servicio comparable", "Excluido por pendiente"),
+    ("Fibra óptica", "Cable OS2 24F exterior; paquetes equivalentes de 50 m", 11, "paquete 50 m", 50, "USD", "Excluido", "ESTIMADO", "U02 538,65 m; estimación académica: 2 × precio publicado Lanprosa LTK-FIBSM12 (12F/50 m); no valida SKU 24F exterior", "Incluido académico; accesorios aparte"),
+    ("Fibra óptica", "Cassettes y housings para enlaces exteriores", 28, "unidad", None, "CRC", "Pendiente", "PENDIENTE", "U02: 28; sin referencia comercial compatible ni selección de sistema", "Excluido por pendiente"),
     ("Canalización", "Herrajes, fijaciones, bajantes, coplas, curvas y accesorios", None, "lote", None, "CRC", "Pendiente", "PENDIENTE", "U02: falta despiece físico, sustrato y kits", "Excluido por pendiente"),
 ]
 
@@ -207,7 +208,7 @@ def build_book():
 
     title(chrono, "CRONOGRAMA GANTT — REFERENCIA DEL PRESUPUESTO", 7)
     chrono.append(["Inicio", date(2026,11,2), "Fin", date(2027,2,16), "Días hábiles", 74, "Fuente: gantt/GANTT_INA_CABLEADO_2026-2027.xlsx"])
-    chrono["G2"].hyperlink = "../../gantt/GANTT_INA_CABLEADO_2026-2027.xlsx"
+    chrono["G2"].hyperlink = "GANTT_CANONICO/GANTT_INA_CABLEADO_2026-2027.xlsx"
     chrono["G2"].style = "Hyperlink"
     chrono.append(["Etapa", "Actividades", "Costo interno CRC", "Estado", "", "", ""])
     for r in range(33,39): chrono.append([g.cell(r,1).value, None, g.cell(r,6).value, "Supuesto laboral", "", "", ""])
@@ -232,7 +233,7 @@ def build_book():
     proforma.append(["IVA referencia", "Aplicación tributaria por confirmar", 0, "='Precio de venta'!B12", "=D12", "PROVISIONAL"])
     proforma.append(["TOTAL PROFORMA PARCIAL", None, "=C8+C9+C11", "=D8+D9+D11+D12", "=E8+E9+E11+E12", "INCOMPLETA"])
     proforma.append([])
-    proforma.append(["Condiciones", "Este documento no es comprobante fiscal electrónico. Incluye precios publicados y estimaciones marcadas; faltan cotizaciones de fibra, canalización/accesorios, servicios especializados y confirmación de disponibilidad. No constituye oferta firme ni autorización de compra.", None, None, None, None])
+    proforma.append(["Condiciones", "Este documento no es comprobante fiscal electrónico. Incluye precios publicados y estimaciones marcadas; el conduit y el cable OS2 exterior tienen valoración académica parcial. Faltan cassettes/housings, herrajes/accesorios, patch panels Cat 6A, servicios especializados y confirmación de disponibilidad. No constituye oferta firme ni autorización de compra.", None, None, None, None])
     proforma.append(["Alcance", "Edificios A y B: 62 laboratorios, 1.984 enlaces Cat 6A de escenario, 11 TR y 2 ER nuevos. Cantidades académicas, pendientes de validación de campo.", None, None, None, None])
 
     title(assumptions, "SUPUESTOS, PENDIENTES Y CONTROLES", 4)
@@ -241,8 +242,8 @@ def build_book():
         ("Dato docente", "62 laboratorios; 992 áreas dobles", "Usado como base", "Confirmar con docente si cambia alcance"),
         ("Resultado académico", "1.984 enlaces, 229 carretes Cat6A, 478 tramos canasta", "Provisional", "Despiece físico y validación de instalación"),
         ("Precio publicado", "Switches Ticomer, transceptor CQNet, jack Circuito Cinco", "No es cotización firme", "Confirmar stock, IVA y vigencia"),
-        ("Estimación", "Cable Cat6A, canasta, racks y paneles comparables", "Separada de publicada", "Cotizar referencias exactas"),
-        ("Pendiente", "Fibra, conduit, herrajes, servicios de certificación/fusión", "Excluido de total", "Obtener cotización comparable"),
+        ("Estimación", "Cable Cat6A, canasta, racks, conduit y cable OS2 exterior", "Separada de publicada", "Cotizar referencias exactas y validar despiece"),
+        ("Pendiente", "Patch panel Cat 6A, cassettes/housings, herrajes y servicios de certificación/fusión", "Excluido de total", "Obtener selección y cotización comparable"),
         ("Supuesto laboral", "TMED, cargas/provisiones y proyección 2027", "Provisional", "Validar categoría, régimen y tarifa comercial"),
         ("Control", "44 switches en base; 7 adicionales solo para 51", "Aplicado", "No sumar alternativa ampliada"),
     ]: assumptions.append(row)
@@ -292,7 +293,7 @@ def pdf_proforma(total):
     table = Table(data, colWidths=[4.0*cm, 7.0*cm, 3.6*cm, 2.1*cm])
     table.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,0),colors.HexColor("#1F4E78")),("TEXTCOLOR",(0,0),(-1,0),colors.white),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("GRID",(0,0),(-1,-1),0.3,colors.grey),("VALIGN",(0,0),(-1,-1),"TOP"),("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#D9EAD3")),("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold"),("PADDING",(0,0),(-1,-1),6)]))
     story += [table, Spacer(1, 0.4*cm)]
-    story += [Paragraph("Condiciones: esta proforma es preliminar y no es comprobante fiscal electrónico. Los precios publicados y estimados están identificados en el XLSX adjunto. El total no incluye componentes obligatorios aún pendientes de cotización: fibra óptica, conduit, herrajes, accesorios y servicios especializados de fusión/certificación. No constituye oferta firme ni autorización de compra.", sty["BodyText"])]
+    story += [Paragraph("Condiciones: esta proforma es preliminar y no es comprobante fiscal electrónico. Los precios publicados y estimados están identificados en el XLSX adjunto. El conduit y el cable OS2 exterior tienen valoración académica parcial. El total no incluye los cassettes/housings, herrajes y accesorios, patch panels Cat 6A ni servicios especializados de fusión/certificación que siguen pendientes. No constituye oferta firme ni autorización de compra.", sty["BodyText"])]
     doc.build(story)
 
 
@@ -312,8 +313,9 @@ El total parcial mostrado en la proforma es **CRC {total:,.2f}**. Incluye única
 
 ## Pendientes excluidos del total
 
-- Cable OS2 exterior 24F, cassettes/housings, terminaciones de fibra y disponibilidad de ópticos.
-- Herrajes, bajantes, fijaciones y accesorios: falta despiece físico; el conduit 25 mm es una estimación académica por barra de 6 m.
+- Cassettes/housings y terminaciones de fibra exterior: el cable OS2 24F se estima académicamente, pero el sistema de terminación continúa sin selección compatible.
+- Patch panels Cat 6A: el precio de un panel Cat 6 se conserva solo como referencia comercial y no se suma como sustituto técnico.
+- Herrajes, bajantes, fijaciones y accesorios: falta despiece físico; el conduit 25 mm sí está incluido como estimación académica por barra de 6 m.
 - Compra, alquiler o servicio de fusión, OLTS, OTDR y certificación: son alternativas excluyentes sin oferta comparable.
 - Confirmación de stock, IVA y vigencia para precios publicados; tipo de cambio USD→CRC de referencia BCCR/MONEX venta ₡454,65 al 2026-11-04, actualizable.
 
@@ -347,6 +349,12 @@ def copy_ac1():
     shutil.copy2(AC1 / "01_EXCEL/INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx", dest / "INA_CENATE_ACTIVIDAD_1_COMPLETADA.xlsx")
 
 
+def copy_gantt():
+    dest = OUT / "GANTT_CANONICO"
+    dest.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(GANTT, dest / GANTT.name)
+
+
 def validate(path: Path):
     with zipfile.ZipFile(path) as z:
         assert z.testzip() is None
@@ -359,6 +367,7 @@ def validate(path: Path):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     copy_ac1()
+    copy_gantt()
     material = sum(x for x in map(crc, LINES) if x is not None)
     direct = material + LABOR_INTERNAL
     total = (direct * (1 + IMPREVISTOS) * (1 + ADMIN) * (1 + UTILIDAD)) * (1 + IVA)
