@@ -315,3 +315,18 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [x] Individualizar 02A–02D con fórmula, unidad, fuente, estado y control de duplicación en `05_materiales/unidad_02_ampliacion/UNIDAD_02_MATRIZ_MAESTRA_MATERIALES.csv`; conservar escenarios 44/51 sin presupuesto.
 - [ ] Resolver los bloqueos de mayor impacto de `05_materiales/unidad_02_ampliacion/UNIDAD_02_PENDIENTES_TECNICOS.md`: troncales para 160/192 cables, soporte/estructura, ubicación pared/piso/columna y despiece físico.
 - [ ] Confirmar modelos, contenido de kits, compatibilidad, oferta nacional y energía/ER principal antes de cerrar cantidades comprables; revisar técnicamente el contenido asistido por IA.
+
+## Actividad complementaria Gantt — 2026-11-04
+
+- [x] Versionar el diagrama editable con 26 actividades, 74 jornadas hábiles y feriados de Costa Rica en `gantt/`.
+- [ ] Abrir el archivo en Microsoft Excel y revisar visualmente el eje de fechas, barras y fórmulas; confirmar con el docente la aceptación de las duraciones propuestas.
+- [ ] Mantener el ejercicio de cronograma separado de la entrega original de la Actividad de Comprobación N.º 1.
+
+## Unidad 03 — matriz de herramientas y pruebas previstas (2026-11-04)
+
+- [x] Consolidar 03A–03D en 108 filas funcionales, memoria, conciliación y pendientes separados de Unidad 02 y entregables académicos; sin precios ni ensayos físicos.
+- [x] Verificar documentalmente métodos TG/impacto de los candidatos Panduit y separar continuidad, calificación, certificación, OLTS, OTDR y fusiones.
+- [ ] Revisar técnicamente los artefactos asistidos por IA; aprobar cuadrillas/simultaneidad y evaluación de seguridad institucional antes de cerrar dotaciones/EPP.
+- [ ] Inventariar equipos existentes, kits, calibración y agenda; aprobar procedimiento de certificación de 1984 enlaces y alcance/sentidos de medición de 204 fibras.
+- [ ] Confirmar cotización nacional, SKU, kit, disponibilidad y alquiler/servicio para especialistas; comparar modalidades en Unidad 04, sin trasladar importes a la Actividad 1.
+- [ ] Resolver por prioridad `05_materiales/unidad_03_herramientas/UNIDAD_03_PENDIENTES.md`; no convertir procedimientos previstos en resultados ejecutados.

@@ -1,0 +1,23 @@
+# Unidad 03 — pendientes para selección y cantidad definitiva
+
+Fecha: 2026-11-04. Elaboración asistida por Codex; revisión humana pendiente. `PENDIENTE` nunca equivale a cero. Ninguna prueba física ejecutada. Registro complementario a los pendientes de Unidad 02 y Unidad 01, sin reemplazarlos.
+
+| Prioridad / efecto | Decisión pendiente y filas afectadas | Evidencia mínima | Responsable de resolución propuesto |
+|---|---|---|---|
+| Alta / dotación y agenda | Número de cuadrillas, técnicos, jornadas, duración, simultaneidad y acceso por edificio; todas las filas | Programa aprobado, rendimiento piloto y agenda; C=1/T=2 solo escenario secuencial | Estudiante y coordinación de instalación |
+| Alta / seguridad | Requisitos institucionales, riesgos por tarea, polvo/ruido, alturas, tránsito y rescate; 03A-024/025 y 03D-001 a 017 | Evaluación firmada, método de acceso, formación, inventario EPP y recursos de emergencia | Seguridad institucional / responsable de obra |
+| Alta / mecánica | Canasta/suspensión/sustrato/anclaje exactos; 03A-001 a 016 y detector -023 | Fichas con corte permitido, acabado, diámetros, profundidades, limpieza, fijaciones y torque; no adoptar broca ni N·m anticipadamente | Diseñador / estructural / fabricante |
+| Alta / aceptación cobre | Norma/edición, límite Cat 6A, adaptadores, alcance de pruebas complementarias y repetición; 03B-007 a 017 y -022 | Procedimiento aprobado, listado de 1984 IDs, formato nativo/PDF y criterios de retrabajo | Responsable de certificación / docente |
+| Alta / terminación | Cable y conectores exactos, versión de manual, empaque TG y herramientas; 03B-001 a 006 | Ficha de CJ6X88TGBU y NK6XPPG48Y, variante de cable; revisar EGJT-1 incluida en -24/-C y muestra de terminación | Instalador / distribuidor / estudiante |
+| Alta / aceptación óptica | Fibras incluidas, referencia OLTS, pérdidas admisibles, longitudes, sentidos, límites OTDR y limpieza; 03C-013 a 024 y -028 a 030 | Procedimiento firmado, presupuesto óptico por enlace, IDs, cables de referencia y trazas exigidas | Responsable de fibra / TI / docente |
+| Alta / calibración y disponibilidad | Acceso a certificador, fusionadora, OLTS, OTDR y operadores | Inventario institucional, series, condición, calibración/servicio vigente según instrumento, agenda, accesorios compatibles | Custodio institucional y especialistas |
+| Alta / no duplicación | Contenido exacto de kits de fusión, DSX, OLTS, OTDR, sonda y cassettes 12F/24F | SKU, revisión, lista de empaque y cantidades incluidas; verificar especialmente cassette 24F pendiente de U02 | Compras / distribuidor / fabricante |
+| Alta / electricidad | Procedimientos y personal autorizado para comprobaciones; 03D-014/015 y -018 a 020 | Inventario de circuitos/tomas, categoría de instrumento y puntas, método aprobado; detector sin contacto insuficiente | Responsable eléctrico institucional |
+| Alta / puesta en servicio | ER principal, firmware, permisos, plan de pruebas y retorno; 03B-018 y 03D-022 a 025 | Inventario de Unidad 01 y laboratorio autorizado; aceptación VLAN, DAC/SFP+, OSPF/rutas, fallas y restauración | TI institucional / diseñador |
+| Media / elección de modalidad | Compra frente a alquiler/servicio de fusión, cobre, OLTS y OTDR | Ofertas nacionales de alcance comparable con accesorios, operador, calibración, repetición y archivos; alquiler aún no verificado | Compras / estudiante, Unidad 04 |
+| Media / oferta local | Modelo y proveedor establecido en Costa Rica por fila | Cotización nacional fechada con referencia, kit, plazo y disponibilidad; ELVATRON publica familias agotadas, no stock confirmado | Compras / proveedores |
+| Media / consumos | Rendimiento de ribbon, electrodos, filtros, repuestos y limpieza | Ficha, empaque, vida útil, jornadas, reposiciones y descuento de incluidos; limpieza/etiquetas U02 sin nueva compra | Instalador / compras |
+| Media / recursos compartidos | Portátil, licencias, etiquetadora, VFL y bases modulares | Compatibilidad de software/OS, licencia y agenda; dos módulos no implican dos bases simultáneas | TI / custodio de instrumentos |
+| Alta / académica | Revisión técnica humana de todo contenido asistido por IA | Registro de revisión por estudiante, correcciones justificadas y fuentes comprendidas | Estudiante / docente según alcance |
+
+Siguiente acción mínima: inventariar equipos institucionales con series, accesorios, calibración y disponibilidad; aprobar una cuadrilla/tarea representativa y procedimiento de certificación. Después solicitar cotización nacional técnica sin introducir importes en esta unidad. No se enviaron consultas a terceros en esta intervención.
