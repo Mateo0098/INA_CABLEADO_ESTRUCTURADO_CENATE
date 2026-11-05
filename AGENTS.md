@@ -11,6 +11,15 @@ Estas reglas aplican a todo el repositorio `INA_CABLEADO_ESTRUCTURADO_CENATE`.
 5. Trabajar en una rama distinta de `main`. No modificar `main` directamente.
 6. Si el repositorio o `origin` no coinciden con el proyecto esperado, detener las modificaciones, documentar el problema y pedir orientación.
 
+## Inventario de entregables complementarios — Gantt
+
+- Existe un **ejercicio académico complementario de cronograma Gantt** en `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` y su documentación canónica en `gantt/README.md`.
+- **Inicio:** 2026-11-02. **Fin:** 2027-02-16. **Calendario:** lunes a viernes, excluyendo los feriados nacionales de Costa Rica documentados en el libro. Incluye 26 actividades repartidas en seis etapas y un horizonte de 74 días hábiles.
+- Las duraciones, dependencias y solapamientos del Gantt son **supuestos didácticos**, no mediciones ni fechas contractuales; pendiente revisión humana y comprobación visual en Microsoft Excel.
+- Mantener el Gantt **separado** de los entregables originales de la Actividad de Comprobación N.º 1, cuya fecha de entrega fue 2026-10-29. No modificar `06_excel/` ni los paquetes oficiales solo por cambios en el Gantt.
+- Cuando la tarea del agente afecte planificación, cronogramas, documentación general o listado de entregables, leer primero `gantt/README.md` y comprobar la existencia/versión del XLSX en `origin/desarrollo-proyecto` antes de editar, sustituir o declarar ausente el Gantt.
+- La referencia de este archivo **no implica** que el Gantt deba procesarse en cada intervención técnica ajena al cronograma; evitar auditorías repetidas e informes innecesarios.
+
 ## Ingeniería y evidencia
 
 - Clasificar cada entrada como: dato establecido por el docente, medición de campo, supuesto de diseño, resultado calculado, especificación verificada de fabricante o decisión pendiente.
