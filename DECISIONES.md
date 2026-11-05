@@ -339,3 +339,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Control de duplicación:** etiquetas, limpieza óptica, protectores de fusión, adhesivo y lubricante permanecen en U02; fuente/medidor integrados en OLTS, componentes de kits y alternativas de servicio no se acumulan como compras. EPP y acceso se dimensionan con evaluación institucional; detector sin contacto no acredita ausencia de tensión.
 - **Adquisición:** compra, alquiler/servicio y equipos existentes se conservan como escenarios; ELVATRON publica familias DSX/CertiFiber/OptiFiber agotadas al consultar, sin confirmar SKU, stock ni alquiler. Las demás referencias quedan pendientes de cotización nacional. Sin precios ni cambios en Excel, planos, matriz histórica o Unidad 02.
 - **Impacto:** base documental reproducible para Unidad 04; no certificación ejecutada, autorización de trabajo ni modificación de infraestructura. No altera decisiones anteriores ni el Gantt.
+
+## G-002 — Dotación y costo laboral del Gantt (2026-11-05)
+
+- **Clasificación:** supuesto académico de planificación y costo, no tarifa de mercado ni contratación real.
+- **Fuente:** archivo de trabajo de ChatGPT, consolidado en `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` y `gantt/README.md`; consultas de MTSS 2026 y comunicado 2027 consignadas en el libro.
+- **Cambio:** se incorporan personal por actividad, horas anuales 2026/2027, categoría salarial de referencia TMED, cargas patronales y provisiones editables, y análisis de ocupación simultánea, sin modificar las fechas del Gantt.
+- **Separación:** salario mínimo mensual MTSS no equivale a tarifa de servicio; el cálculo por hora es una conversión presupuestaria que debe distinguirse de la nómina mensual. Ajuste 2027, categoría aplicable, INS y demás porcentajes sujetos a validación.
+- **No afectados:** `06_excel/`, los planos y paquete final académico, la matriz de materiales y `main`.
+- **Estado:** archivo estructuralmente verificado; validación visual en Excel y revisión técnica/legal del escenario pendientes.
