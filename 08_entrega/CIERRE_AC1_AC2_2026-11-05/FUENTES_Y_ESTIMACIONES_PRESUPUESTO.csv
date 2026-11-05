@@ -1,0 +1,12 @@
+Grupo,Descripción,Cantidad,Unidad,Precio_unitario,Moneda,IVA,Importe_CRC,Clasificación,Fuente_fecha,Estado
+Cableado Cat 6A,Cable Cat 6A 305 m (cómputo académico),229,carrete,210,USD,Excluido,24706453.904999997,ESTIMADO,"Lanprosa LTK-CAT6AB, precio publicado 2026-11-05; no es CMP histórico",Incluido parcial
+Terminaciones cobre,Jack Panduit CJ6X88TGBU Cat 6A,1984,unidad,5268.64,CRC,No confirmado,10452981.76,PUBLICADO,"Circuito Cinco, 2026-11-05",Incluido parcial
+Canalización,Canasta Cablofil 300 mm x 3 m (redondeo global académico),478,tramo,45968.4,CRC,Incluido,24829371.575999998,ESTIMADO,"Capris CF105/300 EZ, precio publicado 2026-11-05; sección/diseño pendientes",Incluido parcial
+Racks,Gabinete 42U Lantek,13,unidad,540,USD,Excluido,3606556.59,ESTIMADO,"Lanprosa LTK-GAB420608, precio publicado 2026-11-05; modelo no adjudicado",Incluido parcial
+Terminaciones cobre,Patch panel 48 puertos comparable,51,unidad,16,USD,Excluido,419223.6719999999,ESTIMADO,"Lanprosa LTK-PPC648, referencia comercial; Cat 6A exacto pendiente",Incluido parcial
+Equipo activo,Switch acceso MikroTik CRS354-48G-4S+2Q+RM,44,unidad,320703,CRC,Excluido,15945353.159999998,PUBLICADO,"Ticomer OF-001, 2026-11-05",Incluido provisional
+Equipo activo,Switch distribución MikroTik CRS317-1G-16S+RM,2,unidad,261849,CRC,Excluido,591778.74,PUBLICADO,"Ticomer OF-003, 2026-11-05",Incluido provisional
+Óptica,Transceptor SFP+ MikroTik S+31DLC10D,28,unidad,119105,CRC,No confirmado,3334940,PUBLICADO,"CQNet OF-004, 2026-11-05; disponibilidad insuficiente",Incluido provisional
+Herramientas/servicios,"Certificación cobre/fibra, fusión y OTDR",,servicio,,CRC,Pendiente,,PENDIENTE,U03: compra/alquiler/servicio excluyentes; no hay oferta comparable,Excluido por pendiente
+Fibra óptica,Cable OS2 12F vertical y OS2 24F exterior,,m,,CRC,Pendiente,,PENDIENTE,"U02: 284,025 m vertical y 538,65 m exterior académicos; producto y presentación pendientes",Excluido por pendiente
+Canalización,"Conduit, fijaciones, herrajes, bajantes y accesorios",,lote,,CRC,Pendiente,,PENDIENTE,U02: falta despiece físico y sustrato,Excluido por pendiente

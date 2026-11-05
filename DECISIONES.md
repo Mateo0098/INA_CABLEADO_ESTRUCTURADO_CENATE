@@ -348,6 +348,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Fuente:** `05_materiales/unidad_04_presupuesto/UNIDAD_04C_MEMORIA_PRESUPUESTARIA.md`; seis ofertas con URL y fecha en `UNIDAD_04C_OFERTAS.csv`.
 - **Impacto:** subtotal de switches con tres precios web vinculados, sujeto a disponibilidad, IVA aplicable, revisión técnica y oferta firme; el costo completo del proyecto sigue no disponible.
 
+## D-CIERRE-AC1-AC2 — paquete urgente de entrega (2026-11-05)
+
+- **Clasificación:** presupuesto preliminar académico/comercial asistido por IA; no adjudicación, oferta firme ni comprobante fiscal.
+- **Decisión:** preparar `08_entrega/CIERRE_AC1_AC2_2026-11-05/` con proforma, XLSX, fuentes, correo y reenvío de AC1. La plantilla `insumos_entregable_2/Presupuesto FINAL.xlsx` no estaba en el repositorio; se creó un libro de salida que cubre las siete funciones requeridas.
+- **Impacto:** el total mostrado es parcial porque fibra, canalización/accesorios y servicios especializados continúan sin cotización comparable; se marcan como pendientes, no como ₡0.
+
 ## G-002 — Dotación y costo laboral del Gantt (2026-11-05)
 
 - **Clasificación:** supuesto académico de planificación y costo, no tarifa de mercado ni contratación real.

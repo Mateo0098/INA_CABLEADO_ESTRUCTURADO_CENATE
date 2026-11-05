@@ -339,6 +339,12 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Inventariar instrumentos existentes y comparar compra, alquiler y servicio; clasificar importaciones y comprobar costo puesto en Costa Rica.
 - [ ] Recalcular y revisar visualmente el XLSX en Excel y someter contenido asistido por IA a revisión técnica/académica humana.
 
+## Cierre AC1/AC2 — 2026-11-05
+
+- [x] Preparar XLSX, proforma PDF, fuentes, correo, reenvío AC1 y ZIP en `08_entrega/CIERRE_AC1_AC2_2026-11-05/`.
+- [ ] Abrir y recalcular el XLSX final en Microsoft Excel; completar emisor, cliente y datos fiscales antes de emitir una proforma comercial.
+- [ ] Sustituir estimaciones y partidas pendientes por cotizaciones comparables de fibra, canalización, accesorios y servicios; confirmar stock e impuestos.
+
 ## Gantt — mano de obra 2026-11-05
 
 - [x] Incorporar técnicos por actividad, tarifas salariales por año, costo por tarea y dotación diaria en el XLSX del cronograma complementario.
