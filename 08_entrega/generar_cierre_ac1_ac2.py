@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "08_entrega/CIERRE_AC1_AC2_2026-11-05"
 AC1 = ROOT / "08_entrega/ENTREGA_FINAL_INA_CENATE"
 GANTT = ROOT / "gantt/GANTT_INA_CABLEADO_2026-2027.xlsx"
+TEMPLATE = ROOT / "insumos_entregable_2/Presupuesto FINAL.xlsx"
 
 USD_CRC = 454.65  # BCCR/MONEX venta, 2026-11-04; fuente registrada en fuentes CSV.
 IVA = 0.13
@@ -37,25 +38,40 @@ LABOR_INTERNAL = 13935679.31514  # cache comprobada del Gantt canónico.
 LINES = [
     ("Cableado Cat 6A", "Cable Cat 6A 305 m (cómputo académico)", 229, "carrete", 210, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-CAT6AB, precio publicado 2026-11-05; no es CMP histórico", "Incluido parcial"),
     ("Terminaciones cobre", "Jack Panduit CJ6X88TGBU Cat 6A", 1984, "unidad", 5268.64, "CRC", "No confirmado", "PUBLICADO", "Circuito Cinco, 2026-11-05", "Incluido parcial"),
+    ("Canalización", "Conduit PVC 25 mm; presentación 6 m", 521, "barra 6 m", 15.11, "USD", "Incluido", "ESTIMADO", "Capris tubo S40 25 mm 6 m; 3.124,8 m académicos / 6 m, 2026-11-05", "Incluido académico"),
     ("Canalización", "Canasta Cablofil 300 mm x 3 m (redondeo global académico)", 478, "tramo", 45968.40, "CRC", "Incluido", "ESTIMADO", "Capris CF105/300 EZ, precio publicado 2026-11-05; sección/diseño pendientes", "Incluido parcial"),
     ("Racks", "Gabinete 42U Lantek", 13, "unidad", 540, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-GAB420608, precio publicado 2026-11-05; modelo no adjudicado", "Incluido parcial"),
     ("Terminaciones cobre", "Patch panel 48 puertos comparable", 51, "unidad", 16, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-PPC648, referencia comercial; Cat 6A exacto pendiente", "Incluido parcial"),
+    ("Racks", "Organizador horizontal 1U comparable", 65, "unidad", 5, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-ORG1U; 51 cobre + 14 ópticos, compatibilidad de rack pendiente", "Incluido académico"),
     ("Equipo activo", "Switch acceso MikroTik CRS354-48G-4S+2Q+RM", 44, "unidad", 320703, "CRC", "Excluido", "PUBLICADO", "Ticomer OF-001, 2026-11-05", "Incluido provisional"),
     ("Equipo activo", "Switch distribución MikroTik CRS317-1G-16S+RM", 2, "unidad", 261849, "CRC", "Excluido", "PUBLICADO", "Ticomer OF-003, 2026-11-05", "Incluido provisional"),
     ("Óptica", "Transceptor SFP+ MikroTik S+31DLC10D", 28, "unidad", 119105, "CRC", "No confirmado", "PUBLICADO", "CQNet OF-004, 2026-11-05; disponibilidad insuficiente", "Incluido provisional"),
+    ("Fibra óptica", "Cable OS2 12F vertical; paquetes 50 m", 6, "paquete 50 m", 25, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-FIBSM12; 284,025 m vertical académicos, 2026-11-05", "Incluido académico"),
+    ("Fibra óptica", "Patch cord OS2 LC/UPC-LC/UPC dúplex 1 m", 28, "unidad", 4, "USD", "Excluido", "ESTIMADO", "Lanprosa LTK-LC/UPC-LC/UPC1M; longitud/compatibilidad final pendientes", "Incluido académico"),
     ("Herramientas/servicios", "Certificación cobre/fibra, fusión y OTDR", None, "servicio", None, "CRC", "Pendiente", "PENDIENTE", "U03: compra/alquiler/servicio excluyentes; no hay oferta comparable", "Excluido por pendiente"),
-    ("Fibra óptica", "Cable OS2 12F vertical y OS2 24F exterior", None, "m", None, "CRC", "Pendiente", "PENDIENTE", "U02: 284,025 m vertical y 538,65 m exterior académicos; producto y presentación pendientes", "Excluido por pendiente"),
-    ("Canalización", "Conduit, fijaciones, herrajes, bajantes y accesorios", None, "lote", None, "CRC", "Pendiente", "PENDIENTE", "U02: falta despiece físico y sustrato", "Excluido por pendiente"),
+    ("Fibra óptica", "Cable OS2 24F exterior, cassettes y housings", None, "lote", None, "CRC", "Pendiente", "PENDIENTE", "U02: 538,65 m exterior y 28 cassettes/housings; sin oferta compatible", "Excluido por pendiente"),
+    ("Canalización", "Herrajes, fijaciones, bajantes, coplas, curvas y accesorios", None, "lote", None, "CRC", "Pendiente", "PENDIENTE", "U02: falta despiece físico, sustrato y kits", "Excluido por pendiente"),
 ]
 
 
-def crc(line):
+def base_crc(line):
     group, name, qty, unit, price, currency, iva_status, evidence, source, status = line
     if qty is None or price is None:
         return None
     net = qty * price * (USD_CRC if currency == "USD" else 1)
-    # Precio publicado con IVA no confirmado no recibe una segunda aplicación.
-    return net if iva_status == "No confirmado" else net * (1 + IVA)
+    # Base neta: precio con IVA incluido se desglosa antes de usar el costo.
+    return net / (1 + IVA) if iva_status == "Incluido" else net
+
+
+def purchase_iva(line):
+    base = base_crc(line)
+    if base is None:
+        return None
+    return round(base * IVA, 2) if line[6] == "Excluido" else (round((base * IVA), 2) if line[6] == "Incluido" else None)
+
+
+def crc(line):
+    return base_crc(line)
 
 
 def title(ws, text, cells=10):
@@ -79,14 +95,20 @@ def finish_sheet(ws):
 
 
 def build_book():
-    wb = Workbook()
-    cot = wb.active; cot.title = "Cotización"
-    labor = wb.create_sheet("Mano de obra")
-    sale = wb.create_sheet("Precio de venta")
-    profit = wb.create_sheet("Ganancias")
-    chrono = wb.create_sheet("Cronograma Gantt")
-    hol = wb.create_sheet("Feriados CR")
-    proforma = wb.create_sheet("Factura proforma")
+    # La salida parte de la plantilla publicada: se conservan sus siete hojas
+    # comerciales y se sustituyen ejemplos y referencias genéricas.
+    wb = load_workbook(TEMPLATE)
+    cot = wb["Cotización"]
+    labor = wb["Mano de obra"]
+    sale = wb["Precio de venta"]
+    profit = wb["Ganancias"]
+    chrono = wb["Cronograma Gantt"]
+    hol = wb["Feriados CR"]
+    proforma = wb["Factura proforma"]
+    for ws in (cot, labor, sale, profit, chrono, hol, proforma):
+        for merged in list(ws.merged_cells.ranges):
+            ws.unmerge_cells(str(merged))
+        ws.delete_rows(1, ws.max_row)
     detail = wb.create_sheet("Detalle partidas")
     sources = wb.create_sheet("Fuentes y precios")
     assumptions = wb.create_sheet("Supuestos y pendientes")
@@ -129,18 +151,19 @@ def build_book():
     detail.auto_filter.ref = f"A2:M{detail.max_row}"
 
     title(sources, "FUENTES Y ESTIMACIONES PRESUPUESTARIAS", 11)
-    sources.append(["Grupo", "Descripción", "Cantidad", "Unidad", "Precio unitario", "Moneda", "IVA", "Importe CRC", "Clasificación", "Fuente / fecha", "Estado"])
+    sources.append(["Grupo", "Descripción", "Cantidad", "Unidad", "Precio unitario", "Moneda", "IVA fuente", "Base neta CRC", "IVA compra CRC", "Clasificación", "Fuente / fecha", "Estado"])
     for line in LINES:
         group, desc, qty, unit, price, currency, tax, evidence, source, status = line
-        sources.append([group, desc, qty, unit, price, currency, tax, crc(line), evidence, source, status])
-    sources.auto_filter.ref = f"A2:K{sources.max_row}"
+        sources.append([group, desc, qty, unit, price, currency, tax, base_crc(line), purchase_iva(line), evidence, source, status])
+    sources.auto_filter.ref = f"A2:L{sources.max_row}"
 
     title(cot, "COTIZACIÓN PRELIMINAR — INFRAESTRUCTURA INA CENATE", 9)
-    cot.append(["Grupo comercial", "Concepto", "Cantidad", "Unidad", "Evidencia", "Subtotal CRC", "IVA/estado", "Estado", "Fuente"])
+    cot.append(["Grupo comercial", "Concepto", "Cantidad", "Unidad", "Evidencia", "Base neta CRC", "IVA/estado", "Estado", "Fuente"])
     for line in LINES:
         group, desc, qty, unit, price, currency, tax, evidence, source, status = line
         cot.append([group, desc, qty or "PENDIENTE", unit, evidence, crc(line) if crc(line) is not None else "PENDIENTE", tax, status, source])
-    cot.append(["Materiales/equipos valorados", None, None, None, None, f"=SUM(F3:F{cot.max_row})", "No incluye pendientes", "PARCIAL", None])
+    cot.append(["Materiales/equipos valorados", None, None, None, None, f"=SUM(F3:F{cot.max_row})", "IVA de compra separado en fuentes; impuesto de venta abajo", "PARCIAL", None])
+    cot_total_row = cot.max_row
     cot.auto_filter.ref = f"A2:I{cot.max_row}"
 
     title(labor, "MANO DE OBRA — VÍNCULO CON GANTT CANÓNICO", 9)
@@ -159,7 +182,7 @@ def build_book():
     title(sale, "PRECIO DE VENTA — ESCENARIO BASE 44 SWITCHES", 4)
     sale.append(["Concepto", "Importe CRC", "Estado", "Base"])
     sale_rows = [
-        ("Materiales y equipos valorados", "='Cotización'!F14", "PARCIAL", "Solo líneas valoradas"),
+        ("Materiales y equipos valorados", f"='Cotización'!F{cot_total_row}", "PARCIAL", "Solo líneas valoradas"),
         ("Mano de obra interna", "='Mano de obra'!H29", "PROVISIONAL", "Gantt 26 actividades / TMED"),
         ("Herramientas y servicios especializados", "PENDIENTE", "PENDIENTE", "No sumar compra y servicio"),
         ("Costos directos valorados", "=SUM(B3:B4)", "PARCIAL", "Excluye partidas pendientes"),
@@ -176,7 +199,7 @@ def build_book():
     title(profit, "GANANCIAS — USO INTERNO", 4)
     profit.append(["Indicador", "Importe CRC", "Porcentaje", "Nota"])
     for row in [
-        ("Costo directo parcial", "='Precio de venta'!B6", None, "No incluye costos pendientes"),
+            ("Costo directo parcial", "='Precio de venta'!B6", None, "Base neta de materiales; no incluye costos pendientes"),
         ("Gastos administrativos", "='Precio de venta'!B8", "='Parámetros'!B7", "Supuesto"),
         ("Utilidad bruta propuesta", "='Precio de venta'!B10", "='Parámetros'!B8", "Supuesto; no es impuesto"),
         ("Precio antes de IVA", "='Precio de venta'!B11", None, "Parcial"),
@@ -184,6 +207,8 @@ def build_book():
 
     title(chrono, "CRONOGRAMA GANTT — REFERENCIA DEL PRESUPUESTO", 7)
     chrono.append(["Inicio", date(2026,11,2), "Fin", date(2027,2,16), "Días hábiles", 74, "Fuente: gantt/GANTT_INA_CABLEADO_2026-2027.xlsx"])
+    chrono["G2"].hyperlink = "../../gantt/GANTT_INA_CABLEADO_2026-2027.xlsx"
+    chrono["G2"].style = "Hyperlink"
     chrono.append(["Etapa", "Actividades", "Costo interno CRC", "Estado", "", "", ""])
     for r in range(33,39): chrono.append([g.cell(r,1).value, None, g.cell(r,6).value, "Supuesto laboral", "", "", ""])
     chrono.append(["Advertencia", "El costo laboral es interno; no equivale al precio de venta. El año 2027 usa proyección pendiente de confirmar.", None, None, None, None, None])
@@ -200,11 +225,12 @@ def build_book():
     proforma.append(["Proyecto", "Suministro e instalación de infraestructura de cableado estructurado y fibra óptica para dos edificios del complejo INA CENATE.", None, None, None, None])
     proforma.append([])
     proforma.append(["Concepto", "Alcance", "Subtotal antes IVA CRC", "IVA CRC", "Total CRC", "Estado"])
-    proforma.append(["Materiales/equipos", "Partidas valoradas del escenario base", "='Cotización'!F14", 0, "=C7", "PARCIAL"])
-    proforma.append(["Mano de obra", "26 actividades y 74 días hábiles", "='Precio de venta'!B4", 0, "=C8", "PROVISIONAL"])
-    proforma.append(["Administración, imprevistos y utilidad", "Parámetros editables", "='Precio de venta'!B7+'Precio de venta'!B8+'Precio de venta'!B10", 0, "=C9", "PROVISIONAL"])
-    proforma.append(["IVA referencia", "Aplicación tributaria por confirmar", 0, "='Precio de venta'!B12", "=D10", "PROVISIONAL"])
-    proforma.append(["TOTAL PROFORMA PARCIAL", None, "=SUM(C7:C10)", "=SUM(D7:D10)", "=SUM(E7:E10)", "INCOMPLETA"])
+    proforma.append(["Materiales/equipos", "Partidas valoradas del escenario base", f"='Cotización'!F{cot_total_row}", 0, "=C8", "PARCIAL"])
+    proforma.append(["Mano de obra", "26 actividades y 74 días hábiles", "='Precio de venta'!B4", 0, "=C9", "PROVISIONAL"])
+    proforma.append(["Servicios especializados", "Fusión, OLTS, OTDR y certificación", "PENDIENTE", "PENDIENTE", "PENDIENTE", "EXCLUIDO DEL TOTAL"])
+    proforma.append(["Administración, imprevistos y utilidad", "Parámetros editables", "='Precio de venta'!B7+'Precio de venta'!B8+'Precio de venta'!B10", 0, "=C11", "PROVISIONAL"])
+    proforma.append(["IVA referencia", "Aplicación tributaria por confirmar", 0, "='Precio de venta'!B12", "=D12", "PROVISIONAL"])
+    proforma.append(["TOTAL PROFORMA PARCIAL", None, "=C8+C9+C11", "=D8+D9+D11+D12", "=E8+E9+E11+E12", "INCOMPLETA"])
     proforma.append([])
     proforma.append(["Condiciones", "Este documento no es comprobante fiscal electrónico. Incluye precios publicados y estimaciones marcadas; faltan cotizaciones de fibra, canalización/accesorios, servicios especializados y confirmación de disponibilidad. No constituye oferta firme ni autorización de compra.", None, None, None, None])
     proforma.append(["Alcance", "Edificios A y B: 62 laboratorios, 1.984 enlaces Cat 6A de escenario, 11 TR y 2 ER nuevos. Cantidades académicas, pendientes de validación de campo.", None, None, None, None])
@@ -261,9 +287,10 @@ def pdf_proforma(total):
     data = [["Concepto", "Alcance", "Total CRC", "Estado"],
             ["Materiales y equipos", "Partidas valoradas del escenario base", f"CRC {sum(x for x in map(crc, LINES) if x is not None):,.2f}", "Parcial"],
             ["Mano de obra", "26 actividades / 74 días hábiles", f"CRC {LABOR_INTERNAL:,.2f}", "Provisional"],
+            ["Servicios especializados", "Fusión, OLTS, OTDR y certificación", "PENDIENTE", "Excluido del total"],
             ["TOTAL PROFORMA PARCIAL", "Incluye indirectos, utilidad e IVA de referencia", f"CRC {total:,.2f}", "INCOMPLETA"]]
     table = Table(data, colWidths=[4.0*cm, 7.0*cm, 3.6*cm, 2.1*cm])
-    table.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,0),colors.HexColor("#1F4E78")),("TEXTCOLOR",(0,0),(-1,0),colors.white),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("GRID",(0,0),(-1,-1),0.3,colors.grey),("VALIGN",(0,0),(-1,-1),"TOP"),("BACKGROUND",(0,3),(-1,3),colors.HexColor("#D9EAD3")),("FONTNAME",(0,3),(-1,3),"Helvetica-Bold"),("PADDING",(0,0),(-1,-1),6)]))
+    table.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,0),colors.HexColor("#1F4E78")),("TEXTCOLOR",(0,0),(-1,0),colors.white),("FONTNAME",(0,0),(-1,0),"Helvetica-Bold"),("GRID",(0,0),(-1,-1),0.3,colors.grey),("VALIGN",(0,0),(-1,-1),"TOP"),("BACKGROUND",(0,-1),(-1,-1),colors.HexColor("#D9EAD3")),("FONTNAME",(0,-1),(-1,-1),"Helvetica-Bold"),("PADDING",(0,0),(-1,-1),6)]))
     story += [table, Spacer(1, 0.4*cm)]
     story += [Paragraph("Condiciones: esta proforma es preliminar y no es comprobante fiscal electrónico. Los precios publicados y estimados están identificados en el XLSX adjunto. El total no incluye componentes obligatorios aún pendientes de cotización: fibra óptica, conduit, herrajes, accesorios y servicios especializados de fusión/certificación. No constituye oferta firme ni autorización de compra.", sty["BodyText"])]
     doc.build(story)
@@ -272,21 +299,21 @@ def pdf_proforma(total):
 def write_docs(total):
     sources_csv = OUT / "FUENTES_Y_ESTIMACIONES_PRESUPUESTO.csv"
     with sources_csv.open("w", encoding="utf-8", newline="") as fh:
-        out = csv.writer(fh); out.writerow(["Grupo","Descripción","Cantidad","Unidad","Precio_unitario","Moneda","IVA","Importe_CRC","Clasificación","Fuente_fecha","Estado"])
+        out = csv.writer(fh); out.writerow(["Grupo","Descripción","Cantidad","Unidad","Precio_unitario","Moneda","IVA_fuente","Base_neta_CRC","Clasificación","Fuente_fecha","Estado"])
         for line in LINES:
-            out.writerow([*line[:7], crc(line), *line[7:]])
+            out.writerow([*line[:7], base_crc(line), *line[7:]])
     (OUT / "NOTAS_DEL_PRESUPUESTO.md").write_text(f"""# Notas del presupuesto AC2
 
 Fecha: 2026-11-05. Presupuesto académico preliminar generado desde U02 (115 registros), U03 (108 filas), U04C y el Gantt canónico (26 actividades, 74 días hábiles).
 
 ## Resultado
 
-El total parcial mostrado en la proforma es **₡{total:,.2f}**. Incluye únicamente las líneas con importe verificable o estimado señalado y mano de obra interna del Gantt, con 5 % de imprevistos, 10 % administrativos, 15 % de utilidad e IVA de referencia 13 %. No es presupuesto completo ni oferta firme.
+El total parcial mostrado en la proforma es **CRC {total:,.2f}**. Incluye únicamente las líneas con importe verificable o estimado señalado y mano de obra interna del Gantt, con 5 % de imprevistos, 10 % administrativos, 15 % de utilidad e IVA de venta de referencia 13 %. Para un precio de compra con IVA incluido se calcula primero su base neta; para un precio sin IVA se conserva como base neta. No es presupuesto completo ni oferta firme.
 
 ## Pendientes excluidos del total
 
-- Cable OS2 vertical/exterior, terminaciones de fibra y disponibilidad de ópticos.
-- Conduit, bajantes, herrajes, fijaciones y accesorios: falta despiece físico.
+- Cable OS2 exterior 24F, cassettes/housings, terminaciones de fibra y disponibilidad de ópticos.
+- Herrajes, bajantes, fijaciones y accesorios: falta despiece físico; el conduit 25 mm es una estimación académica por barra de 6 m.
 - Compra, alquiler o servicio de fusión, OLTS, OTDR y certificación: son alternativas excluyentes sin oferta comparable.
 - Confirmación de stock, IVA y vigencia para precios publicados; tipo de cambio USD→CRC de referencia BCCR/MONEX venta ₡454,65 al 2026-11-04, actualizable.
 

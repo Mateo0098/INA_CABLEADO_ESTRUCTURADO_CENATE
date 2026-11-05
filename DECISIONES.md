@@ -348,6 +348,13 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Fuente:** `05_materiales/unidad_04_presupuesto/UNIDAD_04C_MEMORIA_PRESUPUESTARIA.md`; seis ofertas con URL y fecha en `UNIDAD_04C_OFERTAS.csv`.
 - **Impacto:** subtotal de switches con tres precios web vinculados, sujeto a disponibilidad, IVA aplicable, revisión técnica y oferta firme; el costo completo del proyecto sigue no disponible.
 
+## D-CIERRE-DEFINITIVO-AC2 — integración de plantilla e IVA (2026-11-05)
+
+- **Clasificación:** integración presupuestaria académica asistida por IA; no cotización firme ni comprobante fiscal.
+- **Decisión:** generar `08_entrega/CIERRE_AC1_AC2_2026-11-05/PRESUPUESTO_FINAL_CENATE.xlsx` a partir de la plantilla original `insumos_entregable_2/Presupuesto FINAL.xlsx`, conservando sus siete funciones comerciales y agregando hojas de detalle, fuentes, supuestos y parámetros.
+- **Tratamiento fiscal:** los precios con IVA incluido se convierten primero a base neta; los precios sin IVA reciben IVA una sola vez; el impuesto no confirmado queda identificado. El IVA de venta se calcula una vez sobre el precio antes de IVA.
+- **Fuente laboral:** se reutiliza el costo interno de mano de obra del Gantt canónico (26 actividades, 74 días hábiles), sin rediseñar el cronograma ni sumarlo como servicio especializado.
+- **Impacto:** la proforma parcial resultante es CRC 136.080.076,02 y se declara incompleta: permanecen excluidos los servicios especializados y componentes sin cotización o despiece validado. El original de la plantilla queda sin modificar.
 ## D-CIERRE-AC1-AC2 — paquete urgente de entrega (2026-11-05)
 
 - **Clasificación:** presupuesto preliminar académico/comercial asistido por IA; no adjudicación, oferta firme ni comprobante fiscal.

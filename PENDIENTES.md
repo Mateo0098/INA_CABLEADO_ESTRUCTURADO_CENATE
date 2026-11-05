@@ -339,6 +339,11 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Inventariar instrumentos existentes y comparar compra, alquiler y servicio; clasificar importaciones y comprobar costo puesto en Costa Rica.
 - [ ] Recalcular y revisar visualmente el XLSX en Excel y someter contenido asistido por IA a revisión técnica/académica humana.
 
+## Cierre definitivo AC2 — 2026-11-05
+
+- [x] Integrar la plantilla original publicada, corregir el tratamiento de IVA y regenerar el XLSX, PDF, fuentes, correo, reenvío AC1 y ZIP sin modificar los originales.
+- [ ] Obtener una cotización comparable para fibra OS2 exterior, terminaciones/cassettes, herrajes y accesorios, y decidir compra, alquiler o servicio para fusión, OLTS, OTDR y certificación.
+- [ ] Abrir `08_entrega/CIERRE_AC1_AC2_2026-11-05/PRESUPUESTO_FINAL_CENATE.xlsx` en Microsoft Excel, permitir recálculo y revisar visualmente sus fórmulas y la presentación antes de emitir una proforma comercial definitiva.
 ## Cierre AC1/AC2 — 2026-11-05
 
 - [x] Preparar XLSX, proforma PDF, fuentes, correo, reenvío AC1 y ZIP en `08_entrega/CIERRE_AC1_AC2_2026-11-05/`.
