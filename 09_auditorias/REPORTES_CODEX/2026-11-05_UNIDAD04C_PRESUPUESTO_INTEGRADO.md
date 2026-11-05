@@ -6,6 +6,8 @@
 
 **HECHO:** se leyeron `AGENTS.md`, `README.md`, `DECISIONES.md`, `PENDIENTES.md`, índice y reporte vigentes, matrices U02/U03, memorias/conciliación/pendientes y arquitectura U01. Se examinó rama, remoto y árbol. `origin/desarrollo-proyecto` avanzó de `de36794` a `e55dd66`; se hizo `fetch` y fast-forward sin tocar `main`. Los dos archivos personales sin seguimiento de `gantt/` se preservaron.
 
+Durante la publicación, el remoto avanzó a `c504562` con la ampliación de mano de obra del Gantt. El primer `push` fue rechazado sin forzar. Se integró ese commit mediante merge; en `DECISIONES.md` y `PENDIENTES.md` se conservaron ambos bloques de forma explícita. Se leyó el nuevo `gantt/README.md`; sus costos laborales siguen siendo referencias académicas provisionales y no se trasladaron al presupuesto U04C.
+
 **Entradas técnicas:** `05_materiales/unidad_02_ampliacion/UNIDAD_02_MATRIZ_MAESTRA_MATERIALES.csv` (115 filas); `05_materiales/unidad_02_ampliacion/UNIDAD_02_MEMORIA_DE_CANTIDADES.md`; `05_materiales/unidad_03_herramientas/UNIDAD_03_MATRIZ_MAESTRA_HERRAMIENTAS.csv` (108 filas); `UNIDAD_03_CONCILIACION.md`; `UNIDAD_03_PENDIENTES.md`; `03_diseno/UNIDAD_01_ARQUITECTURA_RED_ACTIVA.md`. **Fuentes comerciales:** URL y fecha por oferta en `05_materiales/unidad_04_presupuesto/UNIDAD_04C_OFERTAS.csv`; [IVA general Hacienda](https://www.hacienda.go.cr/docs/GeneralidadesIVA.pdf); [consulta arancelaria TICA](https://portaltica.hacienda.go.cr/TicaExterno/hdbaranc.aspx). No se contactaron proveedores.
 
 **Decisión provisional:** asociar precios web de Ticomer a 44 CRS354, siete adicionales y dos CRS317 solo para mostrar una referencia parcial; no se aprueban modelos ni compras. Las ofertas CQNet/Capris quedan sin selección por IVA, disponibilidad o ingeniería pendientes. No se suma simultáneamente compra de instrumentos y servicios de igual alcance. Se conserva sin precio el tipo de cambio y sin tasa la importación. El factor comercial 1 se asigna únicamente a tres filas de switches por unidad; conversiones de cable, canasta y conduit quedan abiertas hasta despiece. Las cantidades U03 no se transforman automáticamente en compras.
@@ -25,7 +27,7 @@
 
 **Modificados:** `DECISIONES.md`; `PENDIENTES.md`; `09_auditorias/ULTIMO_REPORTE_CODEX.md`.
 
-**No modificados:** matrices U02/U03, documentos canónicos U01/U02/U03, `06_excel/`, `07_imagenes/`, `08_entrega/`, `gantt/`, originales INA y `main`. Los dos archivos sin seguimiento previos de `gantt/` no se añadieron.
+**No editados por U04C:** matrices U02/U03, documentos canónicos U01/U02/U03, `06_excel/`, `07_imagenes/`, `08_entrega/`, originales INA y `main`. El merge remoto incorporó `AGENTS.md`, `README.md`, `gantt/README.md`, `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` y `09_auditorias/2026-11-05_GANTT_MANO_OBRA_CHATGPT.md`, además de anexos Gantt en `DECISIONES.md` y `PENDIENTES.md`; no son cambios técnicos de U04C. Los dos archivos sin seguimiento previos de `gantt/` no se añadieron.
 
 ## Verificaciones y límites
 

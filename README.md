@@ -83,3 +83,5 @@ Antes de trabajar, leer `README.md`, `DECISIONES.md`, `PENDIENTES.md` y `AGENTS.
 ## Actividad complementaria — cronograma Gantt
 
 Se incorporó el ejercicio de cronograma académico independiente de la Actividad de Comprobación N.º 1 en [`gantt/`](gantt/README.md). Su libro editable [`GANTT_INA_CABLEADO_2026-2027.xlsx`](gantt/GANTT_INA_CABLEADO_2026-2027.xlsx) contiene 26 actividades entre 2026-11-02 y 2027-02-16, con 74 días hábiles de Costa Rica. Sus duraciones son supuestos didácticos, no mediciones ni compromisos de ejecución. No reemplaza la plantilla oficial ni cambia la fecha de entrega original.
+
+La versión del 2026-11-05 también incluye dotaciones de técnicos, salarios mínimos de referencia TMED, proyección salarial 2027 y costo patronal simulado por actividad. Véase `gantt/README.md` para advertencias de categoría ocupacional, supuestos y controles pendientes. El ejercicio no forma parte del presupuesto oficial anterior.

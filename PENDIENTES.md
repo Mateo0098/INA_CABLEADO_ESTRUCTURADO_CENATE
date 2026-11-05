@@ -338,3 +338,11 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Obtener cotizaciones firmes, disponibilidad e impuestos aplicables de materiales, activos, instrumentos, servicios y logística.
 - [ ] Inventariar instrumentos existentes y comparar compra, alquiler y servicio; clasificar importaciones y comprobar costo puesto en Costa Rica.
 - [ ] Recalcular y revisar visualmente el XLSX en Excel y someter contenido asistido por IA a revisión técnica/académica humana.
+
+## Gantt — mano de obra 2026-11-05
+
+- [x] Incorporar técnicos por actividad, tarifas salariales por año, costo por tarea y dotación diaria en el XLSX del cronograma complementario.
+- [x] Publicar la versión de seis hojas en `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` preservando su historial Git.
+- [ ] Verificar manualmente apertura, recálculo, formato y vínculos en Microsoft Excel.
+- [ ] Confirmar el salario mínimo 2027 oficial y la categoría ocupacional aplicable, en función de las tareas reales; revisar cargas patronales/INS.
+- [ ] Aprobar con criterio humano la dotación propuesta, solapes y productividad; incluir servicios especializados como contratación separada si procede.

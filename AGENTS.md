@@ -15,6 +15,7 @@ Estas reglas aplican a todo el repositorio `INA_CABLEADO_ESTRUCTURADO_CENATE`.
 
 - Existe un **ejercicio académico complementario de cronograma Gantt** en `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` y su documentación canónica en `gantt/README.md`.
 - **Inicio:** 2026-11-02. **Fin:** 2027-02-16. **Calendario:** lunes a viernes, excluyendo los feriados nacionales de Costa Rica documentados en el libro. Incluye 26 actividades repartidas en seis etapas y un horizonte de 74 días hábiles.
+- En la versión del 2026-11-05, ese mismo XLSX incluye también las hojas `Tarifas MTSS`, `Mano de obra` y `Dotación diaria`; tarifas TMED y cargas patronales son **referencias presupuestarias provisionales**, sujetas a revisión ocupacional y legal. Consultar `gantt/README.md` antes de tomar costos como definitivos.
 - Las duraciones, dependencias y solapamientos del Gantt son **supuestos didácticos**, no mediciones ni fechas contractuales; pendiente revisión humana y comprobación visual en Microsoft Excel.
 - Mantener el Gantt **separado** de los entregables originales de la Actividad de Comprobación N.º 1, cuya fecha de entrega fue 2026-10-29. No modificar `06_excel/` ni los paquetes oficiales solo por cambios en el Gantt.
 - Cuando la tarea del agente afecte planificación, cronogramas, documentación general o listado de entregables, leer primero `gantt/README.md` y comprobar la existencia/versión del XLSX en `origin/desarrollo-proyecto` antes de editar, sustituir o declarar ausente el Gantt.

@@ -347,3 +347,12 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Escenarios:** 44 switches base; siete switches adicionales solo para 51. Servicio e instrumentos equivalentes son excluyentes. Importación permanece incompleta sin clasificación y tributos verificados.
 - **Fuente:** `05_materiales/unidad_04_presupuesto/UNIDAD_04C_MEMORIA_PRESUPUESTARIA.md`; seis ofertas con URL y fecha en `UNIDAD_04C_OFERTAS.csv`.
 - **Impacto:** subtotal de switches con tres precios web vinculados, sujeto a disponibilidad, IVA aplicable, revisión técnica y oferta firme; el costo completo del proyecto sigue no disponible.
+
+## G-002 — Dotación y costo laboral del Gantt (2026-11-05)
+
+- **Clasificación:** supuesto académico de planificación y costo, no tarifa de mercado ni contratación real.
+- **Fuente:** archivo de trabajo de ChatGPT, consolidado en `gantt/GANTT_INA_CABLEADO_2026-2027.xlsx` y `gantt/README.md`; consultas de MTSS 2026 y comunicado 2027 consignadas en el libro.
+- **Cambio:** se incorporan personal por actividad, horas anuales 2026/2027, categoría salarial de referencia TMED, cargas patronales y provisiones editables, y análisis de ocupación simultánea, sin modificar las fechas del Gantt.
+- **Separación:** salario mínimo mensual MTSS no equivale a tarifa de servicio; el cálculo por hora es una conversión presupuestaria que debe distinguirse de la nómina mensual. Ajuste 2027, categoría aplicable, INS y demás porcentajes sujetos a validación.
+- **No afectados:** `06_excel/`, los planos y paquete final académico, la matriz de materiales y `main`.
+- **Estado:** archivo estructuralmente verificado; validación visual en Excel y revisión técnica/legal del escenario pendientes.
