@@ -7,7 +7,7 @@
 - **Matriz decisiva:** `05_materiales/unidad_03_herramientas/UNIDAD_03_MATRIZ_MAESTRA_HERRAMIENTAS.csv`
 - **Rama:** `desarrollo-proyecto`
 - **Commit de implementación:** `1c41736d1d6065598db6ab638e415445178d65db`; transferencia remota verificada en `de10e5c36642244a45b4d71e6fe59dbd8576c8d3` el 2026-11-05.
-- **Estado de transferencia:** Unidad 03 publicada y descargada; merge local de historiales equivalentes preparado, publicación del reporte de sincronización pendiente.
+- **Estado de transferencia:** Unidad 03 descargada e integrada; merge `d36c5dd` publicado en `origin/desarrollo-proyecto` sin forzar. El SHA final del índice se confirma en la respuesta terminal.
 - **Bloqueos:** cuadrillas/simultaneidad y seguridad sin aprobar; inventario/calibración/kits pendientes; procedimientos de aceptación y alquiler nacional sin confirmar.
 
 ## HECHO / VERIFICADO / PENDIENTE

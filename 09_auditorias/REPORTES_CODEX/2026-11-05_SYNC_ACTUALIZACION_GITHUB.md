@@ -1,6 +1,6 @@
 # Reporte Codex — sincronización de `desarrollo-proyecto`
 
-**Fecha:** 2026-11-05. **Rama:** `desarrollo-proyecto`. **Objetivo:** incorporar localmente la nueva versión publicada en GitHub sin perder el contenido local ni modificar `main`. **Autoría:** integración documental asistida por Codex; no se generó contenido técnico nuevo. **SHA de merge:** pendiente de confirmar tras commit.
+**Fecha:** 2026-11-05. **Rama:** `desarrollo-proyecto`. **Objetivo:** incorporar localmente la nueva versión publicada en GitHub sin perder el contenido local ni modificar `main`. **Autoría:** integración documental asistida por Codex; no se generó contenido técnico nuevo. **SHA de merge implementado:** `d36c5dd`.
 
 ## Entradas y alcance
 
@@ -23,4 +23,4 @@
 
 **Resultados meramente propuestos:** ninguno en esta sincronización. **Cantidades heredadas, no recalculadas:** Unidad 02 conserva 115 partidas; Unidad 03 informa 108 filas y 27/27 controles en su reporte. No se convierten escenarios en mediciones ni se validan compras. **PENDIENTE:** revisión humana de Unidad 03 y las decisiones de su documento técnico; sincronizar futuras modificaciones desde GitHub antes de nuevas intervenciones.
 
-**Siguiente acción mínima viable:** leer el índice y el reporte de Unidad 03, revisar con el responsable técnico sus decisiones de seguridad, cuadrillas, instrumentos y certificación; luego abordar Unidad 04. El SHA final del merge y el estado de publicación se confirman en la respuesta terminal.
+**Siguiente acción mínima viable:** leer el índice y el reporte de Unidad 03, revisar con el responsable técnico sus decisiones de seguridad, cuadrillas, instrumentos y certificación; luego abordar Unidad 04. El merge `d36c5dd` se publicó con `git push origin HEAD:desarrollo-proyecto`, sin forzar. El SHA final del índice se confirma en la respuesta terminal.
