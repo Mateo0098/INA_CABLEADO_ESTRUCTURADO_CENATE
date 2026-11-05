@@ -339,3 +339,11 @@ No se han incorporado especificaciones de fabricante en esta etapa.
 - **Control de duplicación:** etiquetas, limpieza óptica, protectores de fusión, adhesivo y lubricante permanecen en U02; fuente/medidor integrados en OLTS, componentes de kits y alternativas de servicio no se acumulan como compras. EPP y acceso se dimensionan con evaluación institucional; detector sin contacto no acredita ausencia de tensión.
 - **Adquisición:** compra, alquiler/servicio y equipos existentes se conservan como escenarios; ELVATRON publica familias DSX/CertiFiber/OptiFiber agotadas al consultar, sin confirmar SKU, stock ni alquiler. Las demás referencias quedan pendientes de cotización nacional. Sin precios ni cambios en Excel, planos, matriz histórica o Unidad 02.
 - **Impacto:** base documental reproducible para Unidad 04; no certificación ejecutada, autorización de trabajo ni modificación de infraestructura. No altera decisiones anteriores ni el Gantt.
+
+## D-UN04C — presupuesto económico integrado (2026-11-05)
+
+- **Clasificación:** precios web publicados y cantidades académicas; importes calculados provisionales, no cotizaciones firmes ni compras aprobadas. Elaboración asistida por Codex; revisión humana pendiente.
+- **Decisión:** generar un XLSX independiente en `05_materiales/unidad_04_presupuesto/` desde los 115 ID U02 y 108 ID U03, con ofertas CSV separadas y estados que bloquean costos sin datos suficientes. No alterar la Actividad 1 ni sus originales.
+- **Escenarios:** 44 switches base; siete switches adicionales solo para 51. Servicio e instrumentos equivalentes son excluyentes. Importación permanece incompleta sin clasificación y tributos verificados.
+- **Fuente:** `05_materiales/unidad_04_presupuesto/UNIDAD_04C_MEMORIA_PRESUPUESTARIA.md`; seis ofertas con URL y fecha en `UNIDAD_04C_OFERTAS.csv`.
+- **Impacto:** subtotal de switches con tres precios web vinculados, sujeto a disponibilidad, IVA aplicable, revisión técnica y oferta firme; el costo completo del proyecto sigue no disponible.

@@ -330,3 +330,11 @@ La etapa de requisitos y datos de entrada podrá cerrarse cuando los documentos 
 - [ ] Inventariar equipos existentes, kits, calibración y agenda; aprobar procedimiento de certificación de 1984 enlaces y alcance/sentidos de medición de 204 fibras.
 - [ ] Confirmar cotización nacional, SKU, kit, disponibilidad y alquiler/servicio para especialistas; comparar modalidades en Unidad 04, sin trasladar importes a la Actividad 1.
 - [ ] Resolver por prioridad `05_materiales/unidad_03_herramientas/UNIDAD_03_PENDIENTES.md`; no convertir procedimientos previstos en resultados ejecutados.
+
+## Unidad 04C — presupuesto independiente (2026-11-05)
+
+- [x] Crear libro XLSX reproducible de ocho hojas con 223 ID y CSV de seis ofertas web trazables; subtotal de switches identificado como provisional.
+- [ ] Confirmar cantidades comerciales y despiece físico, empezando por canasta, conduit, cable Cat 6A y kits; no convertir redondeos históricos en compras.
+- [ ] Obtener cotizaciones firmes, disponibilidad e impuestos aplicables de materiales, activos, instrumentos, servicios y logística.
+- [ ] Inventariar instrumentos existentes y comparar compra, alquiler y servicio; clasificar importaciones y comprobar costo puesto en Costa Rica.
+- [ ] Recalcular y revisar visualmente el XLSX en Excel y someter contenido asistido por IA a revisión técnica/académica humana.
